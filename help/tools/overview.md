@@ -2,9 +2,9 @@
 title: Strumenti agenti
 description: Confrontate i server MCP, le competenze dell'agente e le API per i generatori e scegliete lo strumento agentico adatto per i flussi di lavoro Adobe CX Enterprise.
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 3c29bfeeef3d2cb523724db02448aaa77cdf8900
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '671'
 ht-degree: 1%
 
 ---
@@ -38,6 +38,80 @@ CARDS
   {image = ../assets/apis-card.png}
 
 -->
+<!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
+<div class="columns">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="MCP Servers">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="mcp-servers.md" title="Server MCP" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/mcp-servers-card.png" alt="Server MCP"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="mcp-servers.md" target="_blank" rel="referrer" title="Server MCP">Server MCP</a>
+                    </p>
+                    <p class="is-size-6">Collegare qualsiasi client AI compatibile ai dati e ai flussi di lavoro di Adobe CX Enterprise. Non è richiesta alcuna codifica.</p>
+                </div>
+                <a href="mcp-servers.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Esplora server MCP</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Agent Skills">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="agent-skills.md" title="Abilità agente" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/agent-skills-card.png" alt="Abilità agente"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="agent-skills.md" target="_blank" rel="referrer" title="Abilità agente">Abilità agente</a>
+                    </p>
+                    <p class="is-size-6">Istruzioni per i flussi di lavoro curate da Adobe che guidano gli agenti attraverso le attività aziendali di CX in modo coerente.</p>
+                </div>
+                <a href="agent-skills.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Esplora le abilità dell'agente</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="APIs for Builders">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="apis.md" title="API per builder" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/apis-card.png" alt="API per builder"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="apis.md" target="_blank" rel="referrer" title="API per builder">API per i generatori</a>
+                    </p>
+                    <p class="is-size-6">Crea applicazioni e integrazioni personalizzate utilizzando le stesse API che alimentano i prodotti Adobe.</p>
+                </div>
+                <a href="apis.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Esplora le API per i generatori</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
+
 
 ## Confrontare gli strumenti di gestione degli agenti
 
