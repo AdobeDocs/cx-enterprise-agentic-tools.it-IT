@@ -2,7 +2,7 @@
 title: Approfondimenti campagna di superficie senza la creazione di rapporti
 description: Utilizzare il gateway MCP di CX Enterprise per porre domande sulle prestazioni di Customer Journey Analytics in linguaggio semplice e ottenere risposte senza dover passare da Report Builder.
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -86,6 +86,7 @@ What data views are available in my CJA account?
 
 +++
 
+
 ## Passaggio 2: estrarre i dati sulle prestazioni della campagna
 
 Una volta identificata una visualizzazione dati, richiedi le prestazioni della campagna in base ai ricavi e al tasso di conversione. L’intelligenza artificiale risolve i nomi di metriche e dimensioni dalla visualizzazione dati senza richiedere ID tecnici.
@@ -99,6 +100,7 @@ For '[data view name]', show me the top campaigns by revenue and conversion rate
 ![Client AI che mostra le campagne principali in base ai ricavi e al tasso di conversione dalla visualizzazione dati Omni-Channel - Multi-Industry](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step2.gif)
 
 +++
+
 
 >[!NOTE]
 >
@@ -118,6 +120,7 @@ What factors are driving the results for these campaign groups?
 
 +++
 
+
 ## Passaggio 4: espandere un tipo di campagna specifico
 
 Segui un risultato specifico chiedendo un raggruppamento a livello di segmento. Questo mostra quali tipi di clienti stanno guidando le prestazioni all’interno di un tipo di campagna.
@@ -132,6 +135,7 @@ Break down Promotional Email Campaigns by Customer Segment and explain what's dr
 
 +++
 
+
 ## Passaggio 5: intervenire su ciò che è stato trovato
 
 Chiedi consigli con priorità in base a tutto ciò che è emerso nella sessione. La richiesta di stime del valore aziendale consente di decidere dove intervenire per primo.
@@ -145,6 +149,7 @@ Based on these findings, recommend the highest-impact actions to increase revenu
 ![Il client di IA consiglia azioni prioritarie con valore aziendale stimato](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5.gif)
 
 +++
+
 
 >[!NOTE]
 >
@@ -261,6 +266,7 @@ Save this analysis as a Workspace project for executive reporting.
 ```
 
 +++
+
 
 ## Ulteriori informazioni
 

@@ -2,7 +2,7 @@
 title: Implementare in AEM as a Cloud Service con sicurezza
 description: Controlla lo stato dell’ambiente, controlla la cronologia delle pipeline e attiva o gestisci le distribuzioni senza uscire dal client di intelligenza artificiale.
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
 workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 1%
@@ -130,6 +130,7 @@ What is the status of the production environment?
 
 +++
 
+
 ## Passaggio 2: rivedere le esecuzioni della pipeline
 
 Rivedi la cronologia della pipeline recente per comprendere i pattern di distribuzione e gli errori di catch prima che blocchino la versione successiva.
@@ -144,6 +145,7 @@ Show me the last five pipeline runs for the production pipeline.
 
 +++
 
+
 ## Passaggio 3: attivare una pipeline
 
 Avvia l’esecuzione di una pipeline direttamente dal client di intelligenza artificiale. Il server conferma l&#39;ambiente di destinazione e richiede l&#39;approvazione prima di iniziare.
@@ -157,6 +159,7 @@ Run the Fullstack pipeline against dev environment of WKND sandbox program.
 ![Il client AI mostra la conferma del trigger della pipeline e l&#39;interfaccia utente di Cloud Manager che riflette la pipeline in esecuzione](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step3.gif)
 
 +++
+
 
 >[!CAUTION]
 >
@@ -175,6 +178,7 @@ What is the status of the triggered pipeline?
 ![Il client AI mostra lo stato dell&#39;esecuzione della pipeline attivata](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png)
 
 +++
+
 
 ## Risultati ottenuti
 
@@ -267,6 +271,7 @@ Pull the step logs for the last failed run. I need to see exactly what the quali
 ```
 
 +++
+
 
 ## Ulteriori informazioni
 

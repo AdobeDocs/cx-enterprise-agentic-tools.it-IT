@@ -1,22 +1,21 @@
 ---
 title: Ottimizzazione dei contenuti in base ai dati sulle prestazioni
-description: Utilizza CJA e i server MCP di AEM insieme per identificare i contenuti insoddisfacenti e aggiornarli, senza dover passare da uno strumento all’altro.
+description: Utilizza CJA e AEM insieme in una sessione di intelligenza artificiale per trovare campagne con gap di conversione, diagnosticare la causa e aggiornare il contenuto senza cambiare strumenti.
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 135f151c50464461c48fa09d4a7efad20b96cc73
 workflow-type: tm+mt
-source-wordcount: '1128'
-ht-degree: 3%
+source-wordcount: '1093'
+ht-degree: 1%
 
 ---
 
 
 # Ottimizzazione dei contenuti in base ai dati sulle prestazioni
-
-<!-- last-modified: 2026-05-21 -->
+<!-- last-modified: 2026-06-08 -->
 
 ![Ottimizza contenuto in base ai dati delle prestazioni](https://placehold.co/1600x900?text=Optimize+Content+Based+on+Performance+Data)
 
-Chiudere il loop tra i dati sulle prestazioni dei contenuti e gli aggiornamenti dei contenuti significa in genere passare da Analytics a CMS. In questa procedura dettagliata viene illustrato come connettere Customer Journey Analytics e AEM nella stessa sessione di intelligenza artificiale, in modo da visualizzare pagine con prestazioni insoddisfacenti e aggiornarle senza uscire dalla conversazione.
+Chiudere il ciclo tra i dati sulle prestazioni della campagna e gli aggiornamenti dei contenuti significa in genere passare da uno strumento di analisi all’altro e passare al CMS. In questa procedura dettagliata viene illustrato come connettere Customer Journey Analytics e AEM nella stessa sessione di intelligenza artificiale, ovvero come far emergere campagne con divari di conversione, diagnosticare i fattori che le determinano, esaminare il contenuto, ottenere consigli mirati e applicare modifiche senza uscire dalla conversazione.
 
 | | |
 | --- | --- |
@@ -26,6 +25,7 @@ Chiudere il loop tra i dati sulle prestazioni dei contenuti e gli aggiornamenti 
 | Prerequisito | Client di intelligenza artificiale compatibile con MCP, accesso a CJA, accesso a AEM as a Cloud Service |
 
 Ogni passaggio mostra un prompt rappresentativo e un esempio di risposta di IA. Segue una sezione **Ulteriori operazioni da eseguire** per ulteriori informazioni nella stessa sessione.
+
 
 ## Prima di iniziare
 
@@ -83,119 +83,108 @@ Istruzioni di installazione complete per tutti i client supportati: [Connetti al
 >
 >Alcuni strumenti richiedono la tua approvazione prima di essere eseguiti. Rivedi la richiesta e approva o rifiuta: non viene intrapresa alcuna azione senza la tua conferma.
 
-## Passaggio 1: identificare i contenuti insoddisfacenti
 
-Utilizzare il gateway MCP di CX Enterprise per classificare le pagine in base alle metriche di coinvolgimento e conversione in Customer Journey Analytics. L’obiettivo è un elenco chiaro e prioritario di contenuti che richiedono attenzione.
+## Passaggio 1: Trovare campagne con un gap di conversione
 
-```
-Show me the 10 pages with the lowest engagement rate over the last 60 days.
-```
-
-+++Vedi una risposta di esempio
-
-Pagine di coinvolgimento più basse (22 marzo - 21 maggio 2026):
-
-| Ranking | Pagina | Tasso di coinvolgimento | Tasso di mancato recapito | Media tempo sulla pagina |
-| --- | --- | --- | --- | --- |
-| 1 | /en/products/analytics | 8.2% | 74% | 0:42 |
-| 2 | /it/resources/whitepapers | 9.1% | 71% | 0:38 |
-| 3 | /en/solutions/retail | 10.4% | 69% | 0:51 |
-| 4 | /en/blog/2025-q4-recap | 11.0% | 68% | 0:44 |
-| 5-10 | ... | 12,3-14,1% | 63-67% | 0:35-1:10 |
-
-Il tasso medio di coinvolgimento sul sito è del 34,7%. Queste pagine sono 2-4 volte inferiori alla media.
-
-+++
-
-## Passaggio 2: rivedere il contenuto in AEM
-
-Senza uscire dalla sessione di intelligenza artificiale, richiama lo stato corrente di tali pagine da AEM. Comprendere cosa dice il contenuto è il primo passo per sapere cosa cambiare.
+Utilizza CJA per far emergere le campagne in cui il click-through è forte ma il tasso di conversione è basso. Questo pattern, ovvero intento elevato, completamento basso, in genere punta a un problema di contenuto o esperienza sulla pagina di destinazione.
 
 ```
-Show me the current content on the /en/products/analytics page in AEM.
+Which campaigns have strong click-through but low conversion in the last 30 days?
 ```
 
 +++Vedi una risposta di esempio
 
-**Pagina:** `/en/products/analytics`
-**Ultima modifica:** 30 aprile 2026, di T. MacMillan
-**Stato:** pubblicato
-
-**Sezione principale:**
-Titolo: &quot;Decisioni basate sui dati per ogni team&quot;
-Sottotitolo: &quot;Adobe Analytics fornisce alla tua organizzazione le informazioni necessarie per agire.&quot;
-CTA: &quot;Richiedi una demo&quot; → /contact/demo
-
-**Corpo:** 3 blocchi di funzionalità seguiti da una striscia del logo del cliente e da un CTA secondario. Nessun elemento video o interattivo. La pagina non viene aggiornata in 21 giorni.
-
-**Descrizione di Meta:** &quot;Adobe Analytics: reporting in tempo reale e approfondimenti di IA per i team aziendali.&quot;
+![Campagne di visualizzazione client di IA con elevato click-through ma bassa conversione da CJA](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step1-campaigns.png)
 
 +++
 
-## Passaggio 3: effettuare aggiornamenti mirati
 
-Tenendo presenti i dati sulle prestazioni e il contenuto corrente, è possibile apportare aggiornamenti basati su ciò che i dati rivelano.
+
+## Passaggio 2: diagnosticare la causa principale
+
+Segui questo esempio per capire cosa sta causando il gap. Chiedi se il calo è concentrato su un tipo di dispositivo, un segmento di pubblico o un’interazione di contenuto specifici.
 
 ```
-Update the hero headline on the analytics product page to Make faster decisions with AI-powered analytics.
+What's causing the conversion drop-off, is it device, segment, or content?
 ```
 
 +++Vedi una risposta di esempio
 
-**Modifica proposta:**
-
-| Campo | Valore corrente | Nuovo valore |
-| --- | --- | --- |
-| Titolo eroe | Decisioni basate sui dati per ogni team | Decisioni più rapide con le analisi basate sull’intelligenza artificiale |
-
-Pagina: `/en/products/analytics`
-
-Confermare la modifica? Rispondendo &quot;sì&quot;, l’aggiornamento verrà scritto su AEM. La pagina rimarrà pubblicata nello stato corrente fino a quando non verrà esplicitamente ripubblicata.
+![Client AI che diagnostica il calo di conversione per dispositivo, segmento e fattori di contenuto](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step2-diagnosis.png)
 
 +++
+
+
+
+## Passaggio 3: rivedere il contenuto in AEM
+
+Una volta identificata la campagna insoddisfacente, richiama la pagina di destinazione da AEM nella stessa sessione. La visualizzazione di ciò che viene riportato nella pagina è il punto di partenza per capire cosa cambiare.
+
+```
+Show me the Bali Surf Camp page.
+```
+
++++Vedi una risposta di esempio
+
+![Client AI che mostra il contenuto corrente della pagina di destinazione da AEM](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step3-page-content.png)
+
++++
+
+
+
+## Passaggio 4: ottenere consigli mirati
+
+Chiedi al tuo client di intelligenza artificiale di collegare i dati mostrati con quelli presenti sulla pagina. I motivi di IA in entrambe le origini per identificare quali sezioni di contenuto sono probabilmente responsabili del drop-off e cosa modificare.
+
+```
+Which content sections are underperforming, and what changes would you recommend?
+```
+
++++Vedi una risposta di esempio
+
+![Il client di IA identifica le sezioni di contenuto insoddisfacenti e consiglia modifiche specifiche](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step4.gif)
+
++++
+
+
+
+## Passaggio 5: applicare e rivedere le modifiche
+
+Chiedi al tuo client di intelligenza artificiale di creare una versione ottimizzata della pagina in base ai consigli e di riepilogare cosa è cambiato e perché.
+
+```
+Create an optimized version of the Bali Surf Camp page and summarize the proposed changes.
+```
+
++++Vedi una risposta di esempio
+
+![Client AI che crea una versione ottimizzata della pagina e riepiloga le modifiche](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5.gif)
+
++++
+
 
 >[!CAUTION]
 >
->Quando richiesto, conferma ogni modifica del contenuto. Esamina le differenze complete prima di approvare gli aggiornamenti alle pagine live.
+>Rivedi il riepilogo completo delle modifiche proposte prima di confermare. Il server AEM Content MCP scriverà le modifiche nell’ambiente AEM. Le pagine rimangono nel loro stato di pubblicazione fino a quando non vengono esplicitamente ripubblicate.
 
-## Passaggio 4: Convalidare e pubblicare
-
-Chiudi il ciclo confermando tutte le modifiche e promuovendo il contenuto quando sei soddisfatto degli aggiornamenti.
-
-```
-Show me a summary of all changes made in this session.
-```
-
-+++Vedi una risposta di esempio
-
-**Riepilogo sessione - 21 maggio 2026:**
-
-| Pagina | Modifica | Stato |
-| --- | --- | --- |
-| /en/products/analytics | Titolo protagonista aggiornato | Salvato, non pubblicato |
-
-1 pagina aggiornata. Pronto per la pubblicazione se confermato.
-
-**Rimanenti dall&#39;elenco di coinvolgimento ridotto:** 9 pagine non sono state aggiornate in questa sessione. Continuare con la pagina successiva o creare un lancio per la revisione batch prima della pubblicazione?
-
-+++
 
 ## Risultati ottenuti
 
-Hai connesso Customer Journey Analytics e AEM in una singola sessione di intelligenza artificiale e hai utilizzato i dati sulle prestazioni per informare direttamente le modifiche ai contenuti. Passando dalla metrica all’aggiornamento senza cambiare strumento, hai abbreviato il ciclo di feedback tra Analytics insight e i contenuti pubblicati. Ciò è particolarmente importante a livello di campagna, dove decine di pagine possono richiedere attenzione e flussi di lavoro manuali tra strumenti diversi creano ritardi.
+Hai connesso Customer Journey Analytics e AEM in una singola sessione di intelligenza artificiale e ti sei spostato dai dati della campagna alle modifiche al contenuto implementato senza passare da uno strumento all’altro. Hai identificato le campagne con divari di conversione, diagnosticato la causa principale, ispezionato la pagina di destinazione, ricevuto raccomandazioni mirate basate su dati e contenuto e applicato le modifiche nella stessa conversazione. In questo modo si riduce il ciclo di feedback tra Analytics insight e i contenuti pubblicati e si passa a un numero qualsiasi di pagine con prestazioni inferiori nella stessa sessione.
+
 
 ## Più risultati da ottenere
 
-I server MCP CJA e AEM supportano l&#39;intero ciclo dall&#39;identificazione dei problemi alle correzioni di spedizione. Espandi uno scenario qui sotto per visualizzare i prompt che puoi provare nella stessa sessione.
+Con CJA e AEM connessi nella stessa sessione, puoi coprire l’intero ciclo dall’identificazione dei problemi alle correzioni delle spedizioni. Espandi uno scenario qui sotto per visualizzare i prompt che puoi provare.
 
 +++Trovare il contenuto che blocca le prestazioni
 
-Un traffico elevato con un coinvolgimento ridotto segnala un problema di contenuti, non di traffico. Questi prompt consentono di evidenziare le pagine e i pattern specifici che richiedono attenzione prima che la scadenza di una campagna causi il problema.
+Un traffico elevato con un coinvolgimento ridotto segnala un problema di contenuti, non di traffico. Questi prompt consentono di creare pagine e modelli specifici che richiedono attenzione prima che il problema venga risolto dalla scadenza di una campagna.
 
 **Richieste**
 
 ```
-Show me the 10 pages with the lowest conversion rate this quarter.
+Which campaigns have the highest traffic but lowest conversion rate this quarter?
 ```
 
 ```
@@ -203,42 +192,42 @@ Which pages have a high bounce rate but also high traffic?
 ```
 
 ```
-Compare engagement rates for blog posts versus product pages.
+Compare engagement rates for landing pages across email and paid social campaigns.
 ```
 
 ```
-Find AEM pages that haven't been updated in over 60 days.
+Find AEM pages linked from active campaigns that haven't been updated in over 60 days.
 ```
 
 +++
 
 +++Correggi gli elementi che i dati ti dicono di correggere
 
-Una volta comprese le prestazioni insoddisfacenti, il passaggio successivo consiste nell’apportare modifiche mirate. Questi prompt consentono di aggiornare titoli, CTA e metadescrizioni in base ai dati sulle prestazioni rivelati.
+Una volta individuate le prestazioni insoddisfacenti, apportare modifiche mirate in base a ciò che i dati delle prestazioni hanno rivelato. Questi prompt consentono di aggiornare sezioni specifiche in base alla diagnosi.
 
 **Richieste**
 
 ```
-Update the CTA on the /en/solutions/retail page to 'See how it works'.
+Update the CTA on the [page name] page to better match the campaign audience.
 ```
 
 ```
-Add a note to the hero subheadline on the analytics page: Now with AI-powered anomaly detection.
+Rewrite the hero headline on the [page name] page to address the mobile drop-off.
 ```
 
 ```
-Update the meta description on all pages in /en/products/ that contain the word 'legacy'.
+Add a trust signal to the [page name] page above the conversion form.
 ```
 
 ```
-Which pages updated in this session still need their CTAs reviewed?
+Which pages updated in this session still need to be published?
 ```
 
 +++
 
 +++Miglioramenti della spedizione prima della campagna successiva
 
-Le modifiche apportate a metà sessione possono accumularsi rapidamente. Questi prompt consentono di esaminare cosa è pronto, raggruppare gli aggiornamenti in un lancio rivedibile e promuovere in modo pulito prima che una campagna venga pubblicata.
+Le modifiche apportate a metà sessione possono accumularsi rapidamente. Queste richieste ti aiutano a rivedere ciò che è pronto, a raggruppare gli aggiornamenti per la revisione e a promuovere in modo pulito prima che una campagna venga pubblicata.
 
 **Richieste**
 
@@ -255,17 +244,19 @@ Give me a summary of all changes made in this session.
 ```
 
 ```
-Promote everything in the current launch to production.
+Publish all confirmed changes and share the updated URLs.
 ```
 
 +++
+
+
 
 ## Ulteriori informazioni
 
 | Risorsa | Cosa troverai |
 | --- | --- |
-| [Documentazione MCP di Analytics](https://developer.adobe.com/analytics-mcp/docs/) | Configurazione di CJA MCP e riferimento dello strumento |
-| [Documentazione su AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service) | Documentazione completa di AEM |
+| [Documentazione del server CJA MCP](https://developer.adobe.com/analytics-mcp/docs/cja/) | Configurazione di CJA MCP e riferimento dello strumento |
+| [Documentazione del server AEM Content MCP](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | Guida alla configurazione e all’utilizzo di AEM Content MCP |
 | [Server MCP CJA nel Registro di sistema AI](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | Strumenti e disponibilità del server CJA MCP |
 | [Server AEM Content MCP nel Registro AI](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) | Strumenti e disponibilità di AEM Content MCP Server |
 | [Server MCP](../tools/mcp-servers.md) | Collegare un client di intelligenza artificiale ai server Adobe MCP |
