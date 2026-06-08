@@ -2,17 +2,16 @@
 title: Rileva i problemi di percorso prima che influiscano sui clienti
 description: Utilizzare il gateway MCP aziendale CX per monitorare i percorsi AJO attivi, esaminare la configurazione delle campagne e risolvere i problemi operativi prima che raggiungano il pubblico.
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 135f151c50464461c48fa09d4a7efad20b96cc73
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1008'
 ht-degree: 3%
 
 ---
 
 
 # Rileva i problemi di percorso prima che influiscano sui clienti
-
-<!-- last-modified: 2026-06-02 -->
+<!-- last-modified: 2026-06-08 -->
 
 ![Rivedi Percorsi AJO](https://placehold.co/1600x900?text=Review+AJO+Journeys)
 
@@ -26,6 +25,7 @@ Per avere un’immagine chiara di quali percorsi sono attivi, quali condizioni l
 | Prerequisito | Client di intelligenza artificiale compatibile con MCP, accesso AJO |
 
 Ogni passaggio mostra un prompt rappresentativo e un esempio di risposta di IA. Segue una sezione **Ulteriori operazioni da eseguire** per ulteriori informazioni nella stessa sessione.
+
 
 ## Prima di iniziare
 
@@ -72,6 +72,7 @@ Istruzioni di installazione complete per tutti i client supportati: [Connetti al
 >
 >Alcuni strumenti richiedono la tua approvazione prima di essere eseguiti. Rivedi la richiesta e approva o rifiuta: non viene intrapresa alcuna azione senza la tua conferma.
 
+
 ## Passaggio 1: scoprire i percorsi attivi e il loro scopo
 
 Per prima cosa, è necessario fare un inventario dei percorsi attivi e degli obiettivi aziendali che ne sono alla base. Questo vi offre un quadro completo prima di immergervi in un percorso specifico.
@@ -85,6 +86,8 @@ What customer journeys are currently available and what business objectives do t
 ![Elenco dei percorsi di clienti di IA disponibili e dei relativi obiettivi aziendali](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step1.gif)
 
 +++
+
+
 
 ## Passaggio 2: rivedere i passaggi di un percorso e la customer experience
 
@@ -100,9 +103,11 @@ Walk me through the [journey name] journey and explain the customer experience.
 
 +++
 
+
 >[!NOTE]
 >
 >Sostituisci `[journey name]` con il nome di un percorso dai risultati del passaggio 1.
+
 
 ## Passaggio 3: rivedere campagne, tipi di pubblico e obiettivi
 
@@ -118,6 +123,8 @@ Show me our campaigns, the audiences they target, and the outcomes they're desig
 
 +++
 
+
+
 ## Passaggio 4: comprendere come si collegano campagne e percorsi
 
 Chiedi al tuo client di intelligenza artificiale di collegare i punti tra campagne e percorsi e spiegare come funzionano insieme per raggiungere gli obiettivi di coinvolgimento condiviso.
@@ -131,6 +138,8 @@ How do our campaigns and journeys work together to improve customer engagement?
 ![Client AI che spiega la relazione tra campagne e percorsi](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step4-connection.png)
 
 +++
+
+
 
 ## Passaggio 5: ottenere consigli con priorità
 
@@ -146,13 +155,16 @@ If you were our lifecycle marketing manager, what would you prioritize next and 
 
 +++
 
+
 >[!NOTE]
 >
 >Il server MCP di AJO raccoglie informazioni sul percorso e sulla campagna ma non può modificare percorsi, campagne o contenuti. Per implementare i consigli, accedi direttamente all’applicazione AJO o connetti il server AEM Content MCP per apportare modifiche al contenuto nella stessa sessione.
 
+
 ## Risultati ottenuti
 
-Hai collegato un client di intelligenza artificiale a Adobe Journey Optimizer e hai creato un quadro completo del tuo percorso e del tuo portfolio di campagne attraverso cinque prompt. Hai inventariato i percorsi attivi e i loro obiettivi aziendali, analizzato l’esperienza del cliente passo per passo per un percorso specifico, mappato le campagne attive ai relativi tipi di pubblico e risultati previsti, compreso il modo in cui le campagne e i percorsi si connettono e ricevuto raccomandazioni prioritarie su dove concentrarsi successivamente. Questo offre visibilità strategica ai responsabili del marketing e delle campagne per il ciclo di vita senza aprire l’interfaccia di AJO.
+Hai collegato un client di intelligenza artificiale a Adobe Journey Optimizer e hai creato un quadro completo del tuo percorso e del tuo portfolio di campagne attraverso cinque prompt. Hai inventariato i percorsi attivi e i loro obiettivi aziendali, analizzato l’esperienza del cliente passo per passo per un percorso specifico, mappato le campagne attive ai relativi tipi di pubblico e risultati previsti, compreso il modo in cui le campagne e i percorsi lavorano insieme e ricevuto raccomandazioni prioritarie su dove concentrarti successivamente. Questo offre visibilità strategica ai responsabili del marketing e delle campagne per il ciclo di vita senza aprire l’interfaccia di AJO.
+
 
 ## Più risultati da ottenere
 
@@ -233,6 +245,8 @@ What channel configurations are set up in our AJO environment?
 ```
 
 +++
+
+
 
 ## Ulteriori informazioni
 
