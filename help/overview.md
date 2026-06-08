@@ -14,7 +14,7 @@ ht-degree: 1%
 
 <!-- last-modified: 2026-05-08 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491235/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491252/?captions=ita&learn=on&enablevpops)
 
 Assegna all&#39;intelligenza artificiale una linea diretta per **dati, flussi di lavoro e automazione di Adobe CX Enterprise**. Esegui query sulle campagne, attiva tipi di pubblico e gestisci percorsi in **linguaggio semplice** da qualsiasi client di IA o strumento di sviluppo compatibile.
 
