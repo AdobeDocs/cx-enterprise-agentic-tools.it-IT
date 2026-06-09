@@ -3,9 +3,9 @@ title: Ottimizzazione dei contenuti in base ai dati sulle prestazioni
 description: Utilizza CJA e AEM insieme in una sessione di intelligenza artificiale per trovare campagne con gap di conversione, diagnosticare la causa e aggiornare il contenuto senza cambiare strumenti.
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1089'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 # Ottimizzazione dei contenuti in base ai dati sulle prestazioni
 <!-- last-modified: 2026-06-08 -->
 
-![Ottimizza contenuto in base ai dati delle prestazioni](https://placehold.co/1600x900?text=Optimize+Content+Based+on+Performance+Data)
+![Client AI che confronta il contenuto originale della pagina con quello aggiornato](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png)
 
 Chiudere il ciclo tra i dati sulle prestazioni della campagna e gli aggiornamenti dei contenuti significa in genere passare da uno strumento di analisi all’altro e passare al CMS. In questa procedura dettagliata viene illustrato come connettere Customer Journey Analytics e AEM nella stessa sessione di intelligenza artificiale, ovvero come far emergere campagne con divari di conversione, diagnosticare i fattori che le determinano, esaminare il contenuto, ottenere consigli mirati e applicare modifiche senza uscire dalla conversazione.
 

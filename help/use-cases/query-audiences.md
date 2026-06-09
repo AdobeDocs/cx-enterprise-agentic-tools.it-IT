@@ -3,9 +3,9 @@ title: Comprendere i tipi di pubblico e dove vengono attivati
 description: Utilizza il gateway MCP di CX Enterprise per monitorare lo stato di attivazione del pubblico, controllare lo stato della destinazione e i problemi di superficie prima che influiscano sulle campagne.
 last-substantial-update: 2026-06-04T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '898'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 <!-- last-modified: 2026-06-04 -->
 
-![Query di tipi di pubblico con linguaggio naturale](https://placehold.co/1600x900?text=Query+Audiences)
+![Il client di IA dà una strategia di pubblico con priorità con consigli di attivazione](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png)
 
 Per capire quali tipi di pubblico vengono attivati, dove e se le destinazioni sono sane di solito si apre Real-Time CDP e si naviga tra più schermate. In questa procedura dettagliata viene illustrato come ottenere le stesse risposte tramite un client di intelligenza artificiale, utilizzando il server MCP di RTCDP per ottenere la configurazione della destinazione, lo stato di attivazione e lo stato del flusso di dati tramite domande in linguaggio semplice.
 
