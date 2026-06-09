@@ -3,10 +3,10 @@ title: Abilità agente
 description: Flussi di lavoro curati da Adobe e istruzioni che guidano gli agenti di intelligenza artificiale attraverso le attività aziendali di CX in modo coerente.
 last-substantial-update: 2026-05-19T00:00:00Z
 index: false
-source-git-commit: 1681b6de9d0459ed9d5420f77048778712cd0004
+source-git-commit: 1d568bb9c3d948a0470c0f5d110ebb8fa696a53c
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 6%
+source-wordcount: '635'
+ht-degree: 7%
 
 ---
 
@@ -19,11 +19,9 @@ ht-degree: 6%
 
 Le abilità degli agenti sono flussi di lavoro curati da Adobe che forniscono agli agenti di intelligenza artificiale istruzioni dettagliate per il completamento affidabile delle attività aziendali di Adobe CX. Ogni abilità dell’agente codifica l’esperienza nel dominio e le best practice in modo che gli agenti producano risultati coerenti e convalidati senza dover improvvisare. Le abilità dell’agente hanno senso quando desideri un comportamento ripetibile e guidato nelle conversazioni, in particolare per attività che altrimenti richiederebbero ogni volta una richiesta di conferma dettagliata. Integrano i server e le API MCP: le abilità dell’agente definiscono il funzionamento di un agente; i server e le API MCP forniscono l’accesso sottostante.
 
-Tutte le abilità dell&#39;agente vengono mantenute nell&#39;archivio [Adobe Skills GitHub](https://github.com/adobe/skills), che è l&#39;origine principale per la documentazione, l&#39;installazione e i dettagli di implementazione dell&#39;abilità dell&#39;agente.
-
 ## Competenze di Adobe CX Enterprise Agent
 
-Tutte le abilità dell&#39;agente vengono mantenute nell&#39;archivio [Adobe Skills GitHub](https://github.com/adobe/skills). Seleziona un’area di funzionalità in basso per esplorare le abilità per quel flusso di lavoro.
+Seleziona un’area di funzionalità in basso per esplorare le abilità per quel flusso di lavoro.
 
 <!--
 CARDS
@@ -183,9 +181,6 @@ CARDS
     </div>
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
-
-
-Per informazioni dettagliate sulle competenze, i metodi di installazione e il codice sorgente, consulta l&#39;[archivio GitHub Adobe Skills](https://github.com/adobe/skills).
 
 ## Funzionamento delle abilità dell’agente
 
