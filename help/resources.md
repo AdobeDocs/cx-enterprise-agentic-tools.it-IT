@@ -3,7 +3,7 @@ title: Risorse
 description: Un unico punto di ingresso per tutta la documentazione, i registri, le API e le guide per sviluppatori di Adobe CX Enterprise Agentic Tools.
 last-substantial-update: 2026-05-08T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 8f499ad7baf1b5d08dfac90511d0c76e8372c08b
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 16%
@@ -35,14 +35,14 @@ Tutte le risorse chiave di Adobe per l&#39;utilizzo di Adobe CX Enterprise Agent
 | [Guide MCP di Analytics](https://developer.adobe.com/analytics-mcp/docs/guides/) | Guide d&#39;uso dettagliate per il server MCP di CJA |
 | [Documentazione di Real-Time CDP MCP](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Guida alla configurazione del server RTCDP MCP |
 
-## Abilità agente
+## Competenze agente
 
 | Risorsa | Cosa troverai |
 |---|---|
 | [Archivio Adobe Skills](https://github.com/adobe/skills) | Origine canonica per tutte le abilità dell&#39;agente, i metodi di installazione e i dettagli di implementazione |
 | [Registro di sistema di Adobe AI: abilità agente](https://developer.adobe.com/ai-registry/?type=skill) | Catalogo completo delle abilità agente disponibili con metadati e stato di disponibilità |
 
-## API per builder
+## API per generatori
 
 | Risorsa | Cosa troverai |
 |---|---|
