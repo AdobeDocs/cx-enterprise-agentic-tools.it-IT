@@ -3,9 +3,9 @@ title: Abilità agente
 description: Flussi di lavoro curati da Adobe e istruzioni che guidano gli agenti di intelligenza artificiale attraverso le attività aziendali di CX in modo coerente.
 last-substantial-update: 2026-05-19T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 1681b6de9d0459ed9d5420f77048778712cd0004
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '697'
 ht-degree: 6%
 
 ---
@@ -24,8 +24,6 @@ Tutte le abilità dell&#39;agente vengono mantenute nell&#39;archivio [Adobe Ski
 ## Competenze di Adobe CX Enterprise Agent
 
 Tutte le abilità dell&#39;agente vengono mantenute nell&#39;archivio [Adobe Skills GitHub](https://github.com/adobe/skills). Seleziona un’area di funzionalità in basso per esplorare le abilità per quel flusso di lavoro.
-
-### Applicazioni Adobe
 
 <!--
 CARDS

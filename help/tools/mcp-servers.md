@@ -3,7 +3,7 @@ title: Server MCP
 description: Collegare qualsiasi client AI compatibile con MCP ai flussi di lavoro Adobe CX Enterprise utilizzando i server Model Context Protocol.
 index: false
 last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 0fb630143968f07246f2a693cec5c8c3432f64f2
+source-git-commit: e37222abaf2d2502dfbc2f8588ae9ece94fffbd1
 workflow-type: tm+mt
 source-wordcount: '2078'
 ht-degree: 3%
@@ -128,7 +128,7 @@ I passaggi seguenti utilizzano l&#39;endpoint MCP di CX Enterprise come esempio.
 
 >[!TAB Claude.ai]
 
-### ![Consigliato](../assets/icons/star.svg) Utilizza un connettore gestito
+### <img src="../assets/icons/star.svg" width="24" height="24" alt="Consigliato"> Utilizzare un connettore gestito
 
 Vai a [Registro di sistema di Adobe AI](https://developer.adobe.com/ai-registry/?type=connector) e cerca la tua applicazione Adobe. Se è elencato un connettore Claude (ad esempio, il [connettore Adobe Experience Manager](https://developer.adobe.com/ai-registry/#/connectors/adobe-experience-manager-connector)), seguire le istruzioni di installazione anziché i passaggi seguenti.
 
@@ -198,7 +198,7 @@ Configurazione completa: [Documentazione MCP cursore](https://cursor.com/docs/mc
 
 >[!TAB ChatGPT]
 
-### ![Consigliato](../assets/badge-recommended.svg) Utilizza un connettore gestito
+### <img src="../assets/icons/star.svg" width="24" height="24" alt="Consigliato"> Utilizzare un connettore gestito
 
 Vai a [Registro di sistema di Adobe AI](https://developer.adobe.com/ai-registry/?type=connector) e cerca la tua applicazione Adobe. Se è elencato un connettore ChatGPT, segui le relative istruzioni di configurazione invece dei passaggi seguenti.
 
