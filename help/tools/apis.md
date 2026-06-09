@@ -3,9 +3,9 @@ title: API per builder
 description: Creare applicazioni e integrazioni personalizzate utilizzando le API Adobe CX Enterprise.
 last-substantial-update: 2026-06-02T00:00:00Z
 index: false
-source-git-commit: 9a3b90f5f1238e780a0f40b082623cd8da0e71a5
+source-git-commit: a130fc470e97f2316e2ea72ebda47b9fc4ad9b33
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '747'
 ht-degree: 11%
 
 ---
@@ -103,11 +103,11 @@ Gestione degli utenti, amministrazione delle identità e automazione degli accou
 
 >[!ENDTABS]
 
-## Guida introduttiva alle API per i generatori
+## Creare con API
 
 ![Connessione IDE alle API Adobe CX Enterprise](../assets/hero-connect-apis.gif)
 
-Prima di poter generare le API di Adobe CX Enterprise è necessario disporre di due elementi: credenziali autenticate provenienti da Adobe Developer Console e documentazione API aggiunta al progetto, in modo che l’agente di codifica possa funzionare con le API di Adobe in modo affidabile.
+Gli agenti di codifica come Claude Code, Cursor e OpenAI Codex sono ideali per la creazione con le API Enterprise di Adobe CX: aggiungono una specifica OpenAPI al progetto e l’agente può scoprire endpoint, creare richieste e motivare il comportamento delle API senza dover ricorrere a cablaggi manuali. Per iniziare, è necessario disporre di due elementi: credenziali autenticate provenienti da Adobe Developer Console e documentazione API aggiunta al progetto.
 
 ### Configurare le credenziali API in Adobe Developer Console
 
@@ -192,15 +192,3 @@ project/
 **Specifiche aggiornate**
 
 Quando Adobe pubblica una nuova versione API: scarica una nuova istantanea in `/specs`, aggiorna la data in `README.md` e rigenera l&#39;indice e `AGENTS.md`.
-
-## API per Builder e server MCP
-
-Utilizza le API quando hai bisogno di un controllo completo sull’integrazione del sistema o quando stai creando un’applicazione personalizzata. Utilizza i server MCP quando desideri che un agente di intelligenza artificiale funzioni direttamente con i flussi di lavoro di Adobe.
-
-| | API | Server MCP |
-| --- | --- | --- |
-| Integrazione diretta del sistema | Sì | A volte |
-| Orchestrazione intuitiva | Limitato | Sì |
-| Accesso ai dati non elaborati | Sì | Di solito astratto |
-| Sviluppo di applicazioni personalizzate | Caso d’uso principale | Secondario |
-| Flussi di lavoro basati sull’intelligenza artificiale | Supportato | Caso d’uso principale |

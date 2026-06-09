@@ -3,10 +3,10 @@ title: Abilità agente
 description: Flussi di lavoro curati da Adobe e istruzioni che guidano gli agenti di intelligenza artificiale attraverso le attività aziendali di CX in modo coerente.
 last-substantial-update: 2026-05-19T00:00:00Z
 index: false
-source-git-commit: 9a3b90f5f1238e780a0f40b082623cd8da0e71a5
+source-git-commit: a130fc470e97f2316e2ea72ebda47b9fc4ad9b33
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 3%
+source-wordcount: '440'
+ht-degree: 1%
 
 ---
 
@@ -57,17 +57,13 @@ Competenze dell’agente per la modifica di foto in batch, la progettazione da m
 
 >[!ENDTABS]
 
-## Funzionamento delle abilità dell’agente
+## Aggiungi abilità agente
 
 ![Funzionamento delle abilità dell&#39;agente](../assets/hero-connect-agent-skills.gif)
 
 Un’abilità agente è un insieme di istruzioni che indica a un agente di intelligenza artificiale come completare un’attività utilizzando gli strumenti di Adobe per gli agenti. Quando un agente carica un’abilità, segue quel flusso di lavoro anziché improvvisare.
 
-- Gli agenti completano le attività sempre nello stesso modo
-- L’esperienza del dominio viene codificata una volta e riutilizzata nelle conversazioni
-- Le abilità possono concatenare più strumenti e azioni agenti in un unico flusso di lavoro
-
-## Introduzione
+### Installa le abilità agente
 
 Le abilità dell’agente vengono installate in base al client di intelligenza artificiale in uso. Alcuni client supportano l&#39;installazione diretta dalla riga di comando:
 
@@ -86,12 +82,3 @@ Dopo aver installato o aggiunto il pacchetto `adobe/skills`, alcuni client di IA
 - **Codice Claude**: `claude /plugin list`
 - **Ambienti nodo**: `npx skills list`
 - **CLI GitHub**: `gh upskill list`
-
-## Competenze agente e server MCP e API per i generatori
-
-| | Abilità agente | Server MCP | API per builder |
-| --- | --- | --- | --- |
-| Scopo | Flussi di lavoro guidati e best practice | Accesso ai dati e ai flussi di lavoro di Adobe | Integrazione diretta del sistema |
-| Codifica competenze di dominio | Sì | No | No |
-| Richiede la codifica | No | No | Sì |
-| Ideale per | Attività ripetibili e guidate | Query di dati e azioni del flusso di lavoro | Sviluppo di applicazioni personalizzate |
