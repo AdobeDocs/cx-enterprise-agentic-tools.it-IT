@@ -1,8 +1,9 @@
 ---
 title: Strumenti di Adobe CX Enterprise Agent
 description: Collegare gli agenti di intelligenza artificiale e gli strumenti di sviluppo alle funzionalità di Adobe CX Enterprise utilizzando i server MCP, le competenze degli agenti e le API.
+last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: b9ed1988d395169decd601cae567d200f8993f04
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 3%
@@ -14,7 +15,7 @@ ht-degree: 3%
 
 <!-- last-modified: 2026-06-08 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491252/?captions=ita&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491235/?learn=on&enablevpops)
 
 Lasciate che AI diventi il vostro collega di Adobe CX Enterprise. Connetti il tuo client di intelligenza artificiale a campagne, tipi di pubblico, percorsi e contenuti e interagisci con essi in un linguaggio semplice da qualsiasi strumento già utilizzato. Nessuna nuova interfaccia, nessun cambio di contesto, nessuna codifica necessaria per iniziare.
 

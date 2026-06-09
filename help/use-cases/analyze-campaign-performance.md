@@ -1,8 +1,9 @@
 ---
 title: Approfondimenti campagna di superficie senza la creazione di rapporti
 description: Utilizzare il gateway MCP di CX Enterprise per porre domande sulle prestazioni di Customer Journey Analytics in linguaggio semplice e ottenere risposte senza dover passare da Report Builder.
+last-substantial-update: 2026-06-02T00:00:00Z
 index: false
-source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -275,4 +276,4 @@ Save this analysis as a Workspace project for executive reporting.
 | [Documentazione del server CJA MCP](https://developer.adobe.com/analytics-mcp/docs/cja/) | Riferimento completo dell&#39;utensile e guida alla configurazione |
 | [Guide all&#39;utilizzo di CJA MCP](https://developer.adobe.com/analytics-mcp/docs/guides/) | Guide d’uso dettagliate |
 | [Server MCP CJA nel Registro di sistema AI](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | Strumenti e disponibilità del server CJA MCP |
-| [Documentazione di Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-landing) | Documentazione completa dell’applicazione CJA |
+| [Documentazione di Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing) | Documentazione completa dell’applicazione CJA |

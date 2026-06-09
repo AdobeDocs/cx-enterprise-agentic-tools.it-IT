@@ -1,8 +1,9 @@
 ---
 title: Rileva i problemi di percorso prima che influiscano sui clienti
 description: Utilizzare il gateway MCP aziendale CX per monitorare i percorsi AJO attivi, esaminare la configurazione delle campagne e risolvere i problemi operativi prima che raggiungano il pubblico.
+last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 135f151c50464461c48fa09d4a7efad20b96cc73
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '1008'
 ht-degree: 3%

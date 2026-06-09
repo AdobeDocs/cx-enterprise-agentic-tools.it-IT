@@ -1,8 +1,9 @@
 ---
 title: API per builder
 description: Creare applicazioni e integrazioni personalizzate utilizzando le API Adobe CX Enterprise.
+last-substantial-update: 2026-06-02T00:00:00Z
 index: false
-source-git-commit: 3c29bfeeef3d2cb523724db02448aaa77cdf8900
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '999'
 ht-degree: 23%
@@ -67,7 +68,7 @@ CARDS
   {target = _blank}
   {image = ../assets/apis-cxenterprise-card.png}
 
-* https://experienceleague.adobe.com/it/docs/experience-platform/privacy/home
+* https://experienceleague.adobe.com/en/docs/experience-platform/privacy/home
   {title = Privacy}
   {description = Privacy workflows, data governance, and data subject requests.}
   {cta = Explore API}
@@ -422,7 +423,7 @@ Tutti gli accessi alle API di Adobe CX Enterprise sono gestiti tramite [Adobe De
 
 1. Accedi e [crea un progetto](https://developer.adobe.com/developer-console/docs/guides/projects/) in Adobe Developer Console.
 2. [Aggiungere l&#39;API](https://developer.adobe.com/developer-console/docs/guides/services/) per l&#39;applicazione Adobe CX Enterprise necessaria.
-3. Scegli un tipo di autenticazione [&#128279;](https://developer.adobe.com/developer-console/docs/guides/authentication/). Utilizza **OAuth Server-to-Server** per flussi di lavoro automatizzati o **OAuth Web App** per applicazioni rivolte all&#39;utente.
+3. Scegli un tipo di autenticazione [](https://developer.adobe.com/developer-console/docs/guides/authentication/). Utilizza **OAuth Server-to-Server** per flussi di lavoro automatizzati o **OAuth Web App** per applicazioni rivolte all&#39;utente.
 4. Genera le credenziali. Prendi nota dell’ID client, del segreto client e dell’endpoint token da utilizzare nell’applicazione.
 
 La maggior parte delle API Adobe CX Enterprise richiede licenze per le applicazioni. Se un’API non è disponibile nel progetto Developer Console, contatta il rappresentante Adobe.

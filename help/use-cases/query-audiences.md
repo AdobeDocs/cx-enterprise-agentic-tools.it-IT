@@ -1,8 +1,9 @@
 ---
 title: Comprendere i tipi di pubblico e dove vengono attivati
 description: Utilizza il gateway MCP di CX Enterprise per monitorare lo stato di attivazione del pubblico, controllare lo stato della destinazione e i problemi di superficie prima che influiscano sulle campagne.
+last-substantial-update: 2026-06-04T00:00:00Z
 index: false
-source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 2%
@@ -229,7 +230,7 @@ Are there any audiences using a non-default merge policy that could cause profil
 
 | Risorsa | Cosa troverai |
 | --- | --- |
-| [Documentazione di Real-Time CDP MCP](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Configurazione del server MCP e riferimento dello strumento |
+| [Documentazione di Real-Time CDP MCP](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Configurazione del server MCP e riferimento dello strumento |
 | [Registro di sistema di Adobe AI](https://developer.adobe.com/ai-registry/?type=mcp) | Metadati e disponibilità del server MCP |
 | [Documentazione di Real-Time CDP](https://experienceleague.adobe.com/it/docs/experience-platform/rtcdp/home) | Documentazione completa dell’applicazione Real-Time CDP |
 | [Documentazione sulle destinazioni di AEP](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/home) | Riferimento completo delle destinazioni |
