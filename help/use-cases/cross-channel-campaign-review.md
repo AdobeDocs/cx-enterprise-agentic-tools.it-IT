@@ -3,9 +3,9 @@ title: Eseguire una revisione di una campagna cross-channel
 description: Utilizza CX Enterprise MCP in una singola sessione di intelligenza artificiale per ottenere una visione unificata dello stato delle campagne AJO, CJA e Real-Time CDP tra percorsi, pubblico e prestazioni.
 last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
+source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1412'
 ht-degree: 5%
 
 ---
@@ -291,9 +291,6 @@ Which channel has the highest conversion rate across all active campaigns?
 
 | Risorsa | Cosa troverai |
 | --- | --- |
-| [Documentazione di AJO](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home) | Documentazione completa dell’applicazione AJO |
-| [Documentazione MCP di Analytics](https://developer.adobe.com/analytics-mcp/docs/) | Configurazione di CJA MCP e riferimento dello strumento |
-| [Documentazione di Real-Time CDP MCP](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Guida alla configurazione di RTCDP MCP |
-| [Server AJO MCP nel Registro di sistema AI](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server) | Strumenti e disponibilità del server AJO MCP |
-| [Server MCP CJA nel Registro di sistema AI](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | Strumenti e disponibilità del server CJA MCP |
-| [Server MCP](../tools/mcp-servers.md) | Collegare un client di intelligenza artificiale ai server Adobe MCP |
+| [Documentazione di AJO](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} | Documentazione completa dell’applicazione AJO |
+| [Server AJO MCP nel Registro di sistema AI](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server){target="_blank"} | Strumenti e disponibilità del server AJO MCP |
+| [Server MCP CJA nel Registro di sistema AI](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp){target="_blank"} | Strumenti e disponibilità del server CJA MCP |

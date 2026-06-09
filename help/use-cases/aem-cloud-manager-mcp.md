@@ -3,9 +3,9 @@ title: Implementare in AEM as a Cloud Service con sicurezza
 description: Controlla lo stato dell’ambiente, controlla la cronologia delle pipeline e attiva o gestisci le distribuzioni senza uscire dal client di intelligenza artificiale.
 last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
+source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '954'
 ht-degree: 2%
 
 ---
@@ -278,6 +278,4 @@ Pull the step logs for the last failed run. I need to see exactly what the quali
 
 | Risorsa | Cosa troverai |
 | --- | --- |
-| [Documentazione di AEM Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/introduction-to-cloud-manager) | Documentazione completa dell’applicazione Cloud Manager |
-| [Documentazione su AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service) | Documentazione completa dell’applicazione AEM |
-| [Server MCP](../tools/mcp-servers.md) | Collegare un client di intelligenza artificiale ai server Adobe MCP |
+| [Documentazione su AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service){target="_blank"} | Documentazione completa dell’applicazione AEM |

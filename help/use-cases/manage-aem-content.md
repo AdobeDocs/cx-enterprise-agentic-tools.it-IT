@@ -3,10 +3,10 @@ title: Aggiornamenti più rapidi per mantenere aggiornati i contenuti
 description: Utilizza AEM Content MCP Server per trovare, rivedere, aggiornare e pubblicare contenuti AEM senza dover passare da un strumento all’altro.
 last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
+source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 2%
+source-wordcount: '991'
+ht-degree: 3%
 
 ---
 
@@ -264,8 +264,5 @@ Promote the May Updates launch to production.
 
 | Risorsa | Cosa troverai |
 | --- | --- |
-| [Documentazione del server AEM Content MCP](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | Guida alla configurazione e all&#39;utilizzo del server MCP |
-| [Server AEM Content MCP nel Registro AI](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) | Elenco strumenti e disponibilità |
-| [Documentazione su AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service) | Documentazione completa dell’applicazione AEM |
-| [Frammenti di contenuto di AEM](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments) | Riferimento per l’authoring di frammenti di contenuto |
-| [Server MCP](../tools/mcp-servers.md) | Collegare un client di intelligenza artificiale ai server Adobe MCP |
+| [Server AEM Content MCP nel Registro AI](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp){target="_blank"} | Elenco strumenti e disponibilità |
+| [Documentazione su AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service){target="_blank"} | Documentazione completa dell’applicazione AEM |
