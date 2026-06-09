@@ -3,7 +3,7 @@ title: Approfondimenti campagna di superficie senza la creazione di rapporti
 description: Utilizzare CX Enterprise MCP per porre domande sulle prestazioni di Customer Journey Analytics in linguaggio semplice e ottenere risposte senza dover passare da Report Builder.
 last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
+source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
 workflow-type: tm+mt
 source-wordcount: '1036'
 ht-degree: 0%
@@ -21,10 +21,10 @@ L’analisi della campagna che una volta richiedeva la creazione di rapporti in 
 
 | Dettagli scenario | |
 | --- | --- |
-| **applicazioni aziendali CX** | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-overview) |
-| **Strumenti agenti** | [MCP aziendale CX](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
-| **Pubblico** | Analisti, manager campagne |
-| **Prerequisito** | Client di intelligenza artificiale compatibile con MCP, accesso CJA |
+| Applicazioni aziendali CX | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Strumenti agenti | [MCP aziendale CX](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| Pubblico | Analisti, manager campagne |
+| Prerequisito | Client di intelligenza artificiale compatibile con MCP, accesso CJA |
 
 Ogni passaggio mostra un prompt rappresentativo e un esempio di risposta di IA. Segue una sezione **Ulteriori operazioni da eseguire** per ulteriori informazioni nella stessa sessione.
 
