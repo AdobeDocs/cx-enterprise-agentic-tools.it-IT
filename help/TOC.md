@@ -3,9 +3,9 @@ user-guide-title: Strumenti di Adobe CX Enterprise Agent
 breadcrumb-title: Strumenti agenti
 user-guide-description: Collegare gli agenti di intelligenza artificiale e gli strumenti di sviluppo alle funzionalità di Adobe CX Enterprise utilizzando i server MCP, le competenze degli agenti e le API.
 index: false
-source-git-commit: 3c29bfeeef3d2cb523724db02448aaa77cdf8900
+source-git-commit: ec08b7ff646519ceb10bd3431e0c0d5db8f3367f
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '90'
 ht-degree: 5%
 
 ---
@@ -28,5 +28,4 @@ ht-degree: 5%
    + [Rileva i problemi di percorso prima che influiscano sui clienti](/help/use-cases/manage-ajo-journeys.md)
    + [Aggiornamenti più rapidi per mantenere aggiornati i contenuti](/help/use-cases/manage-aem-content.md)
    + [Ottimizzazione dei contenuti in base ai dati sulle prestazioni](/help/use-cases/optimize-content-with-performance-data.md)
-   + [Eseguire una revisione di una campagna cross-channel](/help/use-cases/cross-channel-campaign-review.md)
    + [Implementare in AEM as a Cloud Service con sicurezza](/help/use-cases/aem-cloud-manager-mcp.md)
