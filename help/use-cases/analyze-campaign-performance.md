@@ -1,11 +1,11 @@
 ---
 title: Approfondimenti campagna di superficie senza la creazione di rapporti
-description: Utilizzare il gateway MCP di CX Enterprise per porre domande sulle prestazioni di Customer Journey Analytics in linguaggio semplice e ottenere risposte senza dover passare da Report Builder.
-last-substantial-update: 2026-06-02T00:00:00Z
+description: Utilizzare CX Enterprise MCP per porre domande sulle prestazioni di Customer Journey Analytics in linguaggio semplice e ottenere risposte senza dover passare da Report Builder.
+last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1036'
 ht-degree: 0%
 
 ---
@@ -19,12 +19,12 @@ ht-degree: 0%
 
 L’analisi della campagna che una volta richiedeva la creazione di rapporti in uno strumento separato ora è una conversazione. In questa procedura dettagliata viene illustrato come connettere un client di IA a Customer Journey Analytics (CJA) e porre domande sulle prestazioni in un linguaggio semplice. Di conseguenza, insight disporrà di tempi più rapidi e non sarà necessaria alcuna generazione manuale di rapporti.
 
-| | |
+| Dettagli scenario | |
 | --- | --- |
-| Applicazioni aziendali CX | Customer Journey Analytics (CJA) |
-| Strumenti agenti | Gateway MCP aziendale CX |
-| Pubblico | Analisti, manager campagne |
-| Prerequisito | Client di intelligenza artificiale compatibile con MCP, accesso CJA |
+| **applicazioni aziendali CX** | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-overview) |
+| **Strumenti agenti** | [MCP aziendale CX](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| **Pubblico** | Analisti, manager campagne |
+| **Prerequisito** | Client di intelligenza artificiale compatibile con MCP, accesso CJA |
 
 Ogni passaggio mostra un prompt rappresentativo e un esempio di risposta di IA. Segue una sezione **Ulteriori operazioni da eseguire** per ulteriori informazioni nella stessa sessione.
 
@@ -34,7 +34,7 @@ Ogni passaggio mostra un prompt rappresentativo e un esempio di risposta di IA. 
 
 >[!TAB Claude.ai]
 
-Collegare il gateway MCP aziendale CX come connettore personalizzato per accedere agli strumenti Customer Journey Analytics.
+Collegare CX Enterprise MCP come connettore personalizzato per accedere agli strumenti Customer Journey Analytics.
 
 1. Vai a **Impostazioni > Integrazioni** in Claude.ai.
 2. Seleziona **Aggiungi connettore personalizzato** e immetti l&#39;URL del server: `https://cx-enterprise.adobe.io/mcp`
@@ -44,7 +44,7 @@ Configurazione completa: [Documentazione dei connettori personalizzati Claude.ai
 
 >[!TAB ChatGPT]
 
-Collegare il gateway MCP aziendale CX utilizzando la modalità sviluppatore ChatGPT (è necessario un piano Pro, Plus, Business, Enterprise o Education).
+Collegare CX Enterprise MCP utilizzando la modalità di sviluppo ChatGPT (è necessario un piano Pro, Plus, Business, Enterprise o Education).
 
 1. Abilita la **modalità sviluppatore** nelle **impostazioni ChatGPT**.
 2. Vai a **Impostazioni > Integrazioni** e seleziona **Aggiungi connettore personalizzato > Server MCP remoto**.
@@ -55,7 +55,7 @@ Configurazione completa: [Documentazione MCP di ChatGPT](https://developers.open
 
 >[!TAB Altri client di IA]
 
-Usare Gemini, Microsoft Copilot, Cursore, Claude Code o un altro ambiente compatibile con MCP? Connettersi al gateway MCP aziendale CX utilizzando questo endpoint:
+Usare Gemini, Microsoft Copilot, Cursore, Claude Code o un altro ambiente compatibile con MCP? Connettersi a CX Enterprise MCP utilizzando questo endpoint:
 
 ```
 https://cx-enterprise.adobe.io/mcp
@@ -71,7 +71,7 @@ Istruzioni di installazione complete per tutti i client supportati: [Connetti al
 >
 >Alla prima connessione, il client di intelligenza artificiale può richiedere di selezionare un’organizzazione IMS o specificare una sandbox. Una volta impostato tale contesto, il server MCP lo utilizza per il resto della sessione.
 >
->Alcuni strumenti richiedono la tua approvazione prima di essere eseguiti. Rivedi la richiesta e approva o rifiuta: non viene intrapresa alcuna azione senza la tua conferma.
+>Alcuni strumenti richiedono la tua approvazione prima di essere eseguiti. Rivedi la richiesta e approva o rifiuta. Non viene intrapresa alcuna azione senza la tua conferma.
 
 ## Passaggio 1: scoprire le visualizzazioni dati disponibili
 
@@ -154,7 +154,7 @@ Based on these findings, recommend the highest-impact actions to increase revenu
 
 >[!NOTE]
 >
->Gli strumenti CJA a cui si accede tramite il gateway MCP aziendale CX possono creare segmenti, metriche calcolate e progetti Workspace all&#39;interno di CJA nella stessa sessione. Per aggiornare campagne, percorsi o contenuti in altre applicazioni, connetti il server MCP pertinente o accedi direttamente all’applicazione.
+>Gli strumenti CJA a cui è possibile accedere tramite CX Enterprise MCP possono creare segmenti, metriche calcolate e progetti Workspace all&#39;interno di CJA nella stessa sessione. Per aggiornare campagne, percorsi o contenuti in altre applicazioni, connetti il server MCP pertinente o accedi direttamente all’applicazione.
 
 ## Risultati ottenuti
 
@@ -162,7 +162,7 @@ Hai collegato un client di intelligenza artificiale a Customer Journey Analytics
 
 ## Più risultati da ottenere
 
-Il gateway MCP di CX Enterprise è in grado di fornire molte più informazioni di Customer Journey Analytics rispetto alle descrizioni dettagliate. Espandi uno scenario qui sotto per visualizzare i prompt che puoi provare nella stessa sessione.
+CX Enterprise MCP è in grado di fornire molte più informazioni Customer Journey Analytics rispetto alle descrizioni dettagliate. Espandi uno scenario qui sotto per visualizzare i prompt che puoi provare nella stessa sessione.
 
 +++Trovare ciò che funziona e ciò che non lo è
 
@@ -194,7 +194,7 @@ Show me conversion performance by traffic source.
 
 +++Comprendere cosa guida i risultati
 
-Le metriche dei titoli dicono cos’è successo. Questi prompt consentono di comprendere il motivo, ovvero quali segmenti, canali e punti di contatto si trovano dietro i numeri.
+Le metriche dei titoli dicono cos’è successo. Questi prompt ti aiutano a capire il motivo: quali segmenti, canali e punti di contatto sono dietro i numeri.
 
 **Richieste**
 
@@ -246,7 +246,7 @@ What would have the biggest impact on revenue?
 
 +++Trasforma le informazioni in azioni
 
-Gli strumenti CJA a cui si accede tramite il gateway MCP aziendale CX possono creare segmenti, tipi di pubblico, metriche calcolate e progetti Workspace direttamente in CJA senza uscire dalla sessione di intelligenza artificiale. Utilizza questi prompt per agire su ciò che hai trovato.
+Gli strumenti CJA a cui si accede tramite MCP di CX Enterprise possono creare segmenti, tipi di pubblico, metriche calcolate e progetti Workspace direttamente in CJA senza uscire dalla sessione di intelligenza artificiale. Utilizza questi prompt per agire su ciò che hai trovato.
 
 **Richieste**
 

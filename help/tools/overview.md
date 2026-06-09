@@ -3,9 +3,9 @@ title: Strumenti agenti
 description: Confrontate i server MCP, le competenze dell'agente e le API per i generatori e scegliete lo strumento agentico adatto per i flussi di lavoro Adobe CX Enterprise.
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '610'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ Considera i server MCP come un collegamento in tempo reale tra il client AI e le
 
 >[!TAB Abilità agente]
 
-Le abilità dell’agente sono competenze sul dominio di Adobe, codificate come istruzioni che l’agente può seguire. Anziché sperare che l&#39;agente definisca i passaggi corretti, un&#39;abilità gli indica esattamente cosa fare: in modo affidabile, ripetibile e già ottimizzato per i flussi di lavoro aziendali CX.
+Le abilità dell’agente sono competenze sul dominio di Adobe, codificate come istruzioni che l’agente può seguire. Invece di sperare che l&#39;agente definisca i passaggi corretti, un&#39;abilità gli indica esattamente cosa fare, in modo affidabile, ripetibile e già ottimizzato per i flussi di lavoro aziendali CX.
 
 **Utilizza le abilità dell&#39;agente quando:**
 
@@ -173,4 +173,4 @@ Le API sono gli elementi costitutivi. Offrono agli sviluppatori un accesso diret
 
 ## Utilizzarli insieme
 
-Questi strumenti sono progettati per funzionare insieme e la loro combinazione è la soluzione ideale per ottenere il massimo da Adobe AI. Le competenze degli agenti possono guidare l&#39;utilizzo dei server MCP da parte dei client di intelligenza artificiale, mantenendo gli agenti sulla strada giusta per i flussi di lavoro aziendali di CX. Le abilità possono anche informare su come e quando chiamare le API, aggiungendo guardrail di best practice di Adobe alle automazioni personalizzate. Non devi sceglierne solo uno.
+Questi strumenti sono progettati per funzionare insieme. La combinazione di questi elementi è il modo in cui si ottiene il massimo da Adobe AI. Le competenze degli agenti possono guidare l&#39;utilizzo dei server MCP da parte dei client di intelligenza artificiale, mantenendo gli agenti sulla strada giusta per i flussi di lavoro aziendali di CX. Le abilità possono anche informare su come e quando chiamare le API, aggiungendo guardrail di best practice di Adobe alle automazioni personalizzate. Non devi sceglierne solo uno.
