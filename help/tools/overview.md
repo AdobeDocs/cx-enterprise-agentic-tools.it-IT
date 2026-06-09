@@ -3,9 +3,9 @@ title: Strumenti agenti
 description: Confrontate i server MCP, le competenze dell'agente e le API per i generatori e scegliete lo strumento agentico adatto per i flussi di lavoro Adobe CX Enterprise.
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
+source-git-commit: 76a2dc291781d0555e0b128eb6c0e226759f5cc8
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '839'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="mcp-servers.md" title="Server MCP" target="_blank" rel="referrer">
+                    <a href="mcp-servers.md" title="Server MCP">
                         <img class="is-bordered-r-small" src="../assets/mcp-servers-card.png" alt="Server MCP"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -54,11 +54,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="mcp-servers.md" target="_blank" rel="referrer" title="Server MCP">Server MCP</a>
+                        <a href="mcp-servers.md" title="Server MCP">Server MCP</a>
                     </p>
                     <p class="is-size-6">Collegare qualsiasi client AI compatibile ai dati e ai flussi di lavoro di Adobe CX Enterprise. Non è richiesta alcuna codifica.</p>
                 </div>
-                <a href="mcp-servers.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="mcp-servers.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Esplora server MCP</span>
                 </a>
             </div>
@@ -68,7 +68,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="agent-skills.md" title="Abilità agente" target="_blank" rel="referrer">
+                    <a href="agent-skills.md" title="Abilità agente">
                         <img class="is-bordered-r-small" src="../assets/agent-skills-card.png" alt="Abilità agente"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -77,11 +77,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="agent-skills.md" target="_blank" rel="referrer" title="Abilità agente">Abilità agente</a>
+                        <a href="agent-skills.md" title="Abilità agente">Abilità agente</a>
                     </p>
                     <p class="is-size-6">Istruzioni per i flussi di lavoro curate da Adobe che guidano gli agenti attraverso le attività aziendali di CX in modo coerente.</p>
                 </div>
-                <a href="agent-skills.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="agent-skills.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Esplora le abilità dell'agente</span>
                 </a>
             </div>
@@ -91,7 +91,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="apis.md" title="API per builder" target="_blank" rel="referrer">
+                    <a href="apis.md" title="API per builder">
                         <img class="is-bordered-r-small" src="../assets/apis-card.png" alt="API per builder"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -100,11 +100,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="apis.md" target="_blank" rel="referrer" title="API per builder">API per i generatori</a>
+                        <a href="apis.md" title="API per builder">API per i generatori</a>
                     </p>
                     <p class="is-size-6">Crea applicazioni e integrazioni personalizzate utilizzando le stesse API che alimentano i prodotti Adobe.</p>
                 </div>
-                <a href="apis.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="apis.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Esplora le API per i generatori</span>
                 </a>
             </div>
@@ -174,3 +174,102 @@ Le API sono gli elementi costitutivi. Offrono agli sviluppatori un accesso diret
 ## Utilizzarli insieme
 
 Questi strumenti sono progettati per funzionare insieme. La combinazione di questi elementi è il modo in cui si ottiene il massimo da Adobe AI. Le competenze degli agenti possono guidare l&#39;utilizzo dei server MCP da parte dei client di intelligenza artificiale, mantenendo gli agenti sulla strada giusta per i flussi di lavoro aziendali di CX. Le abilità possono anche informare su come e quando chiamare le API, aggiungendo guardrail di best practice di Adobe alle automazioni personalizzate. Non devi sceglierne solo uno.
+
+## Strumenti agenti in azione
+
+Questi strumenti vengono applicati ai flussi di lavoro aziendali reali di CX.
+
+<!--
+CARDS
+
+* ../use-cases/query-audiences.md
+  {title = Query audiences}
+  {description = Use CX Enterprise MCP to query Real-Time CDP audience and destination data using plain language prompts.}
+  {cta = Try with MCP}
+
+* https://experienceleague.adobe.com/it/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development
+  {title = Develop AEM components with AI}
+  {description = Use Claude Code or Cursor with Agent Skills to scaffold, code, and refine AEM components guided by Adobe best practices.}
+  {cta = Try with Agent Skills}
+  {image = ../assets/agent-skills-card.png}
+
+* https://experienceleague.adobe.com/it/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app
+  {title = Invoke AEM APIs from a web app}
+  {description = Build a web application that authenticates users and calls AEM OpenAPIs using OAuth to deliver governed, programmatic access.}
+  {cta = Try with APIs}
+  {image = ../assets/using-api-card.png}
+
+-->
+<!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
+<div class="columns">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Query audiences">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="../use-cases/query-audiences.md" title="Eseguire query sui tipi di pubblico">
+                        <img class="is-bordered-r-small" src="../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png" alt="Eseguire query sui tipi di pubblico"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="../use-cases/query-audiences.md" title="Eseguire query sui tipi di pubblico">Interroga tipi di pubblico</a>
+                    </p>
+                    <p class="is-size-6">Utilizza CX Enterprise MCP per eseguire query sui dati di destinazione e di pubblico di Real-Time CDP utilizzando prompt in linguaggio semplice.</p>
+                </div>
+                <a href="../use-cases/query-audiences.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Prova con MCP</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Develop AEM components with AI">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="https://experienceleague.adobe.com/it/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" title="Sviluppare componenti AEM con AI" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/agent-skills-card.png" alt="Sviluppare componenti AEM con AI"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="https://experienceleague.adobe.com/it/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" target="_blank" rel="referrer" title="Sviluppare componenti AEM con AI">Sviluppa componenti AEM con IA</a>
+                    </p>
+                    <p class="is-size-6">Utilizza Claude Code o Cursor con Abilità di agente per impalcare, codificare e perfezionare i componenti AEM guidati dalle best practice di Adobe.</p>
+                </div>
+                <a href="https://experienceleague.adobe.com/it/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Prova con le abilità agente</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Invoke AEM APIs from a web app">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="https://experienceleague.adobe.com/it/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app" title="Richiama le API di AEM da un’app web" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/using-api-card.png" alt="Richiama le API di AEM da un’app web"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="https://experienceleague.adobe.com/it/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app" target="_blank" rel="referrer" title="Richiama le API di AEM da un’app web">Richiama API AEM da un'app Web</a>
+                    </p>
+                    <p class="is-size-6">Crea un’applicazione web che autentica gli utenti e chiama le API aperte di AEM utilizzando OAuth per fornire un accesso regolamentato e programmatico.</p>
+                </div>
+                <a href="https://experienceleague.adobe.com/it/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Prova con le API</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
