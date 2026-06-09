@@ -1,8 +1,9 @@
 ---
 title: Aggiornamenti più rapidi per mantenere aggiornati i contenuti
 description: Utilizza AEM Content MCP Server per trovare, rivedere, aggiornare e pubblicare contenuti AEM senza dover passare da un strumento all’altro.
+last-substantial-update: 2026-05-22T00:00:00Z
 index: false
-source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 1%
@@ -263,8 +264,8 @@ Promote the May Updates launch to production.
 
 | Risorsa | Cosa troverai |
 | --- | --- |
-| [Documentazione del server AEM Content MCP](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | Guida alla configurazione e all&#39;utilizzo del server MCP |
+| [Documentazione del server AEM Content MCP](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | Guida alla configurazione e all&#39;utilizzo del server MCP |
 | [Server AEM Content MCP nel Registro AI](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) | Elenco strumenti e disponibilità |
-| [Documentazione su AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service) | Documentazione completa dell’applicazione AEM |
-| [Frammenti di contenuto di AEM](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments) | Riferimento per l’authoring di frammenti di contenuto |
+| [Documentazione su AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service) | Documentazione completa dell’applicazione AEM |
+| [Frammenti di contenuto di AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments) | Riferimento per l’authoring di frammenti di contenuto |
 | [Server MCP](../tools/mcp-servers.md) | Collegare un client di intelligenza artificiale ai server Adobe MCP |

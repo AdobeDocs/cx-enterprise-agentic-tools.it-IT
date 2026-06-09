@@ -1,8 +1,9 @@
 ---
 title: Strumenti di Adobe CX Enterprise Agent
 description: Collegare gli agenti di intelligenza artificiale e gli strumenti di sviluppo alle funzionalità di Adobe CX Enterprise utilizzando i server MCP, le competenze degli agenti e le API.
+last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: b9ed1988d395169decd601cae567d200f8993f04
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 3%
