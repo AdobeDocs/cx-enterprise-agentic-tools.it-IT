@@ -3,9 +3,9 @@ title: Ottimizzazione dei contenuti in base ai dati sulle prestazioni
 description: Utilizza CJA e AEM insieme in una sessione di intelligenza artificiale per trovare campagne con gap di conversione, diagnosticare la causa e aggiornare il contenuto senza cambiare strumenti.
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1129'
 ht-degree: 1%
 
 ---
@@ -16,14 +16,14 @@ ht-degree: 1%
 
 ![Client AI che confronta il contenuto originale della pagina con quello aggiornato](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png)
 
-Chiudere il ciclo tra i dati sulle prestazioni della campagna e gli aggiornamenti dei contenuti significa in genere passare da uno strumento di analisi all’altro e passare al CMS. In questa procedura dettagliata viene illustrato come connettere Customer Journey Analytics e AEM nella stessa sessione di intelligenza artificiale, ovvero come far emergere campagne con divari di conversione, diagnosticare i fattori che le determinano, esaminare il contenuto, ottenere consigli mirati e applicare modifiche senza uscire dalla conversazione.
+Chiudere il ciclo tra i dati sulle prestazioni della campagna e gli aggiornamenti dei contenuti significa in genere passare da uno strumento di analisi all’altro e passare al CMS. In questa procedura dettagliata viene illustrato come connettere Customer Journey Analytics e AEM nella stessa sessione di intelligenza artificiale: campagne di superficie con gap di conversione, diagnosi dei fattori che le determinano, controllo del contenuto, generazione di consigli mirati e applicazione delle modifiche senza uscire dalla conversazione.
 
-| | |
+| Dettagli scenario | |
 | --- | --- |
-| Applicazioni aziendali CX | Customer Journey Analytics, Adobe Experience Manager as a Cloud Service |
-| Strumenti agenti | Gateway MCP aziendale CX, server AEM Content MCP |
-| Pubblico | Responsabili delle campagne, content strategist, operazioni di marketing |
-| Prerequisito | Client di intelligenza artificiale compatibile con MCP, accesso a CJA, accesso a AEM as a Cloud Service |
+| **applicazioni aziendali CX** | [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/overview/introduction) |
+| **Strumenti agenti** | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers), [AEM Content MCP Server](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| **Pubblico** | Responsabili delle campagne, content strategist, operazioni di marketing |
+| **Prerequisito** | Client di intelligenza artificiale compatibile con MCP, accesso a CJA, accesso a AEM as a Cloud Service |
 
 Ogni passaggio mostra un prompt rappresentativo e un esempio di risposta di IA. Segue una sezione **Ulteriori operazioni da eseguire** per ulteriori informazioni nella stessa sessione.
 
@@ -42,7 +42,7 @@ Connetti entrambi i server MCP come connettori personalizzati. Aggiungetene una 
 
 | Server | Endpoint |
 | --- | --- |
-| Gateway MCP aziendale CX | `https://cx-enterprise.adobe.io/mcp` |
+| MCP aziendale CX | `https://cx-enterprise.adobe.io/mcp` |
 | Server AEM Content MCP | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
 
 Configurazione completa: [Documentazione dei connettori personalizzati Claude.ai](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
@@ -58,7 +58,7 @@ Connetti entrambi i server MCP utilizzando la modalità sviluppatore ChatGPT (è
 
 | Server | Endpoint |
 | --- | --- |
-| Gateway MCP aziendale CX | `https://cx-enterprise.adobe.io/mcp` |
+| MCP aziendale CX | `https://cx-enterprise.adobe.io/mcp` |
 | Server AEM Content MCP | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
 
 Configurazione completa: [Documentazione MCP di ChatGPT](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
@@ -69,7 +69,7 @@ Usare Gemini, Microsoft Copilot, Cursore, Claude Code o un altro ambiente compat
 
 | Server | Endpoint |
 | --- | --- |
-| Gateway MCP aziendale CX | `https://cx-enterprise.adobe.io/mcp` |
+| MCP aziendale CX | `https://cx-enterprise.adobe.io/mcp` |
 | Server AEM Content MCP | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
 
 Istruzioni di installazione complete per tutti i client supportati: [Connetti al client di intelligenza artificiale](../tools/mcp-servers.md)
@@ -82,12 +82,12 @@ Istruzioni di installazione complete per tutti i client supportati: [Connetti al
 >
 >Alla prima connessione, il client di intelligenza artificiale può richiedere di selezionare un’organizzazione IMS o specificare una sandbox. Una volta impostato tale contesto, il server MCP lo utilizza per il resto della sessione.
 >
->Alcuni strumenti richiedono la tua approvazione prima di essere eseguiti. Rivedi la richiesta e approva o rifiuta: non viene intrapresa alcuna azione senza la tua conferma.
+>Alcuni strumenti richiedono la tua approvazione prima di essere eseguiti. Rivedi la richiesta e approva o rifiuta. Non viene intrapresa alcuna azione senza la tua conferma.
 
 
 ## Passaggio 1: Trovare campagne con un gap di conversione
 
-Utilizza CJA per far emergere le campagne in cui il click-through è forte ma il tasso di conversione è basso. Questo pattern, ovvero intento elevato, completamento basso, in genere punta a un problema di contenuto o esperienza sulla pagina di destinazione.
+Utilizza CJA per far emergere le campagne in cui il click-through è forte ma il tasso di conversione è basso. Questo modello (intento elevato, completamento basso) in genere indica un problema di contenuto o esperienza sulla pagina di destinazione.
 
 ```
 Which campaigns have strong click-through but low conversion in the last 30 days?
@@ -171,7 +171,7 @@ Create an optimized version of the Bali Surf Camp page and summarize the propose
 
 ## Risultati ottenuti
 
-Hai connesso Customer Journey Analytics e AEM in una singola sessione di intelligenza artificiale e ti sei spostato dai dati della campagna alle modifiche al contenuto implementato senza passare da uno strumento all’altro. Hai identificato le campagne con divari di conversione, diagnosticato la causa principale, ispezionato la pagina di destinazione, ricevuto raccomandazioni mirate basate su dati e contenuto e applicato le modifiche nella stessa conversazione. In questo modo si riduce il ciclo di feedback tra Analytics insight e i contenuti pubblicati e si passa a un numero qualsiasi di pagine con prestazioni inferiori nella stessa sessione.
+Hai connesso Customer Journey Analytics e AEM in una singola sessione di intelligenza artificiale e ti sei spostato dai dati della campagna alle modifiche al contenuto implementato senza passare da uno strumento all’altro. Hai identificato le campagne con divari di conversione, diagnosticato la causa principale, ispezionato la pagina di destinazione, ricevuto raccomandazioni mirate basate su dati e contenuto e applicato le modifiche nella stessa conversazione. In questo modo si riduce il ciclo di feedback tra Analytics insight e i contenuti pubblicati e si passa a un numero qualsiasi di pagine con prestazioni insoddisfacenti nella stessa sessione.
 
 
 ## Più risultati da ottenere
@@ -257,7 +257,7 @@ Publish all confirmed changes and share the updated URLs.
 | Risorsa | Cosa troverai |
 | --- | --- |
 | [Documentazione del server CJA MCP](https://developer.adobe.com/analytics-mcp/docs/cja/) | Configurazione di CJA MCP e riferimento dello strumento |
-| [Documentazione del server AEM Content MCP](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | Guida alla configurazione e all’utilizzo di AEM Content MCP |
+| [Documentazione del server AEM Content MCP](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | Guida alla configurazione e all’utilizzo di AEM Content MCP |
 | [Server MCP CJA nel Registro di sistema AI](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | Strumenti e disponibilità del server CJA MCP |
 | [Server AEM Content MCP nel Registro AI](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) | Strumenti e disponibilità di AEM Content MCP Server |
 | [Server MCP](../tools/mcp-servers.md) | Collegare un client di intelligenza artificiale ai server Adobe MCP |

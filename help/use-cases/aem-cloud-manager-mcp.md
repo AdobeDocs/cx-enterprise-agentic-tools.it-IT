@@ -1,12 +1,12 @@
 ---
 title: Implementare in AEM as a Cloud Service con sicurezza
 description: Controlla lo stato dell’ambiente, controlla la cronologia delle pipeline e attiva o gestisci le distribuzioni senza uscire dal client di intelligenza artificiale.
-last-substantial-update: 2026-05-21T00:00:00Z
+last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 1%
+source-wordcount: '990'
+ht-degree: 2%
 
 ---
 
@@ -15,16 +15,16 @@ ht-degree: 1%
 
 <!-- last-modified: 2026-05-21 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3480350/?captions=ita&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3480340/?learn=on&enablevpops)
 
 La gestione degli ambienti Adobe Experience Manager in genere comporta l’accesso a Cloud Manager, la navigazione tra pipeline e ambienti e il passaggio di contesti per tenere traccia dello stato di distribuzione. In questa procedura dettagliata viene illustrato come gestire tali operazioni da un client di IA utilizzando AEM Cloud Manager MCP Server, in modo che sviluppatori e team operativi possano controllare lo stato, rivedere le pipeline e intervenire sui dettagli di distribuzione senza uscire dall’ambiente di IA.
 
-| | |
+| Dettagli scenario | |
 | --- | --- |
-| Applicazioni aziendali CX | Adobe Experience Manager Cloud Manager |
-| Strumenti agenti | Server AEM Cloud Manager MCP |
-| Pubblico | Sviluppatori, DevOps, team operativi |
-| Prerequisito | Client di intelligenza artificiale compatibile con MCP, accesso AEM Cloud Manager |
+| **applicazioni aziendali CX** | [Adobe Experience Manager Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/introduction-to-cloud-manager) |
+| **Strumenti agenti** | [Server MCP AEM Cloud Manager](https://experienceleague.adobe.com/it/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) |
+| **Pubblico** | Sviluppatori, DevOps, team operativi |
+| **Prerequisito** | Client di intelligenza artificiale compatibile con MCP, accesso AEM Cloud Manager |
 
 Ogni passaggio mostra un prompt rappresentativo e un esempio di risposta di IA. Segue una sezione **Ulteriori richieste per provare** per ulteriori informazioni nella stessa sessione.
 
@@ -111,11 +111,11 @@ Istruzioni di installazione complete per tutti i client supportati: [Connetti al
 
 >[!NOTE]
 >
->Quando richiesto, accedi con il tuo Adobe ID e seleziona l’organizzazione IMS collegata al tuo programma AEM as a Cloud Service. Le autorizzazioni vengono applicate a livello di Cloud Manager: il client di intelligenza artificiale può eseguire solo le operazioni per le quali l’account è autorizzato.
+>Quando richiesto, accedi con il tuo Adobe ID e seleziona l’organizzazione IMS collegata al tuo programma AEM as a Cloud Service. Le autorizzazioni vengono applicate a livello di Cloud Manager. Il client di intelligenza artificiale può eseguire solo operazioni per le quali il tuo account è autorizzato.
 >
 >Alla prima connessione, il client di intelligenza artificiale potrebbe chiederti di confermare l’organizzazione o il programma AEM. Una volta impostato tale contesto, il server MCP lo utilizza per il resto della sessione.
 >
->Alcuni strumenti richiedono la tua approvazione prima di essere eseguiti. Esamina l’azione proposta e approva o rifiuta: non viene intrapresa alcuna azione senza la tua conferma.
+>Alcuni strumenti richiedono la tua approvazione prima di essere eseguiti. Esamina l’azione proposta e approva o rifiuta. Non viene intrapresa alcuna azione senza la tua conferma.
 
 ## Passaggio 1: verificare lo stato dell’ambiente
 
@@ -183,7 +183,7 @@ What is the status of the triggered pipeline?
 
 ## Risultati ottenuti
 
-Il server AEM Cloud Manager MCP è stato utilizzato per verificare lo stato dell’ambiente, esaminare la cronologia delle pipeline, attivare una distribuzione e verificarne lo stato, senza aprire l’interfaccia di Cloud Manager. Combinando visibilità dell’ambiente e controllo dell’implementazione in un’unica sessione di intelligenza artificiale, i team di sviluppo e operativi possono rispondere più rapidamente ai problemi e mantenere il flusso di lavoro all’interno degli strumenti già utilizzati.
+Hai utilizzato il server MCP di AEM Cloud Manager per verificare lo stato dell’ambiente, esaminare la cronologia della pipeline, attivare una distribuzione e verificarne lo stato, senza aprire l’interfaccia di Cloud Manager. Combinando visibilità dell’ambiente e controllo dell’implementazione in un’unica sessione di intelligenza artificiale, i team di sviluppo e operativi possono rispondere più rapidamente ai problemi e mantenere il flusso di lavoro all’interno degli strumenti già utilizzati.
 
 ## Più risultati da ottenere
 
