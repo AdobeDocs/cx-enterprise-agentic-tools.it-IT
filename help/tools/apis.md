@@ -3,7 +3,7 @@ title: API per builder
 description: Creare applicazioni e integrazioni personalizzate utilizzando le API Adobe CX Enterprise.
 last-substantial-update: 2026-06-02T00:00:00Z
 index: false
-source-git-commit: a130fc470e97f2316e2ea72ebda47b9fc4ad9b33
+source-git-commit: 8f499ad7baf1b5d08dfac90511d0c76e8372c08b
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 11%
@@ -11,7 +11,7 @@ ht-degree: 11%
 ---
 
 
-# API per builder
+# API per generatori
 
 <!-- last-modified: 2026-06-02 -->
 
@@ -107,7 +107,7 @@ Gestione degli utenti, amministrazione delle identità e automazione degli accou
 
 ![Connessione IDE alle API Adobe CX Enterprise](../assets/hero-connect-apis.gif)
 
-Gli agenti di codifica come Claude Code, Cursor e OpenAI Codex sono ideali per la creazione con le API Enterprise di Adobe CX: aggiungono una specifica OpenAPI al progetto e l’agente può scoprire endpoint, creare richieste e motivare il comportamento delle API senza dover ricorrere a cablaggi manuali. Per iniziare, è necessario disporre di due elementi: credenziali autenticate provenienti da Adobe Developer Console e documentazione API aggiunta al progetto.
+Gli agenti di codifica come Claude Code, Cursor e OpenAI Codex sono particolarmente adatti per la creazione di API aziendali di Adobe CX. Aggiungi una specifica OpenAPI al progetto affinché l’agente possa individuare endpoint, creare richieste e motivare il comportamento dell’API senza dover ricorrere a cablaggi manuali. Per iniziare, è necessario disporre di due elementi: credenziali autenticate provenienti da Adobe Developer Console e documentazione API aggiunta al progetto.
 
 ### Configurare le credenziali API in Adobe Developer Console
 
