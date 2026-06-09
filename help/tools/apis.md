@@ -3,10 +3,10 @@ title: API per builder
 description: Creare applicazioni e integrazioni personalizzate utilizzando le API Adobe CX Enterprise.
 last-substantial-update: 2026-06-02T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 9318512ab3280356be3f64a17f5320e30a9c4f8d
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 23%
+source-wordcount: '935'
+ht-degree: 24%
 
 ---
 
@@ -20,8 +20,6 @@ ht-degree: 23%
 Le API Enterprise di Adobe CX consentono agli sviluppatori e agli strumenti di codifica basati sull’intelligenza artificiale di accedere direttamente ai dati e ai flussi di lavoro di Adobe. Utilizzale per creare applicazioni personalizzate, automatizzare le integrazioni e incorporare le funzionalità di Adobe nei tuoi sistemi. Le API sono la scelta giusta quando hai bisogno di un controllo programmatico completo sull’integrazione di un sistema o quando crei un’applicazione sopra i dati di Adobe. Per l&#39;accesso conversazionale basato su agenti ai flussi di lavoro di Adobe, vedere [Server MCP](mcp-servers.md).
 
 ## API di Adobe CX Enterprise
-
-Le API Adobe CX Enterprise espongono i dati e le operazioni principali che alimentano prodotti come Adobe Experience Platform, Journey Optimizer e Customer Journey Analytics. Ogni API segue una progettazione API-first, che fornisce agli sviluppatori e agli strumenti di codifica assistiti da AI un accesso diretto e programmabile alle stesse funzionalità utilizzate internamente da Adobe. Utilizzale per creare applicazioni personalizzate, automatizzare i flussi di lavoro e integrare i dati di Adobe nei tuoi sistemi.
 
 <!--
 CARDS
@@ -398,19 +396,6 @@ CARDS
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-
-## API per Builder e server MCP
-
-Utilizza le API quando hai bisogno di un controllo completo sull’integrazione del sistema o quando stai creando un’applicazione personalizzata. Utilizza i server MCP quando desideri che un agente di intelligenza artificiale funzioni direttamente con i flussi di lavoro di Adobe.
-
-| | API | Server MCP |
-| --- | --- | --- |
-| Integrazione diretta del sistema | Sì | A volte |
-| Orchestrazione intuitiva | Limitato | Sì |
-| Accesso ai dati non elaborati | Sì | Di solito astratto |
-| Sviluppo di applicazioni personalizzate | Caso d’uso principale | Secondario |
-| Flussi di lavoro basati sull’intelligenza artificiale | Supportato | Caso d’uso principale |
-
 ## Guida introduttiva alle API per i generatori
 
 ![Connessione IDE alle API Adobe CX Enterprise](../assets/hero-connect-apis.gif)
@@ -423,7 +408,7 @@ Tutti gli accessi alle API di Adobe CX Enterprise sono gestiti tramite [Adobe De
 
 1. Accedi e [crea un progetto](https://developer.adobe.com/developer-console/docs/guides/projects/) in Adobe Developer Console.
 2. [Aggiungere l&#39;API](https://developer.adobe.com/developer-console/docs/guides/services/) per l&#39;applicazione Adobe CX Enterprise necessaria.
-3. Scegli un tipo di autenticazione [&#128279;](https://developer.adobe.com/developer-console/docs/guides/authentication/). Utilizza **OAuth Server-to-Server** per flussi di lavoro automatizzati o **OAuth Web App** per applicazioni rivolte all&#39;utente.
+3. Scegli un tipo di autenticazione [](https://developer.adobe.com/developer-console/docs/guides/authentication/). Utilizza **OAuth Server-to-Server** per flussi di lavoro automatizzati o **OAuth Web App** per applicazioni rivolte all&#39;utente.
 4. Genera le credenziali. Prendi nota dell’ID client, del segreto client e dell’endpoint token da utilizzare nell’applicazione.
 
 La maggior parte delle API Adobe CX Enterprise richiede licenze per le applicazioni. Se un’API non è disponibile nel progetto Developer Console, contatta il rappresentante Adobe.
@@ -500,3 +485,15 @@ project/
 **Specifiche aggiornate**
 
 Quando Adobe pubblica una nuova versione API: scarica una nuova istantanea in `/specs`, aggiorna la data in `README.md` e rigenera l&#39;indice e `AGENTS.md`.
+
+## API per Builder e server MCP
+
+Utilizza le API quando hai bisogno di un controllo completo sull’integrazione del sistema o quando stai creando un’applicazione personalizzata. Utilizza i server MCP quando desideri che un agente di intelligenza artificiale funzioni direttamente con i flussi di lavoro di Adobe.
+
+| | API | Server MCP |
+| --- | --- | --- |
+| Integrazione diretta del sistema | Sì | A volte |
+| Orchestrazione intuitiva | Limitato | Sì |
+| Accesso ai dati non elaborati | Sì | Di solito astratto |
+| Sviluppo di applicazioni personalizzate | Caso d’uso principale | Secondario |
+| Flussi di lavoro basati sull’intelligenza artificiale | Supportato | Caso d’uso principale |
