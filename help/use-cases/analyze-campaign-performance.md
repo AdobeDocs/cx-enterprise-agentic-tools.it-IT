@@ -3,7 +3,7 @@ title: Approfondimenti campagna di superficie senza la creazione di rapporti
 description: Utilizzare il gateway MCP di CX Enterprise per porre domande sulle prestazioni di Customer Journey Analytics in linguaggio semplice e ottenere risposte senza dover passare da Report Builder.
 last-substantial-update: 2026-06-02T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 <!-- last-modified: 2026-06-02 -->
 
-![Analizza prestazioni campagna](https://placehold.co/1600x900?text=Analyze+Campaign+Performance)
+![Il client di IA mostra i passaggi successivi consigliati per migliorare le prestazioni della campagna](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png)
 
 L’analisi della campagna che una volta richiedeva la creazione di rapporti in uno strumento separato ora è una conversazione. In questa procedura dettagliata viene illustrato come connettere un client di IA a Customer Journey Analytics (CJA) e porre domande sulle prestazioni in un linguaggio semplice. Di conseguenza, insight disporrà di tempi più rapidi e non sarà necessaria alcuna generazione manuale di rapporti.
 
@@ -276,4 +276,4 @@ Save this analysis as a Workspace project for executive reporting.
 | [Documentazione del server CJA MCP](https://developer.adobe.com/analytics-mcp/docs/cja/) | Riferimento completo dell&#39;utensile e guida alla configurazione |
 | [Guide all&#39;utilizzo di CJA MCP](https://developer.adobe.com/analytics-mcp/docs/guides/) | Guide d’uso dettagliate |
 | [Server MCP CJA nel Registro di sistema AI](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | Strumenti e disponibilità del server CJA MCP |
-| [Documentazione di Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing) | Documentazione completa dell’applicazione CJA |
+| [Documentazione di Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-landing) | Documentazione completa dell’applicazione CJA |
