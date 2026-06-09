@@ -74,7 +74,7 @@ Adobe Experience Manager dispone di più server MCP per flussi di lavoro diversi
 
 | Server MCP | Endpoint | Che cosa puoi fare |
 | --- | --- | --- |
-| [Adobe Marketing Agent](TODO: validate) | `https://aep-ai-ama.adobe.io/mcp` | Organizzazione dell’analisi del pubblico, della diagnostica AEP e della creazione di percorsi B2B AJO nelle applicazioni AEP |
+| [Adobe Marketing Agent] (TODO: validate) | `https://aep-ai-ama.adobe.io/mcp` | Organizzazione dell’analisi del pubblico, della diagnostica AEP e della creazione di percorsi B2B AJO nelle applicazioni AEP |
 
 >[!NOTE]
 >
@@ -110,7 +110,7 @@ Adobe Target MCP è in versione beta pubblica. Tutti gli strumenti attualmente d
 
 | Server MCP | Endpoint | Che cosa puoi fare |
 | --- | --- | --- |
-| [Adobe Workfront](TODO: validate) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | Gestisci lavoro, progetti, record di pianificazione, approfondimenti e approvazioni di contenuti |
+| [Adobe Workfront] (TODO: validate) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | Gestisci lavoro, progetti, record di pianificazione, approfondimenti e approvazioni di contenuti |
 
 >[!NOTE]
 >
