@@ -21,7 +21,7 @@ Un quadro completo dello stato della campagna richiede dati provenienti da più 
 
 | Dettagli scenario | |
 | --- | --- |
-| Applicazioni aziendali CX | [Adobe Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home), [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [Real-Time CDP](https://experienceleague.adobe.com/it/docs/experience-platform/rtcdp/home) |
+| Applicazioni aziendali CX | [Adobe Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home), [Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-overview), [Real-Time CDP](https://experienceleague.adobe.com/it/docs/experience-platform/rtcdp/home) |
 | Strumenti agenti | [MCP aziendale CX](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
 | Pubblico | Manager campagne, operazioni di marketing |
 | Prerequisito | Client di intelligenza artificiale compatibile con MCP, accesso ad AJO, CJA e Real-Time CDP |

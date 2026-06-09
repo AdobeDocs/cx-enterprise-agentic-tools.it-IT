@@ -22,7 +22,7 @@ Le operazioni relative ai contenuti in Adobe Experience Manager, dalla ricerca d
 | Dettagli scenario | |
 | --- | --- |
 | Applicazioni aziendali CX | [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/overview/introduction) |
-| Strumenti agenti | [Server AEM Content MCP](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| Strumenti agenti | [Server AEM Content MCP](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
 | Pubblico | Manager contenuti, team di marketing |
 | Prerequisito | Client di intelligenza artificiale compatibile con MCP, accesso AEM as a Cloud Service |
 
@@ -265,4 +265,4 @@ Promote the May Updates launch to production.
 | Risorsa | Cosa troverai |
 | --- | --- |
 | [Server AEM Content MCP nel Registro AI](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp){target="_blank"} | Elenco strumenti e disponibilità |
-| [Documentazione su AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service){target="_blank"} | Documentazione completa dell’applicazione AEM |
+| [Documentazione su AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service){target="_blank"} | Documentazione completa dell’applicazione AEM |
