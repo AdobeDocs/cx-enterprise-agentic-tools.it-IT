@@ -3,9 +3,9 @@ title: Strumenti agenti
 description: Confrontate i server MCP, le competenze dell'agente e le API per i generatori e scegliete lo strumento agentico adatto per i flussi di lavoro Adobe CX Enterprise.
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 8f499ad7baf1b5d08dfac90511d0c76e8372c08b
+source-git-commit: c88de99df4cabf47cce195de1a6a888f4f780fe9
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
@@ -183,9 +183,9 @@ Questi strumenti vengono applicati ai flussi di lavoro aziendali reali di CX.
 CARDS
 
 * ../use-cases/query-audiences.md
-  {title = Query audiences}
-  {description = Use CX Enterprise MCP to query Real-Time CDP audience and destination data using plain language prompts.}
-  {cta = Try with MCP}
+  {title = Audience activation at a glance}
+  {description = See which audiences are live, where they are flowing, and whether destinations are healthy, without navigating Real-Time CDP.}
+  {cta = Check audience activation}
 
 * https://experienceleague.adobe.com/it/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development
   {title = Develop AEM components with AI}
@@ -202,12 +202,12 @@ CARDS
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Query audiences">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Audience activation at a glance">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="../use-cases/query-audiences.md" title="Eseguire query sui tipi di pubblico">
-                        <img class="is-bordered-r-small" src="../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png" alt="Eseguire query sui tipi di pubblico"
+                    <a href="../use-cases/query-audiences.md" title="Panoramica dell’attivazione del pubblico">
+                        <img class="is-bordered-r-small" src="../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png" alt="Panoramica dell’attivazione del pubblico"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -215,12 +215,12 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../use-cases/query-audiences.md" title="Eseguire query sui tipi di pubblico">Interroga tipi di pubblico</a>
+                        <a href="../use-cases/query-audiences.md" title="Panoramica dell’attivazione del pubblico">Audience Activation at a glance</a>
                     </p>
-                    <p class="is-size-6">Utilizza CX Enterprise MCP per eseguire query sui dati di destinazione e di pubblico di Real-Time CDP utilizzando prompt in linguaggio semplice.</p>
+                    <p class="is-size-6">Scopri quali tipi di pubblico sono live, dove fluiscono e se le destinazioni sono sane, senza navigare in Real-Time CDP.</p>
                 </div>
                 <a href="../use-cases/query-audiences.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Prova con MCP</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Verifica attivazione pubblico</span>
                 </a>
             </div>
         </div>

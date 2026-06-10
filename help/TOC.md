@@ -3,10 +3,10 @@ user-guide-title: Strumenti di Adobe CX Enterprise Agent
 breadcrumb-title: Strumenti agenti
 user-guide-description: Collegare gli agenti di intelligenza artificiale e gli strumenti di sviluppo alle funzionalità di Adobe CX Enterprise utilizzando i server MCP, le competenze degli agenti e le API.
 index: false
-source-git-commit: f0ced04b4676cd9f39c3f8797f90ca1fcbc8ce1e
+source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 7%
+source-wordcount: '74'
+ht-degree: 6%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 7%
    + [API per builder](/help/tools/apis.md)
 + Strumenti agenti in azione {#in-action}
    + [Panoramica](/help/use-cases/overview.md)
-   + [Analizzare le prestazioni della campagna](/help/use-cases/analyze-campaign-performance.md)
-   + [Eseguire query sui tipi di pubblico](/help/use-cases/query-audiences.md)
-   + [Rivedi percorsi AJO](/help/use-cases/manage-ajo-journeys.md)
-   + [Gestire i contenuti AEM](/help/use-cases/manage-aem-content.md)
-   + [Ottimizzare i contenuti con i dati sulle prestazioni](/help/use-cases/optimize-content-with-performance-data.md)
-   + [Implementare in AEM Cloud Service](/help/use-cases/aem-cloud-manager-mcp.md)
+   + [Informazioni sulla campagna senza rapporti](/help/use-cases/analyze-campaign-performance.md)
+   + [Panoramica dell’attivazione del pubblico](/help/use-cases/query-audiences.md)
+   + [Recupera problemi percorso in anticipo](/help/use-cases/manage-ajo-journeys.md)
+   + [Spedisci aggiornamenti contenuti più rapidamente](/help/use-cases/manage-aem-content.md)
+   + [Colmare le lacune nelle prestazioni dei contenuti](/help/use-cases/optimize-content-with-performance-data.md)
+   + [Distribuire le modifiche di AEM in modo affidabile](/help/use-cases/aem-cloud-manager-mcp.md)

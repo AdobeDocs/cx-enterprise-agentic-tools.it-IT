@@ -1,11 +1,11 @@
 ---
 title: Rileva i problemi di percorso prima che influiscano sui clienti
 description: Utilizza CX Enterprise MCP per monitorare i percorsi AJO attivi, esaminare la configurazione delle campagne e risolvere i problemi operativi prima che raggiungano il pubblico.
-last-substantial-update: 2026-06-08T00:00:00Z
+last-substantial-update: 2026-06-10T00:00:00Z
 index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '979'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 ![Client IA che riepiloga la strategia di campagna e percorso con un riepilogo esecutivo](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png)
 
-Per avere un’immagine chiara di quali percorsi sono attivi, quali condizioni li guidano e come le campagne vengono configurate normalmente, apri Adobe Journey Optimizer e naviga nella sua interfaccia. In questa procedura dettagliata viene illustrato come ottenere la stessa visibilità tramite un client di intelligenza artificiale, utilizzando CX Enterprise MCP per eseguire query sui dati del percorso e della campagna AJO tramite domande in linguaggio semplice.
+I problemi del percorso che non vengono rilevati possono raggiungere i clienti prima che qualcuno se ne accorga. In questa procedura dettagliata viene illustrato come essere sempre all&#39;avanguardia controllando i percorsi AJO attivi, esaminando la configurazione delle campagne e individuando i problemi operativi attraverso un client AI, utilizzando CX Enterprise MCP per ottenere risposte in linguaggio semplice senza aprire Adobe Journey Optimizer.
 
 | Dettagli scenario | |
 | --- | --- |

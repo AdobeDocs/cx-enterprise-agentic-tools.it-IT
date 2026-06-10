@@ -1,11 +1,11 @@
 ---
 title: Comprendere i tipi di pubblico e dove vengono attivati
 description: Utilizza CX Enterprise MCP per monitorare lo stato di attivazione del pubblico, controllare lo stato della destinazione e i problemi della superficie prima che influiscano sulle campagne.
-last-substantial-update: 2026-06-09T00:00:00Z
+last-substantial-update: 2026-06-10T00:00:00Z
 index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '864'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 ![Il client di IA dà una strategia di pubblico con priorità con consigli di attivazione](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png)
 
-Per capire quali tipi di pubblico vengono attivati, dove e se le destinazioni sono sane di solito si apre Real-Time CDP e si naviga tra più schermate. In questa procedura dettagliata viene illustrato come ottenere le stesse risposte tramite un client di intelligenza artificiale, utilizzando il server MCP di RTCDP per ottenere la configurazione della destinazione, lo stato di attivazione e lo stato del flusso di dati tramite domande in linguaggio semplice.
+È fondamentale sapere quali tipi di pubblico sono attivi, dove scorrono e se le destinazioni sono sane prima che venga avviata una campagna o quando le prestazioni di una sono insoddisfacenti. In questa procedura dettagliata viene illustrato come ottenere un quadro completo dell&#39;attivazione tramite un client di intelligenza artificiale, utilizzando CX Enterprise MCP per ottenere in pochi secondi lo stato del pubblico e lo stato di integrità della destinazione, senza aprire Real-Time CDP.
 
 | Dettagli scenario | |
 | --- | --- |
