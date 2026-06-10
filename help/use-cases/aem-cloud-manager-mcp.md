@@ -15,7 +15,7 @@ ht-degree: 2%
 
 <!-- last-modified: 2026-05-21 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3480340/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3480350/?captions=ita&learn=on&enablevpops)
 
 L’affidabilità dell’implementazione deriva dalla consapevolezza che l’ambiente è sano prima di inviare messaggi push. In questa procedura dettagliata viene illustrato come verificare lo stato dell’ambiente AEM, esaminare la cronologia delle pipeline e attivare le distribuzioni da un client di intelligenza artificiale utilizzando il server MCP di AEM Cloud Manager, in modo che i team possano spostarsi rapidamente senza perdere visibilità.
 
