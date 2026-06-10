@@ -3,9 +3,9 @@ title: Abilità agente
 description: Flussi di lavoro curati da Adobe e istruzioni che guidano gli agenti di intelligenza artificiale attraverso le attività aziendali di CX in modo coerente.
 last-substantial-update: 2026-05-19T00:00:00Z
 index: false
-source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
+source-git-commit: f7ace53bd5988b5902659c89c6da16448398e0c0
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '574'
 ht-degree: 1%
 
 ---
@@ -84,6 +84,8 @@ Dopo aver installato o aggiunto il pacchetto `adobe/skills`, alcuni client di IA
 - **CLI GitHub**: `gh upskill list`
 
 ## Competenze agente in azione
+
+Grazie alle competenze degli agenti, le competenze sul dominio Adobe funzionano all’interno del client di intelligenza artificiale, per cui gli agenti seguono flussi di lavoro comprovati anziché improvvisare. Ogni procedura dettagliata seguente mostra un’attività aziendale specifica completata in modo affidabile, guidata dalle best practice di Adobe dall’inizio all’output.
 
 <!--
 CARDS

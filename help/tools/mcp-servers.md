@@ -3,9 +3,9 @@ title: Server MCP
 description: Collegare qualsiasi client AI compatibile con MCP ai flussi di lavoro Adobe CX Enterprise utilizzando i server Model Context Protocol.
 index: false
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: c88de99df4cabf47cce195de1a6a888f4f780fe9
+source-git-commit: f7ace53bd5988b5902659c89c6da16448398e0c0
 workflow-type: tm+mt
-source-wordcount: '2140'
+source-wordcount: '2167'
 ht-degree: 3%
 
 ---
@@ -257,9 +257,9 @@ Configurazione completa: [Documentazione MCP di Copilot Studio](https://learn.mi
 
 >[!ENDTABS]
 
-## Strumenti agenti in azione
+## Server MCP in azione
 
-Consulta Server MCP Adobe CX Enterprise applicati a flussi di lavoro aziendali reali.
+Consulta Server MCP Adobe CX Enterprise per risolvere problemi di business reali. Ogni procedura dettagliata inizia da una vera e propria sfida operativa e mostra come un client di intelligenza artificiale la risolve in un linguaggio semplice, senza passare da uno strumento all’altro o scrivere codice.
 
 <!--
 CARDS
