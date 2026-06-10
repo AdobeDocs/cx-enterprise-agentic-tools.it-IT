@@ -3,9 +3,9 @@ title: Comprendere i tipi di pubblico e dove vengono attivati
 description: Utilizza CX Enterprise MCP per monitorare lo stato di attivazione del pubblico, controllare lo stato della destinazione e i problemi della superficie prima che influiscano sulle campagne.
 last-substantial-update: 2026-06-10T00:00:00Z
 index: false
-source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
+source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '869'
 ht-degree: 2%
 
 ---
@@ -230,5 +230,5 @@ Are there any audiences using a non-default merge policy that could cause profil
 
 | Risorsa | Cosa troverai |
 | --- | --- |
-| [Registro di sistema di Adobe AI](https://developer.adobe.com/ai-registry/?type=mcp){target="_blank"} | Metadati e disponibilità del server MCP |
+| [Registro di sistema di Adobe AI](https://developer.adobe.com/ai-registry/?type=mcp){target="_blank"} | Connettori gestiti e dettagli del server per determinati server Adobe MCP |
 | [Documentazione di Real-Time CDP](https://experienceleague.adobe.com/it/docs/experience-platform/rtcdp/home){target="_blank"} | Documentazione completa dell’applicazione Real-Time CDP |
