@@ -2,10 +2,10 @@
 title: Server MCP
 description: Collegare qualsiasi client AI compatibile con MCP ai flussi di lavoro Adobe CX Enterprise utilizzando i server Model Context Protocol.
 index: false
-last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 8f499ad7baf1b5d08dfac90511d0c76e8372c08b
+last-substantial-update: 2026-06-10T00:00:00Z
+source-git-commit: c88de99df4cabf47cce195de1a6a888f4f780fe9
 workflow-type: tm+mt
-source-wordcount: '2078'
+source-wordcount: '2140'
 ht-degree: 3%
 
 ---
@@ -13,9 +13,9 @@ ht-degree: 3%
 
 # Server MCP
 
-<!-- last-modified: 2026-06-09 -->
+<!-- last-modified: 2026-06-10 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491330/?captions=ita&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491320/?learn=on&enablevpops)
 
 I server Adobe CX Enterprise MCP offrono a qualsiasi client di intelligenza artificiale compatibile un accesso diretto e controllato ai dati e ai flussi di lavoro di Adobe. Connettiti una volta e puoi eseguire query sulle prestazioni della campagna, attivare tipi di pubblico, esaminare percorsi, gestire contenuti e altro ancora, il tutto in un linguaggio semplice, senza uscire dall’ambiente AI. Poiché i server MCP si trovano tra il client di intelligenza artificiale e i sistemi sottostanti di Adobe, si ottiene flessibilità in linguaggio naturale mantenendo attivi i controlli di accesso e la governance dei dati della propria organizzazione.
 
@@ -41,12 +41,14 @@ https://cx-enterprise.adobe.io/mcp
 
 | Applicazione CX Enterprise | Che cosa puoi fare |
 | --- | --- |
-| Adobe Analytics | Individuazione suite di rapporti, authoring dei segmenti e creazione di aree di lavoro |
-| Adobe Experience Platform | Individuazione dei set di dati, esplorazione degli schemi e gestione delle sandbox |
-| Adobe Journey Optimizer | Rivedi percorsi, campagne e configurazioni di canale |
+| [Adobe Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/analytics-mcp) | Individuazione suite di rapporti, authoring dei segmenti e creazione di aree di lavoro |
+| [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/aep-mcp) | Individuazione dei set di dati, esplorazione degli schemi e gestione delle sandbox |
+| [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/ajo-mcp) | Rivedi percorsi, campagne e configurazioni di canale |
 | Adobe Journey Optimizer B2B edition | Gestire percorsi B2B, programmi per account, gruppi di acquisto e personalizzazione |
-| Customer Journey Analytics | Eseguire query sui rapporti, individuare le visualizzazioni dati e creare aree di lavoro |
-| Real-Time CDP | Verificare lo stato di attivazione del pubblico, lo stato della destinazione e lo stato del flusso di dati |
+| [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/cja-mcp) | Eseguire query sui rapporti, individuare le visualizzazioni dati e creare aree di lavoro |
+| [Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Verificare lo stato di attivazione del pubblico, lo stato della destinazione e lo stato del flusso di dati |
+
+Per la documentazione completa, vedere [CX Enterprise MCP](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview).
 
 >[!NOTE]
 >
@@ -58,13 +60,13 @@ Adobe Experience Manager dispone di più server MCP per flussi di lavoro diversi
 
 | Server MCP | Endpoint | Che cosa puoi fare |
 | --- | --- | --- |
-| [AEM (Modalità Codice)](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | Accesso diretto REST API ad AEM tramite ricerca in linguaggio naturale, lettura, scrittura ed eliminazione |
+| [AEM (Modalità Codice)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | Accesso diretto REST API ad AEM tramite ricerca in linguaggio naturale, lettura, scrittura ed eliminazione |
 | [AEM Cloud Manager](https://experienceleague.adobe.com/it/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | Gestire programmi, ambienti, pipeline e archivi |
-| [Contenuto AEM](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | Gestire pagine, frammenti di contenuto, risorse e avvii |
-| [Contenuto AEM (Sola Lettura)](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | Individuazione ed esecuzione di query su pagine, frammenti di contenuto e avvii senza accesso in scrittura |
+| [Contenuto AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | Gestire pagine, frammenti di contenuto, risorse e avvii |
+| [Contenuto AEM (Sola Lettura)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | Individuazione ed esecuzione di query su pagine, frammenti di contenuto e avvii senza accesso in scrittura |
 | Authoring di documenti AEM | `https://mcp.adobeaemcloud.com/adobe/mcp/da` | Gestire file, cronologia delle versioni e riferimenti multimediali in Creazione di documenti |
 | [Governance delle esperienze AEM](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/mcp-servers/experience-governance-mcp-server) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-governance` | Valutazione di contenuti e immagini in base alle linee guida del brand e alle regole di conformità |
-| [Produzione AEM Experience](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/experience-production/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-production` | Trasforma e crea pagine AEM su larga scala utilizzando le descrizioni dei contenuti basate sull’intelligenza artificiale |
+| [Produzione AEM Experience](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/experience-production/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-production` | Trasforma e crea pagine AEM su larga scala utilizzando le descrizioni dei contenuti basate sull’intelligenza artificiale |
 
 >[!NOTE]
 >
@@ -84,11 +86,11 @@ Adobe Experience Manager dispone di più server MCP per flussi di lavoro diversi
 
 | Server MCP | Endpoint | Che cosa puoi fare |
 | --- | --- | --- |
-| [Marketo Engage](https://experienceleague.adobe.com/it/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | Gestisci programmi, campagne, lead, elenchi avanzati, e-mail e moduli |
+| [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | Gestisci programmi, campagne, lead, elenchi avanzati, e-mail e moduli |
 
 >[!NOTE]
 >
->Marketo Engage MCP utilizza credenziali del servizio native per Marketo, non Adobe IMS. Consulta la [documentazione del server Marketo Engage MCP](https://experienceleague.adobe.com/it/docs/marketo-developer/marketo/mcp-server) per la configurazione dell&#39;autenticazione. L’accesso dipende dalla sottoscrizione a Marketo Engage e dalle autorizzazioni dell’utente API.
+>Marketo Engage MCP utilizza credenziali del servizio native per Marketo, non Adobe IMS. Consulta la [documentazione del server Marketo Engage MCP](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/mcp-server) per la configurazione dell&#39;autenticazione. L’accesso dipende dalla sottoscrizione a Marketo Engage e dalle autorizzazioni dell’utente API.
 
 >[!TAB Target]
 
@@ -96,7 +98,7 @@ Adobe Target MCP è in versione beta pubblica. Tutti gli strumenti attualmente d
 
 | Server MCP | Endpoint | Che cosa puoi fare |
 | --- | --- | --- |
-| [Adobe Target](https://experienceleague.adobe.com/it/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | Rivedi attività, offerte, tipi di pubblico, mbox e rapporti sulle prestazioni |
+| [Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | Rivedi attività, offerte, tipi di pubblico, mbox e rapporti sulle prestazioni |
 
 >[!NOTE]
 >
@@ -106,7 +108,7 @@ Adobe Target MCP è in versione beta pubblica. Tutti gli strumenti attualmente d
 
 | Server MCP | Endpoint | Che cosa puoi fare |
 | --- | --- | --- |
-| Adobe Workfront | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | Gestisci lavoro, progetti, record di pianificazione, approfondimenti e approvazioni di contenuti |
+| [Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | Gestisci lavoro, progetti, record di pianificazione, approfondimenti e approvazioni di contenuti |
 
 >[!NOTE]
 >
@@ -116,13 +118,11 @@ Adobe Target MCP è in versione beta pubblica. Tutti gli strumenti attualmente d
 
 ## Connetti al client di intelligenza artificiale
 
-Tutti i server MCP di Adobe utilizzano OAuth con Adobe Identity Management Service (IMS). Quando richiesto, seleziona l’organizzazione IMS corretta. La scelta di quella sbagliata è la fonte più comune di errori di autenticazione.
-
-Prima di configurare manualmente, controlla il [Registro di sistema di Adobe AI](https://developer.adobe.com/ai-registry/?type=connector) per trovare un connettore gestito per il client di intelligenza artificiale e l&#39;applicazione Adobe. I connettori gestiti gestiscono automaticamente l’autenticazione. Se è disponibile un connettore per il client e l’applicazione, utilizzalo al posto dei passaggi manuali indicati di seguito.
-
-I passaggi seguenti utilizzano l&#39;endpoint MCP di CX Enterprise come esempio. Lo stesso processo si applica a qualsiasi server MCP di Adobe: scambia nell’URL dell’endpoint il server che desideri connettere.
+La maggior parte dei server MCP di Adobe utilizza OAuth con Adobe Identity Management Service (IMS). Quando richiesto, seleziona l’organizzazione IMS corretta. La scelta di quella sbagliata è la fonte più comune di errori di autenticazione.
 
 ![Un agente di IA che si connette a un server Adobe MCP](../assets/hero-connect-mcp-servers.gif)
+
+I passaggi seguenti utilizzano l&#39;endpoint MCP di CX Enterprise come esempio. Lo stesso processo si applica a qualsiasi server MCP di Adobe: scambia nell’URL dell’endpoint il server che desideri connettere.
 
 >[!BEGINTABS]
 
@@ -265,39 +265,39 @@ Consulta Server MCP Adobe CX Enterprise applicati a flussi di lavoro aziendali r
 CARDS
 
 * ../use-cases/analyze-campaign-performance.md
-  {title = Analyze campaign performance}
-  {description = Use CX Enterprise MCP to surface Customer Journey Analytics metrics and insights from any AI client.}
-  {cta = Start walkthrough}
+  {title = Campaign insights without reports}
+  {description = Ask performance questions in plain language and get answers from Customer Journey Analytics, without building a single report.}
+  {cta = Surface campaign insights}
 
 * ../use-cases/query-audiences.md
-  {title = Query audiences}
-  {description = Use CX Enterprise MCP to query Real-Time CDP audience and destination data using plain language prompts.}
-  {cta = Start walkthrough}
+  {title = Audience activation at a glance}
+  {description = See which audiences are live, where they are flowing, and whether destinations are healthy, without navigating Real-Time CDP.}
+  {cta = Check audience activation}
 
 * ../use-cases/manage-ajo-journeys.md
-  {title = Review AJO journeys}
-  {description = Use CX Enterprise MCP to access AJO journeys, campaign status, and journey conditions from your AI client.}
-  {cta = Start walkthrough}
+  {title = Catch journey issues early}
+  {description = Monitor active journeys and surface operational issues before they reach your audience.}
+  {cta = Monitor your journeys}
 
 * ../use-cases/manage-aem-content.md
-  {title = Manage AEM content with AI}
-  {description = Discover, update, and publish pages and content fragments in AEM using natural language.}
-  {cta = Start walkthrough}
+  {title = Ship content updates faster}
+  {description = Find, update, and publish AEM pages and content fragments faster, without switching to the AEM interface.}
+  {cta = Ship content faster}
 
 * ../use-cases/optimize-content-with-performance-data.md
-  {title = Optimize content based on performance data}
-  {description = Combine CX Enterprise MCP and AEM Content MCP Server to find underperforming content and update it in one session.}
-  {cta = Start walkthrough}
+  {title = Close content performance gaps}
+  {description = Surface conversion gaps in CJA, trace them to underperforming content in AEM, and apply the fix in a single AI session.}
+  {cta = Close performance gaps}
 -->
 
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Analyze campaign performance">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Campaign insights without reports">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="../use-cases/analyze-campaign-performance.md" title="Analizzare le prestazioni della campagna">
-                        <img class="is-bordered-r-small" src="../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png" alt="Analizzare le prestazioni della campagna"
+                    <a href="../use-cases/analyze-campaign-performance.md" title="Informazioni sulla campagna senza rapporti">
+                        <img class="is-bordered-r-small" src="../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png" alt="Informazioni sulla campagna senza rapporti"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -305,22 +305,22 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../use-cases/analyze-campaign-performance.md" title="Analizzare le prestazioni della campagna">Analizzare le prestazioni della campagna</a>
+                        <a href="../use-cases/analyze-campaign-performance.md" title="Informazioni sulla campagna senza rapporti">Informazioni sulla campagna senza rapporti</a>
                     </p>
-                    <p class="is-size-6">Utilizza CX Enterprise MCP per ottenere metriche e informazioni di Customer Journey Analytics da qualsiasi client AI.</p>
+                    <p class="is-size-6">Poni le domande sulle prestazioni in un linguaggio semplice e ottieni risposte da Customer Journey Analytics, senza creare un singolo rapporto.</p>
                 </div>
                 <a href="../use-cases/analyze-campaign-performance.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Inizia procedura dettagliata</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Informazioni sulla campagna Surface</span>
                 </a>
             </div>
         </div>
     </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Query audiences">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Audience activation at a glance">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="../use-cases/query-audiences.md" title="Eseguire query sui tipi di pubblico">
-                        <img class="is-bordered-r-small" src="../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png" alt="Eseguire query sui tipi di pubblico"
+                    <a href="../use-cases/query-audiences.md" title="Panoramica dell’attivazione del pubblico">
+                        <img class="is-bordered-r-small" src="../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png" alt="Panoramica dell’attivazione del pubblico"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -328,22 +328,22 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../use-cases/query-audiences.md" title="Eseguire query sui tipi di pubblico">Interroga tipi di pubblico</a>
+                        <a href="../use-cases/query-audiences.md" title="Panoramica dell’attivazione del pubblico">Audience Activation at a glance</a>
                     </p>
-                    <p class="is-size-6">Utilizza CX Enterprise MCP per eseguire query sui dati di destinazione e di pubblico di Real-Time CDP utilizzando prompt in linguaggio semplice.</p>
+                    <p class="is-size-6">Scopri quali tipi di pubblico sono live, dove fluiscono e se le destinazioni sono sane, senza navigare in Real-Time CDP.</p>
                 </div>
                 <a href="../use-cases/query-audiences.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Inizia procedura dettagliata</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Verifica attivazione pubblico</span>
                 </a>
             </div>
         </div>
     </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Review AJO journeys">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Catch journey issues early">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="../use-cases/manage-ajo-journeys.md" title="Rivedi percorsi AJO">
-                        <img class="is-bordered-r-small" src="../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png" alt="Rivedi percorsi AJO"
+                    <a href="../use-cases/manage-ajo-journeys.md" title="Recupera problemi percorso in anticipo">
+                        <img class="is-bordered-r-small" src="../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png" alt="Recupera problemi percorso in anticipo"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -351,22 +351,22 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../use-cases/manage-ajo-journeys.md" title="Rivedi percorsi AJO">Rivedi percorsi AJO</a>
+                        <a href="../use-cases/manage-ajo-journeys.md" title="Recupera problemi percorso in anticipo">Rileva problemi di percorso in anticipo</a>
                     </p>
-                    <p class="is-size-6">Utilizza CX Enterprise MCP per accedere ai percorsi AJO, allo stato della campagna e alle condizioni di percorso dal client AI.</p>
+                    <p class="is-size-6">Monitora i percorsi attivi e i problemi operativi superficiali prima che raggiungano il pubblico.</p>
                 </div>
                 <a href="../use-cases/manage-ajo-journeys.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Inizia procedura dettagliata</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Monitora i percorsi</span>
                 </a>
             </div>
         </div>
     </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Manage AEM content with AI">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Ship content updates faster">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="../use-cases/manage-aem-content.md" title="Gestire i contenuti AEM con IA">
-                        <img class="is-bordered-r-small" src="../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png" alt="Gestire i contenuti AEM con IA"
+                    <a href="../use-cases/manage-aem-content.md" title="Spedisci aggiornamenti contenuti più rapidamente">
+                        <img class="is-bordered-r-small" src="../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png" alt="Spedisci aggiornamenti contenuti più rapidamente"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -374,22 +374,22 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../use-cases/manage-aem-content.md" title="Gestire i contenuti AEM con IA">Gestire i contenuti AEM con IA</a>
+                        <a href="../use-cases/manage-aem-content.md" title="Spedisci aggiornamenti contenuti più rapidamente">Spedisci aggiornamenti contenuti più rapidamente</a>
                     </p>
-                    <p class="is-size-6">Scopri, aggiorna e pubblica pagine e frammenti di contenuto in AEM utilizzando il linguaggio naturale.</p>
+                    <p class="is-size-6">Trova, aggiorna e pubblica più rapidamente le pagine AEM e i frammenti di contenuto, senza passare all’interfaccia di AEM.</p>
                 </div>
                 <a href="../use-cases/manage-aem-content.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Inizia procedura dettagliata</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Spedire i contenuti più velocemente</span>
                 </a>
             </div>
         </div>
     </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Optimize content based on performance data">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Close content performance gaps">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="../use-cases/optimize-content-with-performance-data.md" title="Ottimizzazione dei contenuti in base ai dati sulle prestazioni">
-                        <img class="is-bordered-r-small" src="../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png" alt="Ottimizzazione dei contenuti in base ai dati sulle prestazioni"
+                    <a href="../use-cases/optimize-content-with-performance-data.md" title="Colmare le lacune nelle prestazioni dei contenuti">
+                        <img class="is-bordered-r-small" src="../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png" alt="Colmare le lacune nelle prestazioni dei contenuti"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -397,12 +397,12 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../use-cases/optimize-content-with-performance-data.md" title="Ottimizzazione dei contenuti in base ai dati sulle prestazioni">Ottimizza il contenuto in base ai dati sulle prestazioni</a>
+                        <a href="../use-cases/optimize-content-with-performance-data.md" title="Colmare le lacune nelle prestazioni dei contenuti">Colmare le lacune nelle prestazioni dei contenuti</a>
                     </p>
-                    <p class="is-size-6">Combinando CX Enterprise MCP e AEM Content MCP Server è possibile trovare i contenuti con prestazioni insoddisfacenti e aggiornarli in un'unica sessione.</p>
+                    <p class="is-size-6">Supera i gap di conversione in CJA, tracciali sui contenuti con prestazioni inferiori in AEM e applica la correzione in una singola sessione di intelligenza artificiale.</p>
                 </div>
                 <a href="../use-cases/optimize-content-with-performance-data.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Inizia procedura dettagliata</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Colmare le lacune nelle prestazioni</span>
                 </a>
             </div>
         </div>

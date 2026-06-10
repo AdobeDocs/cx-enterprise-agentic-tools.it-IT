@@ -1,27 +1,27 @@
 ---
-title: Ottimizzazione dei contenuti in base ai dati sulle prestazioni
+title: Colmare le lacune nelle prestazioni dei contenuti con aggiornamenti basati sui dati
 description: Utilizza CJA e AEM insieme in una sessione di intelligenza artificiale per trovare campagne con gap di conversione, diagnosticare la causa e aggiornare il contenuto senza cambiare strumenti.
-last-substantial-update: 2026-06-08T00:00:00Z
+last-substantial-update: 2026-06-10T00:00:00Z
 index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1072'
 ht-degree: 2%
 
 ---
 
 
-# Ottimizzazione dei contenuti in base ai dati sulle prestazioni
-<!-- last-modified: 2026-06-08 -->
+# Colmare le lacune nelle prestazioni dei contenuti con aggiornamenti basati sui dati
+<!-- last-modified: 2026-06-10 -->
 
 ![Client AI che confronta il contenuto originale della pagina con quello aggiornato](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png)
 
-Chiudere il ciclo tra i dati sulle prestazioni della campagna e gli aggiornamenti dei contenuti significa in genere passare da uno strumento di analisi all’altro e passare al CMS. In questa procedura dettagliata viene illustrato come connettere Customer Journey Analytics e AEM nella stessa sessione di intelligenza artificiale: campagne di superficie con gap di conversione, diagnosi dei fattori che le determinano, controllo del contenuto, generazione di consigli mirati e applicazione delle modifiche senza uscire dalla conversazione.
+I gap nelle prestazioni dei contenuti costano i risultati delle campagne e, in genere, chiuderli significa passare dallo strumento di analisi al CMS. In questa procedura dettagliata viene illustrato come eseguire questa operazione in una singola sessione di intelligenza artificiale: emergere campagne con interruzioni di conversione in Customer Journey Analytics, diagnosticare la causa, esaminare i contenuti insoddisfacenti in AEM e applicare gli aggiornamenti senza uscire dalla conversazione.
 
 | Dettagli scenario | |
 | --- | --- |
-| Applicazioni aziendali CX | [Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-overview), [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/overview/introduction) |
-| Strumenti agenti | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers), [AEM Content MCP Server](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| Applicazioni aziendali CX | [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/overview/introduction) |
+| Strumenti agenti | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers), [AEM Content MCP Server](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
 | Pubblico | Responsabili delle campagne, content strategist, operazioni di marketing |
 | Prerequisito | Client di intelligenza artificiale compatibile con MCP, accesso a CJA, accesso a AEM as a Cloud Service |
 

@@ -1,11 +1,11 @@
 ---
 title: Implementare in AEM as a Cloud Service con sicurezza
 description: Controlla lo stato dell’ambiente, controlla la cronologia delle pipeline e attiva o gestisci le distribuzioni senza uscire dal client di intelligenza artificiale.
-last-substantial-update: 2026-06-09T00:00:00Z
+last-substantial-update: 2026-06-10T00:00:00Z
 index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '938'
 ht-degree: 2%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 2%
 
 <!-- last-modified: 2026-05-21 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3480350/?captions=ita&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3480340/?learn=on&enablevpops)
 
-La gestione degli ambienti Adobe Experience Manager in genere comporta l’accesso a Cloud Manager, la navigazione tra pipeline e ambienti e il passaggio di contesti per tenere traccia dello stato di distribuzione. In questa procedura dettagliata viene illustrato come gestire tali operazioni da un client di IA utilizzando AEM Cloud Manager MCP Server, in modo che sviluppatori e team operativi possano controllare lo stato, rivedere le pipeline e intervenire sui dettagli di distribuzione senza uscire dall’ambiente di IA.
+L’affidabilità dell’implementazione deriva dalla consapevolezza che l’ambiente è sano prima di inviare messaggi push. In questa procedura dettagliata viene illustrato come verificare lo stato dell’ambiente AEM, esaminare la cronologia delle pipeline e attivare le distribuzioni da un client di intelligenza artificiale utilizzando il server MCP di AEM Cloud Manager, in modo che i team possano spostarsi rapidamente senza perdere visibilità.
 
 | Dettagli scenario | |
 | --- | --- |
@@ -278,4 +278,4 @@ Pull the step logs for the last failed run. I need to see exactly what the quali
 
 | Risorsa | Cosa troverai |
 | --- | --- |
-| [Documentazione su AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service){target="_blank"} | Documentazione completa dell’applicazione AEM |
+| [Documentazione su AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service){target="_blank"} | Documentazione completa dell’applicazione AEM |
