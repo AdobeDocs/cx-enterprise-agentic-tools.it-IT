@@ -33,7 +33,7 @@ Tutte le risorse chiave di Adobe per l&#39;utilizzo di Adobe CX Enterprise Agent
 |---|---|
 | [Documentazione MCP di Analytics](https://developer.adobe.com/analytics-mcp/docs/) | Guida alla configurazione del server CJA MCP e riferimento per gli strumenti |
 | [Guide MCP di Analytics](https://developer.adobe.com/analytics-mcp/docs/guides/) | Guide d&#39;uso dettagliate per il server MCP di CJA |
-| [Documentazione di Real-Time CDP MCP](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Guida alla configurazione del server RTCDP MCP |
+| [Documentazione di Real-Time CDP MCP](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Guida alla configurazione del server RTCDP MCP |
 
 ## Competenze agente
 
@@ -74,10 +74,10 @@ Tutte le risorse chiave di Adobe per l&#39;utilizzo di Adobe CX Enterprise Agent
 
 | Risorsa | Cosa troverai |
 |---|---|
-| [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home) | Documentazione completa dell’applicazione AEP |
+| [Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/landing/home) | Documentazione completa dell’applicazione AEP |
 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home) | Documentazione completa dell’applicazione AJO |
 | [Real-Time CDP](https://experienceleague.adobe.com/it/docs/experience-platform/rtcdp/home) | Documentazione completa dell’applicazione Real-Time CDP |
-| [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing) | Documentazione completa dell’applicazione CJA |
+| [Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-landing) | Documentazione completa dell’applicazione CJA |
 | [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/landing) | Documentazione completa di Adobe Analytics |
 | [Destinazioni AEP](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/home) | Configurazione e gestione delle destinazioni |
 | [Esercitazioni AJO](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/overview) | Tutorial video e percorsi di apprendimento di AJO |
