@@ -2,11 +2,11 @@
 title: Server MCP
 description: Collegare qualsiasi client AI compatibile con MCP ai flussi di lavoro Adobe CX Enterprise utilizzando i server Model Context Protocol.
 index: false
-last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 2b270c439474350df61762753700d7a3919b0cb9
+last-substantial-update: 2026-06-15T00:00:00Z
+source-git-commit: 6140354d31e3c42d148be153227306d92c9f5f89
 workflow-type: tm+mt
-source-wordcount: '2174'
-ht-degree: 3%
+source-wordcount: '2123'
+ht-degree: 2%
 
 ---
 
@@ -46,6 +46,7 @@ https://cx-enterprise.adobe.io/mcp
 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/ajo-mcp) | Rivedi percorsi, campagne e configurazioni di canale |
 | Adobe Journey Optimizer B2B edition | Gestire percorsi B2B, programmi per account, gruppi di acquisto e personalizzazione |
 | [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/cja-mcp) | Eseguire query sui rapporti, individuare le visualizzazioni dati e creare aree di lavoro |
+| [Marketo Engage](https://experienceleague.adobe.com/it/docs/marketo-developer/marketo/mcp-server) | Gestisci programmi, campagne, lead, elenchi avanzati, e-mail e moduli |
 | [Real-Time CDP](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Verificare lo stato di attivazione del pubblico, lo stato della destinazione e lo stato del flusso di dati |
 
 Per la documentazione completa, vedere [CX Enterprise MCP](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview).
@@ -81,16 +82,6 @@ Adobe Experience Manager dispone di più server MCP per flussi di lavoro diversi
 >[!NOTE]
 >
 >L’accesso dipende dai diritti Adobe Experience Platform della tua organizzazione e dalle autorizzazioni dell’utente.
-
->[!TAB Marketo Engage]
-
-| Server MCP | Endpoint | Che cosa puoi fare |
-| --- | --- | --- |
-| [Marketo Engage](https://experienceleague.adobe.com/it/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | Gestisci programmi, campagne, lead, elenchi avanzati, e-mail e moduli |
-
->[!NOTE]
->
->Marketo Engage MCP utilizza credenziali del servizio native per Marketo, non Adobe IMS. Consulta la [documentazione del server Marketo Engage MCP](https://experienceleague.adobe.com/it/docs/marketo-developer/marketo/mcp-server) per la configurazione dell&#39;autenticazione. L’accesso dipende dalla sottoscrizione a Marketo Engage e dalle autorizzazioni dell’utente API.
 
 >[!TAB Target]
 
