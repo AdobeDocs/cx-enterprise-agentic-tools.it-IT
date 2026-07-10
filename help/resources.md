@@ -2,10 +2,9 @@
 title: Risorse
 description: Un unico punto di ingresso per tutta la documentazione, i registri, le API e le guide per sviluppatori di Adobe CX Enterprise Agentic Tools.
 last-substantial-update: 2026-05-08T00:00:00Z
-index: false
-source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
+source-git-commit: 445fd18a2b5a18ec3dcc0ec8e73ec4c020e7b265
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '555'
 ht-degree: 17%
 
 ---
@@ -33,7 +32,7 @@ Tutte le risorse chiave di Adobe per l&#39;utilizzo di Adobe CX Enterprise Agent
 |---|---|
 | [Documentazione MCP di Analytics](https://developer.adobe.com/analytics-mcp/docs/) | Guida alla configurazione del server CJA MCP e riferimento per gli strumenti |
 | [Guide MCP di Analytics](https://developer.adobe.com/analytics-mcp/docs/guides/) | Guide d&#39;uso dettagliate per il server MCP di CJA |
-| [Documentazione di Real-Time CDP MCP](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Guida alla configurazione del server RTCDP MCP |
+| [Documentazione di Real-Time CDP MCP](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/rtcdp-mcp) | Guida alla configurazione del server RTCDP MCP |
 
 ## Competenze agente
 
@@ -48,7 +47,7 @@ Tutte le risorse chiave di Adobe per l&#39;utilizzo di Adobe CX Enterprise Agent
 |---|---|
 | [API Adobe Experience Platform](https://developer.adobe.com/experience-platform-apis/) | Riferimento API di AEP: set di dati, schemi, profili, query, segmentazione |
 | [API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/) | Riferimento API di AJO : percorsi, campagne, contenuti, offer decisioning |
-| [API Customer Journey Analytics](https://developer.adobe.com/cja-apis/docs/) | Riferimento API di CJA : dati di Analytics, reporting, approfondimenti |
+| [API di Customer Journey Analytics](https://developer.adobe.com/cja-apis/docs/) | Riferimento API di CJA : dati di Analytics, reporting, approfondimenti |
 | [API di raccolta dati](https://developer.adobe.com/data-collection-apis/docs/) | acquisizione di Edge Network, raccolta di eventi in tempo reale, streaming |
 | [API di eventi Adobe](https://developer.adobe.com/events/docs/) | Integrazioni basate su eventi, webhook, trigger di automazione |
 | [SDK client Adobe](https://developer.adobe.com/client-sdks/home/) | SDK per dispositivi mobili, SDK edge e messaggistica in-app |
@@ -74,10 +73,10 @@ Tutte le risorse chiave di Adobe per l&#39;utilizzo di Adobe CX Enterprise Agent
 
 | Risorsa | Cosa troverai |
 |---|---|
-| [Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/landing/home) | Documentazione completa dell’applicazione AEP |
+| [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home) | Documentazione completa dell’applicazione AEP |
 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home) | Documentazione completa dell’applicazione AJO |
 | [Real-Time CDP](https://experienceleague.adobe.com/it/docs/experience-platform/rtcdp/home) | Documentazione completa dell’applicazione Real-Time CDP |
-| [Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-landing) | Documentazione completa dell’applicazione CJA |
+| [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing) | Documentazione completa dell’applicazione CJA |
 | [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/landing) | Documentazione completa di Adobe Analytics |
 | [Destinazioni AEP](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/home) | Configurazione e gestione delle destinazioni |
 | [Esercitazioni AJO](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/overview) | Tutorial video e percorsi di apprendimento di AJO |
