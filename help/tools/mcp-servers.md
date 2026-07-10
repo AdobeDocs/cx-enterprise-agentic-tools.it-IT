@@ -14,7 +14,7 @@ ht-degree: 6%
 
 <!-- last-modified: 2026-06-11 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491320/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491330/?captions=ita&learn=on&enablevpops)
 
 I server Adobe CX Enterprise MCP offrono a qualsiasi client di intelligenza artificiale compatibile un accesso diretto e controllato ai dati e ai flussi di lavoro di Adobe. Connettiti una volta e puoi eseguire query sulle prestazioni della campagna, attivare tipi di pubblico, esaminare percorsi, gestire contenuti e altro ancora, il tutto in un linguaggio semplice, senza uscire dall’ambiente AI. Poiché i server MCP si trovano tra il client di intelligenza artificiale e i sistemi sottostanti di Adobe, si ottiene flessibilità in linguaggio naturale mantenendo attivi i controlli di accesso e la governance dei dati della propria organizzazione.
 
