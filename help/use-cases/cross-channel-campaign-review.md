@@ -2,8 +2,7 @@
 title: Eseguire una revisione di una campagna cross-channel
 description: Utilizza CX Enterprise MCP in una singola sessione di intelligenza artificiale per ottenere una visione unificata dello stato delle campagne AJO, CJA e Real-Time CDP tra percorsi, pubblico e prestazioni.
 last-substantial-update: 2026-06-09T00:00:00Z
-index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
 workflow-type: tm+mt
 source-wordcount: '1412'
 ht-degree: 5%
