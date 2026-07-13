@@ -2,9 +2,9 @@
 title: Eseguire una revisione di una campagna cross-channel
 description: Utilizza CX Enterprise MCP in una singola sessione di intelligenza artificiale per ottenere una visione unificata dello stato delle campagne AJO, CJA e Real-Time CDP tra percorsi, pubblico e prestazioni.
 last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1415'
 ht-degree: 5%
 
 ---
@@ -14,7 +14,9 @@ ht-degree: 5%
 
 <!-- last-modified: 2026-05-21 -->
 
-![Esegui una revisione campagna cross-channel](https://placehold.co/1600x900?text=Cross-Channel+Campaign+Review)
+![Esegui una revisione campagna cross-channel](https://placehold.co/1600x900?text=Cross-Channel+Campaign+Review){zoomable="yes"}
+
+*Selezionare per ingrandire.*
 
 Un quadro completo dello stato della campagna richiede dati provenienti da più sistemi: percorsi attivi da AJO, stato di attivazione del pubblico da Real-Time CDP e metriche delle prestazioni da CJA. In questa procedura dettagliata viene illustrato come connettere tutti e tre in una singola sessione di intelligenza artificiale, in modo da poter passare dallo stato del percorso all’integrità del pubblico ai trend di prestazioni in una conversazione anziché in tre strumenti separati.
 

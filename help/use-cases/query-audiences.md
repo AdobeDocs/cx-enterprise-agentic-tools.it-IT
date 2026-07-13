@@ -2,9 +2,9 @@
 title: Comprendere i tipi di pubblico e dove vengono attivati
 description: Utilizza CX Enterprise MCP per monitorare lo stato di attivazione del pubblico, controllare lo stato della destinazione e i problemi della superficie prima che influiscano sulle campagne.
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '884'
 ht-degree: 2%
 
 ---
@@ -14,7 +14,9 @@ ht-degree: 2%
 
 <!-- last-modified: 2026-06-04 -->
 
-![Il client di IA dà una strategia di pubblico con priorità con consigli di attivazione](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png)
+![Il client di IA dà una strategia di pubblico con priorità con consigli di attivazione](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png){zoomable="yes"}
+
+*Selezionare per ingrandire.*
 
 È fondamentale sapere quali tipi di pubblico sono attivi, dove scorrono e se le destinazioni sono sane prima che venga avviata una campagna o quando le prestazioni di una sono insoddisfacenti. In questa procedura dettagliata viene illustrato come ottenere un quadro completo dell&#39;attivazione tramite un client di intelligenza artificiale, utilizzando CX Enterprise MCP per ottenere in pochi secondi lo stato del pubblico e lo stato di integrità della destinazione, senza aprire Real-Time CDP.
 
@@ -78,7 +80,9 @@ What audiences are currently available and what customer behaviors do they repre
 
 +++Vedi una risposta di esempio
 
-![Pubblico disponibile dell&#39;elenco del client di IA e comportamenti dei clienti che rappresenta](../assets/use-cases/query-audiences/query-audiences-step1-audience-list.png)
+![Pubblico disponibile dell&#39;elenco del client di IA e comportamenti dei clienti che rappresenta](../assets/use-cases/query-audiences/query-audiences-step1-audience-list.png){zoomable="yes"}
+
+*Selezionare per ingrandire.*
 
 +++
 
@@ -93,7 +97,9 @@ Which audiences are the largest and what makes them valuable?
 
 +++Vedi una risposta di esempio
 
-![Client AI che identifica i tipi di pubblico più grandi e spiega cosa li rende preziosi](../assets/use-cases/query-audiences/query-audiences-step2.gif)
+![Client AI che identifica i tipi di pubblico più grandi e spiega cosa li rende preziosi](../assets/use-cases/query-audiences/query-audiences-step2.gif){zoomable="yes"}
+
+*Selezionare per ingrandire.*
 
 +++
 
@@ -108,7 +114,9 @@ Where are our audiences currently being activated and to which destinations?
 
 +++Vedi una risposta di esempio
 
-![Il client di IA mostra lo stato di attivazione del pubblico e la mappatura della destinazione](../assets/use-cases/query-audiences/query-audiences-step3.gif)
+![Il client di IA mostra lo stato di attivazione del pubblico e la mappatura della destinazione](../assets/use-cases/query-audiences/query-audiences-step3.gif){zoomable="yes"}
+
+*Selezionare per ingrandire.*
 
 +++
 
@@ -123,7 +131,9 @@ If you were our audience strategist, what would you prioritize next and why?
 
 +++Vedi una risposta di esempio
 
-![Il client di IA dà consigli sulla strategia del pubblico con priorità](../assets/use-cases/query-audiences/query-audiences-step4.gif)
+![Il client di IA dà consigli sulla strategia del pubblico con priorità](../assets/use-cases/query-audiences/query-audiences-step4.gif){zoomable="yes"}
+
+*Selezionare per ingrandire.*
 
 +++
 

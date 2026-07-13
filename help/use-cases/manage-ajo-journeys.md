@@ -2,9 +2,9 @@
 title: Rileva i problemi di percorso prima che influiscano sui clienti
 description: Utilizza CX Enterprise MCP per monitorare i percorsi AJO attivi, esaminare la configurazione delle campagne e risolvere i problemi operativi prima che raggiungano il pubblico.
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '997'
 ht-degree: 2%
 
 ---
@@ -13,7 +13,9 @@ ht-degree: 2%
 # Rileva i problemi di percorso prima che influiscano sui clienti
 <!-- last-modified: 2026-06-08 -->
 
-![Client IA che riepiloga la strategia di campagna e percorso con un riepilogo esecutivo](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png)
+![Client IA che riepiloga la strategia di campagna e percorso con un riepilogo esecutivo](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png){zoomable="yes"}
+
+*Selezionare per ingrandire.*
 
 I problemi del percorso che non vengono rilevati possono raggiungere i clienti prima che qualcuno se ne accorga. In questa procedura dettagliata viene illustrato come essere sempre all&#39;avanguardia controllando i percorsi AJO attivi, esaminando la configurazione delle campagne e individuando i problemi operativi attraverso un client AI, utilizzando CX Enterprise MCP per ottenere risposte in linguaggio semplice senza aprire Adobe Journey Optimizer.
 
@@ -83,7 +85,9 @@ What customer journeys are currently available and what business objectives do t
 
 +++Vedi una risposta di esempio
 
-![Elenco dei percorsi di clienti di IA disponibili e dei relativi obiettivi aziendali](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step1.gif)
+![Elenco dei percorsi di clienti di IA disponibili e dei relativi obiettivi aziendali](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step1.gif){zoomable="yes"}
+
+*Selezionare per ingrandire.*
 
 +++
 
@@ -99,7 +103,9 @@ Walk me through the [journey name] journey and explain the customer experience.
 
 +++Vedi una risposta di esempio
 
-![Il client AI illustra i passaggi di percorso e l&#39;esperienza del cliente per i nuovi clienti](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step2-welcome-journey.png)
+![Il client AI illustra i passaggi di percorso e l&#39;esperienza del cliente per i nuovi clienti](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step2-welcome-journey.png){zoomable="yes"}
+
+*Selezionare per ingrandire.*
 
 +++
 
@@ -119,7 +125,9 @@ Show me our campaigns, the audiences they target, and the outcomes they're desig
 
 +++Vedi una risposta di esempio
 
-![Il client AI elenca le campagne attive con il targeting del pubblico e i risultati previsti](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step3.gif)
+![Il client AI elenca le campagne attive con il targeting del pubblico e i risultati previsti](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step3.gif){zoomable="yes"}
+
+*Selezionare per ingrandire.*
 
 +++
 
@@ -135,7 +143,9 @@ How do our campaigns and journeys work together to improve customer engagement?
 
 +++Vedi una risposta di esempio
 
-![Client AI che spiega la relazione tra campagne e percorsi](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step4-connection.png)
+![Client AI che spiega la relazione tra campagne e percorsi](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step4-connection.png){zoomable="yes"}
+
+*Selezionare per ingrandire.*
 
 +++
 
@@ -151,7 +161,9 @@ If you were our lifecycle marketing manager, what would you prioritize next and 
 
 +++Vedi una risposta di esempio
 
-![Il client AI dà priorità ai consigli di marketing per il ciclo di vita](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5.gif)
+![Il client AI dà priorità ai consigli di marketing per il ciclo di vita](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5.gif){zoomable="yes"}
+
+*Selezionare per ingrandire.*
 
 +++
 
