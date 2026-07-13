@@ -2,9 +2,9 @@
 title: Colmare le lacune nelle prestazioni dei contenuti con aggiornamenti basati sui dati
 description: Utilizza CJA e AEM insieme in una sessione di intelligenza artificiale per trovare campagne con gap di conversione, diagnosticare la causa e aggiornare il contenuto senza cambiare strumenti.
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1090'
 ht-degree: 2%
 
 ---
@@ -13,14 +13,16 @@ ht-degree: 2%
 # Colmare le lacune nelle prestazioni dei contenuti con aggiornamenti basati sui dati
 <!-- last-modified: 2026-06-10 -->
 
-![Client AI che confronta il contenuto originale della pagina con quello aggiornato](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png)
+![Client AI che confronta il contenuto originale della pagina con quello aggiornato](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png){zoomable="yes"}
+
+*Selezionare per ingrandire.*
 
 I gap nelle prestazioni dei contenuti costano i risultati delle campagne e, in genere, chiuderli significa passare dallo strumento di analisi al CMS. In questa procedura dettagliata viene illustrato come eseguire questa operazione in una singola sessione di intelligenza artificiale: emergere campagne con interruzioni di conversione in Customer Journey Analytics, diagnosticare la causa, esaminare i contenuti insoddisfacenti in AEM e applicare gli aggiornamenti senza uscire dalla conversazione.
 
 | Dettagli scenario | |
 | --- | --- |
-| Applicazioni aziendali CX | [Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-overview), [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/overview/introduction) |
-| Strumenti agenti | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers), [AEM Content MCP Server](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| Applicazioni aziendali CX | [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/overview/introduction) |
+| Strumenti agenti | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers), [AEM Content MCP Server](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
 | Pubblico | Responsabili delle campagne, content strategist, operazioni di marketing |
 | Prerequisito | Client di intelligenza artificiale compatibile con MCP, accesso a CJA, accesso a AEM as a Cloud Service |
 
@@ -94,7 +96,9 @@ Which campaigns have strong click-through but low conversion in the last 30 days
 
 +++Vedi una risposta di esempio
 
-![Campagne di visualizzazione client di IA con elevato click-through ma bassa conversione da CJA](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step1-campaigns.png)
+![Campagne di visualizzazione client di IA con elevato click-through ma bassa conversione da CJA](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step1-campaigns.png){zoomable="yes"}
+
+*Selezionare per ingrandire.*
 
 +++
 
@@ -110,7 +114,9 @@ What's causing the conversion drop-off, is it device, segment, or content?
 
 +++Vedi una risposta di esempio
 
-![Client AI che diagnostica il calo di conversione per dispositivo, segmento e fattori di contenuto](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step2-diagnosis.png)
+![Client AI che diagnostica il calo di conversione per dispositivo, segmento e fattori di contenuto](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step2-diagnosis.png){zoomable="yes"}
+
+*Selezionare per ingrandire.*
 
 +++
 
@@ -126,7 +132,9 @@ Show me the Bali Surf Camp page.
 
 +++Vedi una risposta di esempio
 
-![Client AI che mostra il contenuto corrente della pagina di destinazione da AEM](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step3-page-content.png)
+![Client AI che mostra il contenuto corrente della pagina di destinazione da AEM](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step3-page-content.png){zoomable="yes"}
+
+*Selezionare per ingrandire.*
 
 +++
 
@@ -142,7 +150,9 @@ Which content sections are underperforming, and what changes would you recommend
 
 +++Vedi una risposta di esempio
 
-![Il client di IA identifica le sezioni di contenuto insoddisfacenti e consiglia modifiche specifiche](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step4.gif)
+![Il client di IA identifica le sezioni di contenuto insoddisfacenti e consiglia modifiche specifiche](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step4.gif){zoomable="yes"}
+
+*Selezionare per ingrandire.*
 
 +++
 
@@ -158,7 +168,9 @@ Create an optimized version of the Bali Surf Camp page and summarize the propose
 
 +++Vedi una risposta di esempio
 
-![Client AI che crea una versione ottimizzata della pagina e riepiloga le modifiche](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5.gif)
+![Client AI che crea una versione ottimizzata della pagina e riepiloga le modifiche](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5.gif){zoomable="yes"}
+
+*Selezionare per ingrandire.*
 
 +++
 

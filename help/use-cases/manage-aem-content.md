@@ -2,10 +2,10 @@
 title: Aggiornamenti più rapidi per mantenere aggiornati i contenuti
 description: Utilizza AEM Content MCP Server per trovare, rivedere, aggiornare e pubblicare contenuti AEM senza dover passare da un strumento all’altro.
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 3%
+source-wordcount: '1001'
+ht-degree: 2%
 
 ---
 
@@ -14,14 +14,16 @@ ht-degree: 3%
 
 <!-- last-modified: 2026-05-22 -->
 
-![Client di IA che conferma la pubblicazione della pagina e restituisce l&#39;URL live](../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png)
+![Client di IA che conferma la pubblicazione della pagina e restituisce l&#39;URL live](../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png){zoomable="yes"}
+
+*Selezionare per ingrandire.*
 
 Mantenere aggiornato il contenuto del sito web è una pressione operativa costante. Questa procedura dettagliata mostra come i team di contenuto possono trovare, rivedere, aggiornare e pubblicare pagine e frammenti di contenuto di AEM tramite un client AI, utilizzando AEM Content MCP Server per ridurre il tempo tra una decisione sui contenuti e un aggiornamento live.
 
 | Dettagli scenario | |
 | --- | --- |
 | Applicazioni aziendali CX | [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/overview/introduction) |
-| Strumenti agenti | [Server AEM Content MCP](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| Strumenti agenti | [Server AEM Content MCP](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
 | Pubblico | Manager contenuti, team di marketing |
 | Prerequisito | Client di intelligenza artificiale compatibile con MCP, accesso AEM as a Cloud Service |
 
@@ -84,7 +86,9 @@ From WKND Dev environment, find all ski related content.
 
 +++Vedi una risposta di esempio
 
-![Client IA che mostra i risultati della ricerca di contenuti ski dall&#39;ambiente WKND Dev AEM](../assets/use-cases/manage-aem-content/manage-aem-content-step1-find-ski.png)
+![Client IA che mostra i risultati della ricerca di contenuti ski dall&#39;ambiente WKND Dev AEM](../assets/use-cases/manage-aem-content/manage-aem-content-step1-find-ski.png){zoomable="yes"}
+
+*Selezionare per ingrandire.*
 
 +++
 
@@ -99,7 +103,9 @@ Show me the US English Home Page.
 
 +++Vedi una risposta di esempio
 
-![Client AI che mostra la struttura del contenuto della home page inglese USA da AEM](../assets/use-cases/manage-aem-content/manage-aem-content-step2-home-page.png)
+![Client AI che mostra la struttura del contenuto della home page inglese USA da AEM](../assets/use-cases/manage-aem-content/manage-aem-content-step2-home-page.png){zoomable="yes"}
+
+*Selezionare per ingrandire.*
 
 +++
 
@@ -114,7 +120,9 @@ Improve the Hero CTAs.
 
 +++Vedi una risposta di esempio
 
-![Client AI che propone una copia Hero CTA migliorata con una richiesta di conferma prima di applicare le modifiche](../assets/use-cases/manage-aem-content/manage-aem-content-step3.gif)
+![Client AI che propone una copia Hero CTA migliorata con una richiesta di conferma prima di applicare le modifiche](../assets/use-cases/manage-aem-content/manage-aem-content-step3.gif){zoomable="yes"}
+
+*Selezionare per ingrandire.*
 
 +++
 
@@ -133,7 +141,9 @@ Publish the changes and share the URL.
 
 +++Vedi una risposta di esempio
 
-![Client di IA che conferma la pubblicazione della pagina e restituisce l&#39;URL live](../assets/use-cases/manage-aem-content/manage-aem-content-step4.gif)
+![Client di IA che conferma la pubblicazione della pagina e restituisce l&#39;URL live](../assets/use-cases/manage-aem-content/manage-aem-content-step4.gif){zoomable="yes"}
+
+*Selezionare per ingrandire.*
 
 +++
 
@@ -264,4 +274,4 @@ Promote the May Updates launch to production.
 | Risorsa | Cosa troverai |
 | --- | --- |
 | [Server AEM Content MCP nel Registro AI](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp){target="_blank"} | Elenco strumenti e disponibilità |
-| [Documentazione su AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service){target="_blank"} | Documentazione completa dell’applicazione AEM |
+| [Documentazione su AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service){target="_blank"} | Documentazione completa dell’applicazione AEM |
