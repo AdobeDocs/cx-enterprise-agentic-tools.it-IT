@@ -1,8 +1,8 @@
 ---
 title: Comprendere i tipi di pubblico e dove vengono attivati
-description: Utilizza CX Enterprise MCP per monitorare lo stato di attivazione del pubblico, controllare lo stato della destinazione e i problemi della superficie prima che influiscano sulle campagne.
-last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
+description: Utilizza CX Customer Gateway per monitorare lo stato di attivazione del pubblico, controllare lo stato della destinazione e i problemi di superficie prima che influiscano sulle campagne.
+last-substantial-update: 2026-07-14T00:00:00Z
+source-git-commit: 4f557937701441bcc34878e3cd13423ce35487ba
 workflow-type: tm+mt
 source-wordcount: '884'
 ht-degree: 2%
@@ -18,12 +18,12 @@ ht-degree: 2%
 
 *Selezionare per ingrandire.*
 
-È fondamentale sapere quali tipi di pubblico sono attivi, dove scorrono e se le destinazioni sono sane prima che venga avviata una campagna o quando le prestazioni di una sono insoddisfacenti. In questa procedura dettagliata viene illustrato come ottenere un quadro completo dell&#39;attivazione tramite un client di intelligenza artificiale, utilizzando CX Enterprise MCP per ottenere in pochi secondi lo stato del pubblico e lo stato di integrità della destinazione, senza aprire Real-Time CDP.
+È fondamentale sapere quali tipi di pubblico sono attivi, dove scorrono e se le destinazioni sono sane prima che venga avviata una campagna o quando le prestazioni di una sono insoddisfacenti. In questa procedura dettagliata viene illustrato come ottenere un&#39;immagine di attivazione completa tramite un client di intelligenza artificiale, utilizzando il gateway di lavoro CX per ottenere lo stato del pubblico e lo stato di integrità della destinazione in pochi secondi, senza aprire Real-Time CDP.
 
 | Dettagli scenario | |
 | --- | --- |
 | Applicazioni aziendali CX | [Real-Time Customer Data Platform (Real-Time CDP)](https://experienceleague.adobe.com/it/docs/experience-platform/rtcdp/home) |
-| Strumenti agenti | [MCP aziendale CX](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| Strumenti agenti | [Gateway di lavoro CX](../tools/mcp-servers.md#cx-coworker-gateway) |
 | Pubblico | Addetti al marketing, analisti, operatori |
 | Prerequisito | Client di intelligenza artificiale compatibile con MCP, accesso Real-Time CDP |
 
@@ -35,31 +35,31 @@ Ogni passaggio mostra un prompt rappresentativo e un esempio di risposta di IA. 
 
 >[!TAB Claude.ai]
 
-Collegare CX Enterprise MCP come connettore personalizzato per accedere agli strumenti Real-Time CDP.
+Collegare il gateway di lavoro CX come connettore personalizzato per accedere agli strumenti Real-Time CDP.
 
 1. Vai a **Impostazioni > Integrazioni** in Claude.ai.
-2. Seleziona **Aggiungi connettore personalizzato** e immetti l&#39;URL del server: `https://cx-enterprise.adobe.io/mcp`
+2. Seleziona **Aggiungi connettore personalizzato** e immetti l&#39;URL del server: `https://cx-coworker-gateway.adobe.io/mcp`
 3. Seleziona **Connetti** e accedi con il tuo Adobe ID.
 
 Configurazione completa: [Documentazione dei connettori personalizzati Claude.ai](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB ChatGPT]
 
-Collegare CX Enterprise MCP utilizzando la modalità di sviluppo ChatGPT (è necessario un piano Pro, Plus, Business, Enterprise o Education).
+Collegare il gateway del Coworker CX utilizzando la modalità sviluppatore ChatGPT (è necessario un piano Pro, Plus, Business, Enterprise o Education).
 
 1. Abilita la **modalità sviluppatore** nelle **impostazioni ChatGPT**.
 2. Vai a **Impostazioni > Integrazioni** e seleziona **Aggiungi connettore personalizzato > Server MCP remoto**.
-3. Immettere l&#39;URL del server: `https://cx-enterprise.adobe.io/mcp`
+3. Immettere l&#39;URL del server: `https://cx-coworker-gateway.adobe.io/mcp`
 4. Seleziona **Connetti** e accedi con il tuo Adobe ID.
 
 Configurazione completa: [Documentazione MCP di ChatGPT](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB Altri client di IA]
 
-Usare Gemini, Microsoft Copilot, Cursore, Claude Code o un altro ambiente compatibile con MCP? Connettersi a CX Enterprise MCP utilizzando questo endpoint:
+Usare Gemini, Microsoft Copilot, Cursore, Claude Code o un altro ambiente compatibile con MCP? Connettersi al gateway di lavoro CX utilizzando questo endpoint:
 
 ```
-https://cx-enterprise.adobe.io/mcp
+https://cx-coworker-gateway.adobe.io/mcp
 ```
 
 Istruzioni di installazione complete per tutti i client supportati: [Connetti al client di intelligenza artificiale](../tools/mcp-servers.md)
@@ -123,7 +123,7 @@ Where are our audiences currently being activated and to which destinations?
 
 ## Passaggio 4: ottenere consigli strategici
 
-Gli strumenti RTCDP di CX Enterprise MCP sono di sola lettura e presentano lo stato di attivazione, lo stato della destinazione e i dati del flusso di dati, ma non modificano la configurazione. Dopo aver identificato un problema, la correzione si verifica nell’applicazione.
+Gli strumenti RTCDP di CX Customer Gateway sono di sola lettura e presentano lo stato di attivazione, lo stato della destinazione e i dati del flusso di dati, ma non modificano la configurazione. Dopo aver identificato un problema, la correzione si verifica nell’applicazione.
 
 ```
 If you were our audience strategist, what would you prioritize next and why?
@@ -140,7 +140,7 @@ If you were our audience strategist, what would you prioritize next and why?
 
 >[!NOTE]
 >
->Gli strumenti RTCDP di CX Enterprise MCP presentano i dati di destinazione e attivazione ma non possono modificare la configurazione di destinazione, le definizioni dei segmenti o le impostazioni dei flussi di dati. I passaggi di correzione si verificano nell’applicazione Real-Time CDP.
+>Gli strumenti RTCDP del gateway del Coworker CX presentano i dati di destinazione e attivazione ma non possono modificare la configurazione di destinazione, le definizioni dei segmenti o le impostazioni dei flussi di dati. I passaggi di correzione si verificano nell’applicazione Real-Time CDP.
 
 ## Risultati ottenuti
 
@@ -148,7 +148,7 @@ Hai collegato un client di intelligenza artificiale a Real-Time CDP e hai creato
 
 ## Più risultati da ottenere
 
-Gli strumenti Real-Time CDP di CX Enterprise MCP supportano un&#39;ampia gamma di query di pubblico e attivazione. Espandi uno scenario qui sotto per visualizzare i prompt che puoi provare nella stessa sessione.
+Gli strumenti Real-Time CDP del gateway del Coworker CX supportano un&#39;ampia gamma di query di pubblico e di attivazione. Espandi uno scenario qui sotto per visualizzare i prompt che puoi provare nella stessa sessione.
 
 +++Scopri esattamente cosa sta fluendo dove prima dell’invio di una campagna
 

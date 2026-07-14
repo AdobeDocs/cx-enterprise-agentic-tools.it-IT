@@ -1,8 +1,8 @@
 ---
 title: Strumenti di Adobe CX Enterprise Agent
 description: Collegare gli agenti di intelligenza artificiale e gli strumenti di sviluppo alle funzionalità di Adobe CX Enterprise utilizzando i server MCP, le competenze degli agenti e le API.
-last-substantial-update: 2026-06-08T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+last-substantial-update: 2026-07-14T00:00:00Z
+source-git-commit: 4f557937701441bcc34878e3cd13423ce35487ba
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 2%
@@ -14,12 +14,12 @@ ht-degree: 2%
 
 <!-- last-modified: 2026-06-08 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491252/?captions=ita&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491235/?learn=on&enablevpops)
 
 Con AI puoi diventare il tuo collaboratore per Adobe CX Enterprise. Connetti il tuo client di intelligenza artificiale a campagne, tipi di pubblico, percorsi e contenuti. Interagisci con loro in linguaggio semplice da qualsiasi strumento già utilizzato. Nessuna nuova interfaccia, nessun cambio di contesto, nessuna codifica necessaria per iniziare.
 
 >[!TIP]
->**Inizia con CX Enterprise MCP.** Una connessione consente al client di intelligenza artificiale di accedere a Adobe Journey Optimizer, Customer Journey Analytics e Real-Time CDP in base alle licenze della tua organizzazione. [Connetti ora](tools/mcp-servers.md#cx-enterprise-mcp-servers)
+>**Inizia con il gateway di lavoro CX.** Una connessione consente al client di intelligenza artificiale di accedere a Adobe Journey Optimizer, Customer Journey Analytics e Real-Time CDP in base alle licenze della tua organizzazione. [Connetti ora](tools/mcp-servers.md#cx-coworker-gateway)
 
 <!--
 CARDS
@@ -122,7 +122,7 @@ CARDS
 
 >[!TAB Server MCP]
 
-Utilizzare qualsiasi client AI compatibile per accedere alle applicazioni CX Enterprise in linguaggio semplice. Non è richiesta alcuna codifica. Inizia con CX Enterprise MCP per una singola connessione ad AJO, CJA e Real-Time CDP, oppure per collegarti direttamente ad AEM e ad altre applicazioni.
+Utilizzare qualsiasi client AI compatibile per accedere alle applicazioni CX Enterprise in linguaggio semplice. Non è richiesta alcuna codifica. Iniziare a utilizzare il gateway di lavoro CX per una singola connessione ad AJO, CJA e Real-Time CDP o connettersi direttamente ad AEM e ad altre applicazioni.
 
 - Connessione in pochi minuti da Claude, Cursor, ChatGPT e altri client compatibili con MCP
 - Eseguire query su campagne, tipi di pubblico e dati di percorso utilizzando il linguaggio naturale
