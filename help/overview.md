@@ -14,7 +14,7 @@ ht-degree: 2%
 
 <!-- last-modified: 2026-06-08 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491235/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491252/?captions=ita&learn=on&enablevpops)
 
 Con AI puoi diventare il tuo collaboratore per Adobe CX Enterprise. Connetti il tuo client di intelligenza artificiale a campagne, tipi di pubblico, percorsi e contenuti. Interagisci con loro in linguaggio semplice da qualsiasi strumento già utilizzato. Nessuna nuova interfaccia, nessun cambio di contesto, nessuna codifica necessaria per iniziare.
 
