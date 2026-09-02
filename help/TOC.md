@@ -2,7 +2,8 @@
 user-guide-title: Strumenti di Adobe CX Enterprise Agent
 breadcrumb-title: Strumenti agenti
 user-guide-description: Collega agenti IA e strumenti di sviluppo alle funzionalità di Adobe CX Enterprise utilizzando server MCP, competenze agente e API.
-feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
+feature_v2:
+  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
 source-git-commit: 5f36ddaa43f8b0dc744108c96f23799af7976576
 workflow-type: tm+mt
 source-wordcount: 74
