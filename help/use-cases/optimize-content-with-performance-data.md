@@ -19,7 +19,7 @@ I gap nelle prestazioni dei contenuti costano i risultati delle campagne e, in g
 
 | Dettagli scenario | |
 | --- | --- |
-| Applicazioni aziendali CX | [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/overview/introduction) |
+| Applicazioni aziendali CX | [Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-overview), [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/overview/introduction) |
 | Strumenti agentici | [CX Enterprise Coworker](https://experienceleague.adobe.com/it/docs/cx-enterprise-coworker/content/home) o [Customer Journey Analytics MCP Server](../tools/mcp-servers.md) e [AEM MCP Server](https://experienceleague.adobe.com/it/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview) |
 | Pubblico | Responsabili delle campagne, content strategist, operazioni di marketing |
 | Prerequisito | Client di intelligenza artificiale compatibile con MCP, accesso a CJA, accesso a AEM as a Cloud Service |
