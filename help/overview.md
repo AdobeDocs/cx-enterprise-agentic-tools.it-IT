@@ -1,25 +1,23 @@
 ---
 title: Strumenti di Adobe CX Enterprise Agent
-description: Collegare gli agenti di intelligenza artificiale e gli strumenti di sviluppo alle funzionalità di Adobe CX Enterprise utilizzando i server MCP, le competenze degli agenti e le API.
-last-substantial-update: 2026-07-14T00:00:00Z
-source-git-commit: 4f557937701441bcc34878e3cd13423ce35487ba
+description: Collega agenti IA e strumenti di sviluppo alle funzionalità di Adobe CX Enterprise utilizzando server MCP, competenze agente e API.
+last-substantial-update: 2026-09-16
+source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 2%
-
+source-wordcount: '809'
+ht-degree: 6%
 ---
-
 
 # Strumenti di Adobe CX Enterprise Agent
 
 <!-- last-modified: 2026-06-08 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491252/?captions=ita&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491235/?learn=on&enablevpops)
 
 Con AI puoi diventare il tuo collaboratore per Adobe CX Enterprise. Connetti il tuo client di intelligenza artificiale a campagne, tipi di pubblico, percorsi e contenuti. Interagisci con loro in linguaggio semplice da qualsiasi strumento già utilizzato. Nessuna nuova interfaccia, nessun cambio di contesto, nessuna codifica necessaria per iniziare.
 
 >[!TIP]
->**Inizia con il gateway di lavoro CX.** Una connessione consente al client di intelligenza artificiale di accedere a Adobe Journey Optimizer, Customer Journey Analytics e Real-Time CDP in base alle licenze della tua organizzazione. [Connetti ora](tools/mcp-servers.md#cx-coworker-gateway)
+>**Inizia con CX Enterprise Coworker.** Si connette alle applicazioni CX Enterprise senza necessità di configurazione del server o del client AI. [Prova CX Enterprise Coworker](https://experienceleague.adobe.com/it/docs/cx-enterprise-coworker/content/home)
 
 <!--
 CARDS
@@ -63,7 +61,7 @@ CARDS
                 </div>
                 <a href="tools/mcp-servers.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Esplora server MCP</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -86,7 +84,7 @@ CARDS
                 </div>
                 <a href="tools/agent-skills.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Esplora le abilità dell'agente</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -109,7 +107,7 @@ CARDS
                 </div>
                 <a href="tools/apis.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Esplora le API per i generatori</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -122,7 +120,7 @@ CARDS
 
 >[!TAB Server MCP]
 
-Utilizzare qualsiasi client AI compatibile per accedere alle applicazioni CX Enterprise in linguaggio semplice. Non è richiesta alcuna codifica. Iniziare a utilizzare il gateway di lavoro CX per una singola connessione ad AJO, CJA e Real-Time CDP o connettersi direttamente ad AEM e ad altre applicazioni.
+Utilizzare qualsiasi client AI compatibile per accedere alle applicazioni CX Enterprise in linguaggio semplice. Non è richiesta alcuna codifica. Inizia con CX Enterprise Coworker per il percorso più veloce tra le applicazioni, oppure connettiti direttamente ad AJO, CJA, AEM e altre applicazioni con il proprio server MCP.
 
 - Connessione in pochi minuti da Claude, Cursor, ChatGPT e altri client compatibili con MCP
 - Eseguire query su campagne, tipi di pubblico e dati di percorso utilizzando il linguaggio naturale
@@ -191,7 +189,7 @@ CARDS
                 </div>
                 <a href="use-cases/analyze-campaign-performance.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Informazioni sulla campagna Surface</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -214,7 +212,7 @@ CARDS
                 </div>
                 <a href="use-cases/manage-aem-content.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Spedire i contenuti più velocemente</span>
-                
+                </a>
             </div>
         </div>
     </div>
