@@ -1,20 +1,16 @@
 ---
 title: Server MCP
 description: Collegare qualsiasi client AI compatibile con MCP ai flussi di lavoro Adobe CX Enterprise utilizzando i server Model Context Protocol.
-last-substantial-update: 2026-07-14T00:00:00Z
-source-git-commit: a619c651d13834f53ecf1dd524aae3e7e5efcca5
+last-substantial-update: 2026-09-16
+source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
 workflow-type: tm+mt
-source-wordcount: '2422'
+source-wordcount: '2400'
 ht-degree: 6%
-
 ---
-
 
 # Server MCP
 
-<!-- last-modified: 2026-06-11 -->
-
->[!VIDEO](https://video.tv.adobe.com/v/3491330/?captions=ita&learn=on&enablevpops)
+<!-- last-modified: 2026-09-16 -->
 
 I server MCP di Adobe forniscono a qualsiasi client di intelligenza artificiale compatibile un accesso diretto e gestito ai dati e ai flussi di lavoro di Adobe. Connettiti una volta e puoi eseguire query sulle prestazioni della campagna, attivare tipi di pubblico, esaminare percorsi, gestire contenuti e altro ancora, il tutto in un linguaggio semplice, senza uscire dall’ambiente AI. Poiché i server MCP si trovano tra il client di intelligenza artificiale e i sistemi sottostanti di Adobe, si ottiene flessibilità in linguaggio naturale mantenendo attivi i controlli di accesso e la governance dei dati della propria organizzazione.
 
@@ -24,94 +20,37 @@ I server Adobe MCP seguono lo standard [Model Context Protocol](https://modelcon
 
 >[!CONTEXTUALHELP]
 >id="cx-enterprise-agentic-tools_mcp_servers_cx-enterprise"
->title="CX Coworker Gateway"
->abstract="Le applicazioni CX Enterprise, accessibili tramite un unico endpoint MCP. Chiedi, analizza ed esegui azioni utilizzando un linguaggio semplice dai tuoi client IA."
->additional-url="https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview" text="Documentazione di CX Coworker Gateway"
+>title="CX Enterprise Coworker"
+>abstract="Chiedere, analizzare e intervenire sulle applicazioni CX Enterprise in linguaggio semplice, senza alcuna configurazione del server. Per le singole applicazioni con il proprio server MCP, è sufficiente connettersi direttamente."
+>additional-url="https://experienceleague.adobe.com/it/docs/cx-enterprise-coworker/content/home" text="Documentazione di CX Enterprise Coworker"
 
-![Il gateway di lavoro CX collega il client di intelligenza artificiale agli strumenti della suite completa di Adobe CX Enterprise](../assets/mcp-gateway-hero.gif)
+![CX Enterprise Coworker che connette un client di IA alle applicazioni CX Enterprise](../assets/mcp-sub-hero.gif)
 
-Seleziona un’applicazione per visualizzare l’endpoint e le funzionalità.
+**Il modo più veloce per lavorare nelle applicazioni CX Enterprise è CX Enterprise Coworker.** Si connette alle applicazioni CX Enterprise senza configurazione del server, endpoint da registrare e configurazione client di IA. [Prova CX Enterprise Coworker](https://experienceleague.adobe.com/it/docs/cx-enterprise-coworker/content/home)
 
->[!BEGINTABS]
+Se preferisci collegare il tuo client AI direttamente a una specifica applicazione Adobe, diverse applicazioni hanno anche il proprio server MCP.
 
->[!TAB Gateway di lavoro CX]
-
-**Un endpoint. Più applicazioni aziendali CX.**
-
-Effettuare la connessione una volta e il client AI può accedere alle applicazioni CX Enterprise in base alle licenze dell&#39;organizzazione. Per abilitare la tua organizzazione, invia un&#39;e-mail a [cx-coworker-gateway-support@adobe.com](mailto:cx-coworker-gateway-support@adobe.com) per richiedere l&#39;accesso.
-
-```
-https://cx-coworker-gateway.adobe.io/mcp
-```
-
-| Applicazione CX Enterprise | Che cosa puoi fare | Diritto aggiuntivo richiesto |
-| --- | --- | --- |
-| [Adobe Analytics](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/analytics-mcp) | Individuazione suite di rapporti, authoring dei segmenti e creazione di aree di lavoro | No |
-| Campaign Classic | Individuazione dell’istanza della campagna, esplorazione dello schema, esecuzione di query, controllo del flusso di lavoro ed esecuzione di SOAP/JS | Sì |
-| [Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/aep-mcp) | Individuazione dei set di dati, esplorazione degli schemi e gestione delle sandbox | No |
-| Sperimentazione | Rapporti di esperimenti A/B, MVT e MAB, metriche, approfondimenti, opportunità e pianificazione delle dimensioni del campione | No |
-| GenStudio for Performance Marketing | Accedere ai dati sulle prestazioni degli annunci e alle informazioni creative | Sì |
-| [Adobe Journey Optimizer](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/ajo-mcp) | Rivedi percorsi, campagne e configurazioni di canale | No |
-| Adobe Journey Optimizer B2B edition | Gestire percorsi B2B, programmi per account, gruppi di acquisto e personalizzazione | No |
-| [Adobe Target](https://experienceleague.adobe.com/it/docs/target/using/mcp/target-mcp) | Rivedi attività, offerte, pubblico, mbox, rapporti sulle prestazioni e URL di anteprima | [Sì](https://experienceleague.adobe.com/it/docs/target/using/mcp/target-mcp-get-started#mcp-security) |
-| [Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/cja-mcp) | Eseguire query sui rapporti, individuare le visualizzazioni dati e creare aree di lavoro | No |
-| [Marketo Engage](https://experienceleague.adobe.com/it/docs/marketo-developer/marketo/mcp-server) | Gestisci programmi, campagne, lead, elenchi avanzati, e-mail e moduli | [Sì](https://experienceleague.adobe.com/it/docs/marketo-developer/marketo/mcp-server#get-marketo-credentials) |
-| [Real-Time CDP](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/rtcdp-mcp) | Verificare lo stato di attivazione del pubblico, lo stato della destinazione e lo stato del flusso di dati | No |
-
-Per la documentazione completa, vedere [Gateway aziendale CX](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview).
+| Server MCP | Endpoint | Che cosa puoi fare | Anche tramite CX Enterprise Coworker |
+| --- | --- | --- | --- |
+| [Adobe Journey Optimizer](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/ajo-mcp) | `https://ajo-mcp.adobe.io/mcp` | Rivedi percorsi, campagne e configurazioni di canale | Sì |
+| [Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/cja-mcp) | `https://cja-mcp.adobe.io/mcp` | Eseguire query sui rapporti, individuare le visualizzazioni dati e creare aree di lavoro | Sì |
+| [Adobe Analytics](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/analytics-mcp) | `https://aa-mcp.adobe.io/mcp` | Individuazione suite di rapporti, authoring dei segmenti e creazione di aree di lavoro | Sì |
+| [Adobe Target](https://experienceleague.adobe.com/it/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | Rivedi attività, offerte, tipi di pubblico, mbox, rapporti sulle prestazioni e URL di anteprima (versione beta pubblica: gli strumenti sono di sola lettura, gli strumenti di scrittura sono pianificati per la disponibilità generale) | Sì |
+| [Real-Time CDP](https://experienceleague.adobe.com/it/docs/experience-platform/rtcdp/intro/rtcdp-mcp) | `https://rtcdp-mcp.adobe.io/mcp` | Cerca tipi di pubblico, destinazioni, origini e flussi in esecuzione; controlla gli spazi dei nomi delle identità e i criteri di unione (versione beta pubblica: inserisce nell&#39;elenco Consentiti richiesta, tutti gli strumenti sono di sola lettura). | Sì |
+| [Server MCP AEM](https://experienceleague.adobe.com/it/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | Gestisci pagine, frammenti di contenuto, risorse e lanci; valuta contenuti e immagini in base alle linee guida del brand e alle regole di conformità | Sì |
+| [AEM Cloud Manager](https://experienceleague.adobe.com/it/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | Gestire programmi, ambienti, pipeline e archivi | No |
+| Adobe Marketing Agent | `https://aep-ai-ama.adobe.io/mcp` | Organizzazione dell’analisi del pubblico, della diagnostica AEP e della creazione di percorsi B2B AJO nelle applicazioni AEP | No |
+| [Adobe Workfront](https://experienceleague.adobe.com/it/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | Gestisci lavoro, progetti, record di pianificazione, approfondimenti e approvazioni di contenuti | No |
+| [Marketo Engage](https://experienceleague.adobe.com/it/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | Gestisci moduli, campagne intelligenti, lead, elenchi, programmi, e-mail e operazioni in blocco | Sì |
+| Adobe Experience Platform | Tramite [CX Enterprise Coworker](https://experienceleague.adobe.com/it/docs/cx-enterprise-coworker/content/home) | Individuazione dei set di dati, esplorazione degli schemi e gestione delle sandbox | N/D |
+| Campaign Classic | Tramite [CX Enterprise Coworker](https://experienceleague.adobe.com/it/docs/cx-enterprise-coworker/content/home) | Individuazione dell’istanza della campagna, esplorazione dello schema, esecuzione di query, controllo del flusso di lavoro ed esecuzione di SOAP/JS | N/D |
+| Sperimentazione | Tramite [CX Enterprise Coworker](https://experienceleague.adobe.com/it/docs/cx-enterprise-coworker/content/home) | Rapporti di esperimenti A/B, MVT e MAB, metriche, approfondimenti, opportunità e pianificazione delle dimensioni del campione | N/D |
+| GenStudio for Performance Marketing | Tramite [CX Enterprise Coworker](https://experienceleague.adobe.com/it/docs/cx-enterprise-coworker/content/home) | Accedere ai dati sulle prestazioni degli annunci e alle informazioni creative | N/D |
+| Adobe Journey Optimizer B2B edition | Tramite [CX Enterprise Coworker](https://experienceleague.adobe.com/it/docs/cx-enterprise-coworker/content/home) | Gestire percorsi B2B, programmi per account, gruppi di acquisto e personalizzazione | N/D |
 
 >[!NOTE]
 >
->L&#39;accesso al gateway si basa sulle licenze esistenti dell&#39;organizzazione per le applicazioni CX Enterprise e sulle autorizzazioni dell&#39;utente in Adobe Admin Console. Non è necessaria una licenza CX per il Coworker: è necessario disporre di licenze attive per almeno una delle applicazioni CX Enterprise sul gateway. Per abilitare il gateway di lavoro CX per la tua organizzazione, invia un&#39;e-mail a [cx-coworker-gateway-support@adobe.com](mailto:cx-coworker-gateway-support@adobe.com).
-
->[!TAB Experience Manager]
-
-Adobe Experience Manager dispone di più server MCP per flussi di lavoro diversi.
-
-| Server MCP | Endpoint | Che cosa puoi fare |
-| --- | --- | --- |
-| [AEM Cloud Manager](https://experienceleague.adobe.com/it/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | Gestire programmi, ambienti, pipeline e archivi |
-| [Contenuto AEM](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | Gestire pagine, frammenti di contenuto, risorse e avvii |
-| [Contenuto AEM (Sola Lettura)](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | Individuazione ed esecuzione di query su pagine, frammenti di contenuto e avvii senza accesso in scrittura |
-| [Governance delle esperienze AEM](https://experienceleague.adobe.com/it/docs/experience-manager-learn/cloud-service/ai/mcp-servers/experience-governance-mcp-server) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-governance` | Valutazione di contenuti e immagini in base alle linee guida del brand e alle regole di conformità |
-
->[!NOTE]
->
->L’accesso a ogni ambiente AEM dipende dalle autorizzazioni AEM Cloud Service della tua organizzazione e dalle autorizzazioni dell’utente in tale ambiente.
-
->[!TAB Experience Platform]
-
-| Server MCP | Endpoint | Che cosa puoi fare |
-| --- | --- | --- |
-| Adobe Marketing Agent | `https://aep-ai-ama.adobe.io/mcp` | Organizzazione dell’analisi del pubblico, della diagnostica AEP e della creazione di percorsi B2B AJO nelle applicazioni AEP |
-
->[!NOTE]
->
->L’accesso dipende dai diritti Adobe Experience Platform della tua organizzazione e dalle autorizzazioni dell’utente.
-
->[!TAB Target]
-
-Adobe Target MCP è in versione beta pubblica. Tutti gli strumenti attualmente disponibili sono di sola lettura. Gli strumenti di scrittura sono pianificati per la disponibilità generale.
-
-| Server MCP | Endpoint | Che cosa puoi fare |
-| --- | --- | --- |
-| [Adobe Target](https://experienceleague.adobe.com/it/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | Rivedi attività, offerte, pubblico, mbox, rapporti sulle prestazioni e URL di anteprima |
-
->[!NOTE]
->
->L’accesso dipende dai diritti di Adobe Target e dalle autorizzazioni dell’utente.
-
->[!TAB Workfront]
-
-| Server MCP | Endpoint | Che cosa puoi fare |
-| --- | --- | --- |
-| [Adobe Workfront](https://experienceleague.adobe.com/it/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | Gestisci lavoro, progetti, record di pianificazione, approfondimenti e approvazioni di contenuti |
-
->[!NOTE]
->
->L&#39;accesso dipende dalle licenze Adobe Workfront e dalle autorizzazioni dell&#39;utente.
-
->[!ENDTABS]
+>L&#39;accesso a ciascun server MCP dipende dai diritti dell&#39;organizzazione per l&#39;applicazione e dalle autorizzazioni dell&#39;utente al suo interno. Le ultime cinque righe non dispongono ancora di un proprio server MCP disponibile per la connessione diretta. Usa CX Enterprise Coworker per raggiungerli oggi stesso.
 
 ## Connetti al client di intelligenza artificiale
 
@@ -119,9 +58,15 @@ La maggior parte dei server MCP di Adobe utilizza OAuth con Adobe Identity Manag
 
 ![Un agente di IA che si connette a un server Adobe MCP](../assets/hero-connect-mcp-servers.gif)
 
-La procedura seguente utilizza come esempio l&#39;endpoint del gateway di lavoro CX. Lo stesso processo si applica a qualsiasi server MCP di Adobe: scambia nell’URL dell’endpoint il server che desideri connettere.
+Se utilizzi CX Enterprise Coworker, queste connessioni si verificano automaticamente. Nessun elemento di seguito è applicabile a te. I passaggi seguenti consentono di connettere il client di intelligenza artificiale direttamente a un server MCP di Adobe e utilizzare come esempio l’endpoint del server MCP di AEM. Lo stesso processo si applica a qualsiasi server MCP di Adobe: scambia nell’URL dell’endpoint il server che desideri connettere.
 
 >[!BEGINTABS]
+
+>[!TAB CX Enterprise Coworker]
+
+CX Enterprise Coworker include già molte di queste funzionalità MCP. Nessun server da aggiungere, nessun endpoint da registrare e nessun client di intelligenza artificiale da configurare. L’accesso a CX Enterprise Coworker è pronto per l’uso.
+
+Documentazione completa: [documentazione CX Enterprise Coworker](https://experienceleague.adobe.com/it/docs/cx-enterprise-coworker/content/home)
 
 >[!TAB Claude.ai]
 
@@ -135,7 +80,7 @@ Claude.ai supporta i server MCP remoti tramite i connettori personalizzati nelle
 
 1. Vai a **Impostazioni > Integrazioni**.
 2. Fare clic su **Aggiungi connettore personalizzato**.
-3. Immettere l&#39;endpoint del server come URL (ad esempio, `https://cx-coworker-gateway.adobe.io/mcp` per il gateway di lavoro CX) e un nome visualizzato desiderato.
+3. Immettere l&#39;endpoint del server come URL (ad esempio, `https://mcp.adobeaemcloud.com/adobe/mcp/aem` per il server MCP di AEM) e un nome visualizzato desiderato.
 4. Fai clic su **Connetti** e accedi con il tuo Adobe ID. Seleziona l’organizzazione IMS corretta.
 
 Configurazione completa: [Documentazione dei connettori personalizzati Claude.ai](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
@@ -144,10 +89,10 @@ Configurazione completa: [Documentazione dei connettori personalizzati Claude.ai
 
 ### Utilizzo di CLI
 
-Eseguire `claude mcp add` per registrare un server Adobe MCP. Sostituire il nome e l&#39;URL del server con i valori del server che si desidera connettere. In questo esempio viene utilizzato il gateway di lavoro CX:
+Eseguire `claude mcp add` per registrare un server Adobe MCP. Sostituire il nome e l&#39;URL del server con i valori del server che si desidera connettere. In questo esempio viene utilizzato il server MCP di AEM:
 
 ```bash
-claude mcp add --transport http adobe-cx-coworker-gateway https://cx-coworker-gateway.adobe.io/mcp
+claude mcp add --transport http adobe-aem https://mcp.adobeaemcloud.com/adobe/mcp/aem
 ```
 
 ### Modifica il file delle impostazioni
@@ -157,9 +102,9 @@ Aggiungi il server a `~/.claude.json` (globale) o `.mcp.json` nella directory pr
 ```json
 {
   "mcpServers": {
-    "adobe-cx-coworker-gateway": {
+    "adobe-aem": {
       "type": "http",
-      "url": "https://cx-coworker-gateway.adobe.io/mcp"
+      "url": "https://mcp.adobeaemcloud.com/adobe/mcp/aem"
     }
   }
 }
@@ -171,7 +116,7 @@ Configurazione completa: [documentazione MCP codice Claude](https://docs.anthrop
 
 >[!TAB Cursore]
 
-Aggiungi un server Adobe MCP al file di configurazione Cursor `mcp.json`, quindi connettiti tramite **Impostazioni > MCP**. Sostituisci la chiave e l’URL con i valori per il server che desideri connettere. In questo esempio viene utilizzato il gateway di lavoro CX:
+Aggiungi un server Adobe MCP al file di configurazione Cursor `mcp.json`, quindi connettiti tramite **Impostazioni > MCP**. Sostituisci la chiave e l’URL con i valori per il server che desideri connettere. In questo esempio viene utilizzato il server MCP di AEM:
 
 - **Globale (tutti i progetti):** `~/.cursor/mcp.json`
 - **Livello progetto:** `.cursor/mcp.json` nella directory principale del progetto
@@ -179,9 +124,9 @@ Aggiungi un server Adobe MCP al file di configurazione Cursor `mcp.json`, quindi
 ```json
 {
   "mcpServers": {
-    "adobe-cx-coworker-gateway": {
+    "adobe-aem": {
       "type": "http",
-      "url": "https://cx-coworker-gateway.adobe.io/mcp"
+      "url": "https://mcp.adobeaemcloud.com/adobe/mcp/aem"
     }
   }
 }
@@ -201,14 +146,27 @@ Vai a [Registro di sistema di Adobe AI](https://developer.adobe.com/ai-registry/
 
 ### Connettersi utilizzando un server MCP remoto
 
-ChatGPT supporta server MCP remoti tramite [Modalità sviluppatore](https://developers.openai.com/api/docs/guides/developer-mode), disponibile nei piani Pro, Plus, Business, Enterprise e Education.
+Chiedi all’amministratore di ChatGPT di aggiungere il server MCP per la tua organizzazione. Questo consente a ogni utente di connettersi senza la configurazione seguente.
 
-1. Abilitare la modalità sviluppatore in **Impostazioni ChatGPT**.
-2. Vai a **Impostazioni > Integrazioni**.
-3. Fare clic su **Aggiungi connettore personalizzato** e scegliere **Server MCP remoto**.
-4. Immettere l&#39;endpoint del server come URL (ad esempio, `https://cx-coworker-gateway.adobe.io/mcp` per il gateway di lavoro CX) e un nome visualizzato desiderato.
-5. Imposta autenticazione su **OAuth**.
-6. Fai clic su **Connetti** e accedi con il tuo Adobe ID. Seleziona l’organizzazione IMS corretta.
+Se un amministratore non può aggiungerlo o se desideri la connessione solo per il tuo account, segui la procedura riportata di seguito.
+
+**Configurazione unica:** attivare la modalità Sviluppatore prima di registrare un URL MCP personalizzato.
+
+1. Vai a **Impostazioni > Protezione e accesso**.
+2. Attiva **Modalità sviluppatore**.
+
+**Aggiungi un server:**
+
+1. Vai a **Impostazioni > Plug-in > Sfoglia plug-in**.
+2. Selezionare **+** per aggiungere un nuovo plug-in.
+3. Immettere un nome, ad esempio `AEM Content AI` o `Adobe Journey Optimizer`.
+4. Immetti una descrizione.
+5. Selezionare **URL server**.
+6. In **Connessione**, immetti l&#39;URL MCP completo di Adobe. Ad esempio, `https://mcp.adobeaemcloud.com/adobe/mcp/aem` per AEM o `https://ajo-mcp.adobe.io/mcp` per Adobe Journey Optimizer.
+7. Imposta **Autenticazione** su **OAuth**.
+8. Leggi e accetta i termini del servizio.
+9. Seleziona **Crea**.
+10. Accedere con l&#39;account Adobe che ha accesso all&#39;applicazione CX Enterprise a cui il server MCP si connette.
 
 Configurazione completa: [Documentazione MCP di ChatGPT](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
@@ -221,11 +179,11 @@ OpenAI Codex CLI supporta i server MCP remoti tramite la configurazione TOML.
 - **Livello utente (tutti i progetti):** `~/.codex/config.toml`
 - **Ambito progetto:** `.codex/config.toml` nella directory principale del progetto
 
-Sostituisci il nome della sezione e l’URL con i valori per il server che desideri connettere. In questo esempio viene utilizzato il gateway di lavoro CX:
+Sostituisci il nome della sezione e l’URL con i valori per il server che desideri connettere. In questo esempio viene utilizzato il server MCP di AEM:
 
 ```toml
-[mcp_servers.adobe-cx-coworker-gateway]
-url = "https://cx-coworker-gateway.adobe.io/mcp"
+[mcp_servers.adobe-aem]
+url = "https://mcp.adobeaemcloud.com/adobe/mcp/aem"
 enabled = true
 ```
 
@@ -240,9 +198,9 @@ Microsoft Copilot Studio si connette ai server MCP remoti utilizzando l’Onboar
 1. Apri il tuo agente in Copilot Studio.
 2. Vai alla pagina **Strumenti**.
 3. Selezionare **Aggiungi uno strumento > Nuovo strumento > Protocollo contesto modello**.
-4. Nella procedura guidata di onboarding MCP, immetti i dettagli del server. Ad esempio, per il gateway di lavoro CX:
-   - **Nome server:** `CX Coworker Gateway`
-   - **URL server:** `https://cx-coworker-gateway.adobe.io/mcp`
+4. Nella procedura guidata di onboarding MCP, immetti i dettagli del server. Ad esempio, per il server MCP di AEM:
+   - **Nome server:** `AEM`
+   - **URL server:** `https://mcp.adobeaemcloud.com/adobe/mcp/aem`
 5. Imposta l&#39;autenticazione su **OAuth 2.0** e configura con l&#39;autorizzazione Adobe IMS e gli URL del token.
 6. Seleziona **Crea**, quindi **Aggiungi all&#39;agente**.
 
@@ -256,7 +214,7 @@ Configurazione completa: [Documentazione MCP di Copilot Studio](https://learn.mi
 
 ## Server MCP in azione
 
-Scoprite come CX Customer Gateway è in grado di risolvere problemi di business reali. Ogni procedura dettagliata inizia da una vera e propria sfida operativa e mostra come un client di intelligenza artificiale la risolve in un linguaggio semplice, senza passare da uno strumento all’altro o scrivere codice.
+Consulta Server Adobe MCP utilizzati per risolvere problemi di business reali. Ogni procedura dettagliata inizia da una vera e propria sfida operativa e mostra come un client di intelligenza artificiale la risolve in un linguaggio semplice, senza passare da uno strumento all’altro o scrivere codice.
 
 <!--
 CARDS
