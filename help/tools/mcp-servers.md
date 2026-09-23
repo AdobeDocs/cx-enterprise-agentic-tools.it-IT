@@ -5,7 +5,7 @@ last-substantial-update: 2026-09-16
 source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
 workflow-type: tm+mt
 source-wordcount: '2400'
-ht-degree: 6%
+ht-degree: 8%
 ---
 
 # Server MCP
@@ -21,7 +21,7 @@ I server Adobe MCP seguono lo standard [Model Context Protocol](https://modelcon
 >[!CONTEXTUALHELP]
 >id="cx-enterprise-agentic-tools_mcp_servers_cx-enterprise"
 >title="CX Enterprise Coworker"
->abstract="Chiedere, analizzare e intervenire sulle applicazioni CX Enterprise in linguaggio semplice, senza alcuna configurazione del server. Per le singole applicazioni con il proprio server MCP, è sufficiente connettersi direttamente."
+>abstract="Fai domande, analizza e intervieni sulle applicazioni CX Enterprise in linguaggio semplice, senza alcuna configurazione del server. Per le singole applicazioni dotate di un proprio server MCP, connettiti invece direttamente."
 >additional-url="https://experienceleague.adobe.com/it/docs/cx-enterprise-coworker/content/home" text="Documentazione di CX Enterprise Coworker"
 
 ![CX Enterprise Coworker che connette un client di IA alle applicazioni CX Enterprise](../assets/mcp-sub-hero.gif)
