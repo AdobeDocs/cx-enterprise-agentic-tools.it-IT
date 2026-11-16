@@ -19,7 +19,7 @@ I gap nelle prestazioni dei contenuti costano i risultati delle campagne e, in g
 
 | Dettagli scenario | |
 | --- | --- |
-| Applicazioni CX Enterprise | [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/overview/introduction) |
+| Applicazioni CX Enterprise | [Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-overview), [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/overview/introduction) |
 | Strumenti agentici | [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/it/docs/cx-enterprise-coworker/content/home), [Adobe CX Enterprise Coworker per piattaforme AI](../tools/mcp-servers.md#connect-to-your-ai-platform) o [Customer Journey Analytics MCP Server](../tools/mcp-servers.md) e [AEM MCP Server](https://experienceleague.adobe.com/it/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview) |
 | Pubblico | Responsabili delle campagne, content strategist, operazioni di marketing |
 | Prerequisito | Accesso a CJA, accesso ad AEM as a Cloud Service, più Coworker, una piattaforma di intelligenza artificiale con Coworker per piattaforme di intelligenza artificiale o una piattaforma di intelligenza artificiale compatibile con MCP |
@@ -39,7 +39,7 @@ Se non puoi o non desideri utilizzare direttamente Coworker, utilizzalo dalla tu
 
 >[!TAB Collaboratore per piattaforme AI]
 
-Puoi anche completare questa procedura dettagliata con Coworker per le piattaforme di intelligenza artificiale dalla tua piattaforma di intelligenza artificiale. [Configurare Coworker per le piattaforme AI](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Documentazione di Adobe](https://experienceleague.adobe.com/en/docs/coworker/content/ai-platforms#set-up-coworker)
+Puoi anche completare questa procedura dettagliata con Coworker per le piattaforme di intelligenza artificiale dalla tua piattaforma di intelligenza artificiale. [Configurare Coworker per le piattaforme AI](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Documentazione di Adobe](https://experienceleague.adobe.com/it/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB Claude.ai]
 
