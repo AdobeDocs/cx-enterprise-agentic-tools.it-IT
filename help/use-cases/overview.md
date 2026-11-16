@@ -1,14 +1,12 @@
 ---
 title: Strumenti agenti in azione
-description: Procedure dettagliate che illustrano gli strumenti Adobe CX Enterprise Agent applicati ai flussi di lavoro aziendali reali.
-last-substantial-update: 2026-06-08T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+description: Procedure dettagliate che mostrano gli strumenti Adobe CX Enterprise Agent applicati ai flussi di lavoro aziendali reali.
+last-substantial-update: 2026-06-08
+source-git-commit: 9a2fe3165e49fd57c9a76741a77956850b0c0e3b
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
-
 ---
-
 
 # Strumenti agenti in azione
 
@@ -16,7 +14,7 @@ ht-degree: 0%
 
 ![Strumenti agenti in azione](../assets/hero-agentic-tools-in-action.png)
 
-Procedure dettagliate per i veri flussi di lavoro Adobe CX Enterprise. Ogni procedura dettagliata inizia da dove termina la configurazione, con gli strumenti connessi e un flusso di lavoro reale da completare.
+Procedure dettagliate per flussi di lavoro Adobe CX Enterprise reali. Ogni procedura dettagliata inizia da dove termina la configurazione, con gli strumenti connessi e un flusso di lavoro reale da completare.
 
 <!--
 CARDS
@@ -48,7 +46,7 @@ CARDS
 
 * aem-cloud-manager-mcp.md
   {title = Deploy AEM changes with confidence}
-  {description = Check environment health, review pipeline history, and deploy to AEM from your AI client, without switching tools.}
+  {description = Check environment health, review pipeline history, and deploy to AEM from your AI platform, without switching tools.}
   {cta = Deploy with confidence}
   {image = ../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png}
 -->
@@ -73,7 +71,7 @@ CARDS
                 </div>
                 <a href="analyze-campaign-performance.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Informazioni sulla campagna Surface</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -96,7 +94,7 @@ CARDS
                 </div>
                 <a href="query-audiences.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Verifica attivazione pubblico</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -119,7 +117,7 @@ CARDS
                 </div>
                 <a href="manage-ajo-journeys.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Monitora i percorsi</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -142,7 +140,7 @@ CARDS
                 </div>
                 <a href="manage-aem-content.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Spedire i contenuti più velocemente</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -165,7 +163,7 @@ CARDS
                 </div>
                 <a href="optimize-content-with-performance-data.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Colmare le lacune nelle prestazioni</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -184,11 +182,11 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="aem-cloud-manager-mcp.md" title="Distribuire le modifiche di AEM in modo affidabile">Distribuisci le modifiche di AEM con affidabilità</a>
                     </p>
-                    <p class="is-size-6">Controlla lo stato dell’ambiente, rivedi la cronologia delle pipeline e distribuisci ad AEM dal client di intelligenza artificiale, senza passare da uno strumento all’altro.</p>
+                    <p class="is-size-6">Controlla lo stato dell’ambiente, controlla la cronologia delle pipeline e implementa AEM dalla piattaforma AI, senza passare da uno strumento all’altro.</p>
                 </div>
                 <a href="aem-cloud-manager-mcp.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Distribuisci con affidabilità</span>
-                
+                </a>
             </div>
         </div>
     </div>

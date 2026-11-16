@@ -1,14 +1,12 @@
 ---
 title: Abilità agente
-description: Flussi di lavoro curati da Adobe e istruzioni che guidano gli agenti di intelligenza artificiale attraverso le attività aziendali di CX in modo coerente.
-last-substantial-update: 2026-05-19T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+description: Flussi di lavoro curati da Adobe e istruzioni che guidano gli agenti di intelligenza artificiale attraverso le attività di CX Enterprise in modo coerente.
+last-substantial-update: 2026-11-16
+source-git-commit: 9a2fe3165e49fd57c9a76741a77956850b0c0e3b
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '619'
 ht-degree: 1%
-
 ---
-
 
 # Competenze agente
 
@@ -16,9 +14,9 @@ ht-degree: 1%
 
 ![Abilità agente per Adobe CX Enterprise](../assets/hero-agent-skills.png)
 
-Le abilità degli agenti sono flussi di lavoro curati da Adobe che forniscono agli agenti di intelligenza artificiale istruzioni dettagliate per il completamento affidabile delle attività aziendali di Adobe CX. Ogni abilità dell’agente codifica l’esperienza nel dominio e le best practice in modo che gli agenti producano risultati coerenti e convalidati senza dover improvvisare. Le abilità dell’agente hanno senso quando desideri un comportamento ripetibile e guidato nelle conversazioni, in particolare per attività che altrimenti richiederebbero ogni volta una richiesta di conferma dettagliata. Integrano i server e le API MCP: le abilità dell’agente definiscono il funzionamento di un agente; i server e le API MCP forniscono l’accesso sottostante.
+Le abilità dell’agente sono flussi di lavoro curati da Adobe che forniscono agli agenti di intelligenza artificiale istruzioni dettagliate per completare in modo affidabile le attività di Adobe CX Enterprise. Ogni abilità dell’agente codifica l’esperienza nel dominio e le best practice in modo che gli agenti producano risultati coerenti e convalidati senza dover improvvisare. Le abilità dell’agente hanno senso quando desideri un comportamento ripetibile e guidato nelle conversazioni, in particolare per attività che altrimenti richiederebbero ogni volta una richiesta di conferma dettagliata. Integrano i server e le API MCP: le abilità dell’agente definiscono il funzionamento di un agente; i server e le API MCP forniscono l’accesso sottostante.
 
-## Competenze degli agenti Adobe CX Enterprise
+## Competenze dell’agente Adobe CX Enterprise
 
 Seleziona un’area di funzionalità in basso per esplorare le abilità per quel flusso di lavoro.
 
@@ -64,19 +62,19 @@ Un’abilità agente è un insieme di istruzioni che indica a un agente di intel
 
 ### Installare le abilità dell’agente
 
-Le abilità dell’agente vengono installate in base al client di intelligenza artificiale in uso. Alcuni client supportano l&#39;installazione diretta dalla riga di comando:
+Le abilità dell’agente vengono installate in base alla piattaforma di intelligenza artificiale in uso. Alcune piattaforme AI supportano l’installazione diretta dalla riga di comando:
 
 - **Codice Claude**: `/plugin install adobe/skills`
 - **Ambienti nodo**: `npx skills add adobe/skills`
 - **CLI GitHub**: `gh upskill adobe/skills`
 
-Altri client richiedono di scaricare e aggiungere i file delle competenze direttamente al client di intelligenza artificiale. Per istruzioni complete sull&#39;installazione da parte del client, consulta il file README delle [abilità di Adobe su GitHub](https://github.com/adobe/skills#installation).
+Altre piattaforme AI richiedono di scaricare e aggiungere i file delle competenze direttamente alla piattaforma AI. Per istruzioni complete sull&#39;installazione da parte del client, consulta il file README delle [abilità di Adobe su GitHub](https://github.com/adobe/skills#installation).
 
 ### Ricerca delle abilità agente
 
 Sfoglia l&#39;elenco completo delle abilità disponibili nell&#39;archivio [Adobe Skills GitHub](https://github.com/adobe/skills). Ogni abilità agente include un file `SKILL.md` con istruzioni dettagliate, riferimenti ed esempi.
 
-Dopo aver installato o aggiunto il pacchetto `adobe/skills`, alcuni client di IA ti consentono di elencare direttamente tutte le abilità disponibili:
+Dopo aver installato o aggiunto il pacchetto `adobe/skills`, alcune piattaforme di intelligenza artificiale ti consentono di elencare direttamente tutte le abilità disponibili:
 
 - **Codice Claude**: `claude /plugin list`
 - **Ambienti nodo**: `npx skills list`
@@ -84,7 +82,7 @@ Dopo aver installato o aggiunto il pacchetto `adobe/skills`, alcuni client di IA
 
 ## Competenze agente in azione
 
-Grazie alle competenze degli agenti, le competenze sul dominio Adobe funzionano all’interno del client di intelligenza artificiale, per cui gli agenti seguono flussi di lavoro comprovati anziché improvvisare. Ogni procedura dettagliata seguente mostra un’attività aziendale specifica completata in modo affidabile, guidata dalle best practice di Adobe dall’inizio all’output.
+Grazie alle competenze degli agenti, le competenze sul dominio Adobe funzionano all’interno della piattaforma di intelligenza artificiale, per cui gli agenti seguono flussi di lavoro comprovati anziché improvvisare. Ogni procedura dettagliata seguente mostra un’attività aziendale specifica completata in modo affidabile, guidata dalle best practice di Adobe dall’inizio all’output.
 
 <!--
 CARDS
@@ -117,7 +115,7 @@ CARDS
                 </div>
                 <a href="https://experienceleague.adobe.com/it/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Prova con le abilità agente</span>
-                
+                </a>
             </div>
         </div>
     </div>

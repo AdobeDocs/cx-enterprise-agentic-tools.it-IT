@@ -1,10 +1,10 @@
 ---
 title: Eseguire una revisione di una campagna cross-channel
 description: Ottieni una visione unificata dello stato di salute delle campagne AJO, CJA e Real-Time CDP tra percorsi, tipi di pubblico e prestazioni in una singola sessione di intelligenza artificiale.
-last-substantial-update: 2026-09-16
-source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
+last-substantial-update: 2026-11-16
+source-git-commit: a75d5f3af3077b259da796bd381d605ae826585d
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: '1651'
 ht-degree: 6%
 ---
 
@@ -20,10 +20,10 @@ Un quadro completo dello stato della campagna richiede dati provenienti da più 
 
 | Dettagli scenario | |
 | --- | --- |
-| Applicazioni aziendali CX | [Adobe Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home), [Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-overview), [Real-Time CDP](https://experienceleague.adobe.com/it/docs/experience-platform/rtcdp/home) |
-| Strumenti agentici | [CX Enterprise Coworker](https://experienceleague.adobe.com/it/docs/cx-enterprise-coworker/content/home) o [Adobe Journey Optimizer](../tools/mcp-servers.md), [Customer Journey Analytics](../tools/mcp-servers.md) e [Real-Time CDP](../tools/mcp-servers.md) server MCP |
+| Applicazioni CX Enterprise | [Adobe Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home), [Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-overview), [Real-Time CDP](https://experienceleague.adobe.com/it/docs/experience-platform/rtcdp/home) |
+| Strumenti agentici | [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/it/docs/cx-enterprise-coworker/content/home), [Adobe CX Enterprise Coworker per piattaforme AI](../tools/mcp-servers.md#connect-to-your-ai-platform) o [Adobe Journey Optimizer](../tools/mcp-servers.md), [Customer Journey Analytics](../tools/mcp-servers.md) e [Real-Time CDP](../tools/mcp-servers.md) server MCP |
 | Pubblico | Manager campagne, operazioni di marketing |
-| Prerequisito | Client di intelligenza artificiale compatibile con MCP, accesso ad AJO, CJA e Real-Time CDP |
+| Prerequisito | accesso a AJO, CJA e Real-Time CDP, oltre a Coworker, una piattaforma di intelligenza artificiale con Coworker per piattaforme di intelligenza artificiale o una piattaforma di intelligenza artificiale compatibile con MCP |
 
 Ogni passaggio mostra un prompt rappresentativo e un esempio di risposta di IA. Segue una sezione **Ulteriori operazioni da eseguire** per ulteriori informazioni nella stessa sessione.
 
@@ -31,11 +31,15 @@ Ogni passaggio mostra un prompt rappresentativo e un esempio di risposta di IA. 
 
 >[!BEGINTABS]
 
->[!TAB CX Enterprise Coworker]
+>[!TAB Coworker]
 
-CX Enterprise Coworker si connette ad AJO, CJA e Real-Time CDP in un’unica posizione, senza che sia necessaria alcuna configurazione del server o del client di intelligenza artificiale. [Prova CX Enterprise Coworker](https://experienceleague.adobe.com/it/docs/cx-enterprise-coworker/content/home)
+Coworker si connette a AJO, CJA e Real-Time CDP in un’unica posizione, senza che sia necessaria alcuna configurazione del server o della piattaforma di intelligenza artificiale. [Prova il tuo collega](https://experienceleague.adobe.com/it/docs/cx-enterprise-coworker/content/home)
 
-Se preferisci collegare direttamente il tuo client AI, connetti tutti e tre i server MCP utilizzando le schede seguenti. Il server MCP di Real-Time CDP è in versione beta pubblica e richiede che l’organizzazione sia inserita nell&#39;elenco Consentiti.
+Se non puoi o non desideri utilizzare direttamente Coworker, utilizzalo dalla tua piattaforma di intelligenza artificiale. Consulta la scheda **Collaboratore per piattaforme AI**. Se anche questa opzione non funziona, connetti la piattaforma di intelligenza artificiale direttamente ai server MCP di AJO, CJA e Real-Time CDP utilizzando le schede rimanenti. Il server MCP di Real-Time CDP è in versione beta pubblica e richiede che l’organizzazione sia inserita nell&#39;elenco Consentiti.
+
+>[!TAB Collaboratore per piattaforme AI]
+
+Puoi anche completare questa procedura dettagliata con Coworker per le piattaforme di intelligenza artificiale dalla tua piattaforma di intelligenza artificiale. [Configurare Coworker per le piattaforme AI](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Documentazione di Adobe](https://experienceleague.adobe.com/it/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB Claude.ai]
 
@@ -70,7 +74,7 @@ Connetti tutti e tre i server MCP utilizzando la modalità sviluppatore ChatGPT 
 
 Configurazione completa: [Documentazione MCP di ChatGPT](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
->[!TAB Altri client di IA]
+>[!TAB Altre piattaforme AI]
 
 Usare Gemini, Microsoft Copilot, Cursore, Claude Code o un altro ambiente compatibile con MCP? Connetti a tutti e tre i server MCP utilizzando i seguenti endpoint:
 
@@ -80,7 +84,7 @@ Usare Gemini, Microsoft Copilot, Cursore, Claude Code o un altro ambiente compat
 | Server Customer Journey Analytics MCP | `https://cja-mcp.adobe.io/mcp` |
 | Server Real-Time CDP MCP | `https://rtcdp-mcp.adobe.io/mcp` |
 
-Istruzioni di installazione complete per tutti i client supportati: [Connetti al client di intelligenza artificiale](../tools/mcp-servers.md)
+Istruzioni di installazione complete per tutte le piattaforme AI supportate: [Connetti alla piattaforma AI](../tools/mcp-servers.md)
 
 >[!ENDTABS]
 
@@ -88,7 +92,7 @@ Istruzioni di installazione complete per tutti i client supportati: [Connetti al
 >
 >Quando richiesto, accedi con il tuo Adobe ID e seleziona l’organizzazione IMS collegata ai tuoi ambienti AJO, CJA e Real-Time CDP. La scelta dell’organizzazione sbagliata è la fonte più comune di errori di autenticazione.
 >
->Alla prima connessione, il client di intelligenza artificiale può richiedere di selezionare un’organizzazione IMS o specificare una sandbox. Una volta impostato tale contesto, il server MCP lo utilizza per il resto della sessione.
+>Alla prima connessione, la piattaforma di intelligenza artificiale può richiedere di selezionare un’organizzazione IMS o specificare una sandbox. Una volta impostato tale contesto, il server MCP lo utilizza per il resto della sessione.
 >
 >Alcuni strumenti richiedono la tua approvazione prima di essere eseguiti. Rivedi la richiesta e approva o rifiuta. Non viene intrapresa alcuna azione senza la tua conferma.
 
@@ -169,7 +173,7 @@ Tasso di conversione combinato: 3,8%. Il CTR dell’e-mail è aumentato dell’1
 
 ## Passaggio 4: sintetizzare un riepilogo dello stato di una campagna
 
-Chiedi al tuo client AI di unire l’immagine tra tutte e tre le sorgenti e di far emergere tutto ciò che richiede attenzione.
+Chiedi alla tua piattaforma AI di unire l’immagine tra tutte e tre le sorgenti e di far emergere tutto ciò che richiede attenzione.
 
 ```
 Give me a summary of our campaign health: what is running, which audiences are activated, and how performance looks against last month.
@@ -195,11 +199,11 @@ Nessun problema critico rilevato. Due elementi sopra giustificano una revisione 
 +++
 
 
-È qui che l’approccio multiserver ripaga: i motivi dei client di intelligenza artificiale in configurazione di percorso, stato del pubblico e dati sulle prestazioni in un’unica conversazione.
+È qui che l’approccio multiserver ripaga: i motivi della piattaforma di intelligenza artificiale per la configurazione del percorso, lo stato del pubblico e i dati sulle prestazioni in un’unica conversazione.
 
 ## Passaggio 5: intervenire su ciò che è stato trovato
 
-La recensione ha fatto emergere due elementi. Chiedi al tuo client di intelligenza artificiale di aiutarti a definire la priorità e a indirizzare ciascuno di essi.
+La recensione ha fatto emergere due elementi. Chiedi alla tua piattaforma di intelligenza artificiale di aiutarti a definire la priorità e a indirizzare ciascuno di essi.
 
 ```
 For each flag you identified, what should I do and where should I go to do it?

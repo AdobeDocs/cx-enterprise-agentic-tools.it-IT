@@ -1,14 +1,12 @@
 ---
 title: Risorse
-description: Un unico punto di ingresso per tutta la documentazione, i registri, le API e le guide per sviluppatori di Adobe CX Enterprise Agentic Tools.
-last-substantial-update: 2026-05-08T00:00:00Z
-source-git-commit: 445fd18a2b5a18ec3dcc0ec8e73ec4c020e7b265
+description: Un singolo punto di ingresso per tutta la documentazione, i registri, le API e le guide per sviluppatori di Adobe CX Enterprise Agentic Tools.
+last-substantial-update: 2026-11-16
+source-git-commit: 9a2fe3165e49fd57c9a76741a77956850b0c0e3b
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 17%
-
+source-wordcount: '591'
+ht-degree: 19%
 ---
-
 
 # Risorse
 
@@ -16,7 +14,7 @@ ht-degree: 17%
 
 ![Risorse](https://placehold.co/1600x900?text=Adobe+CX+Enterprise+Resources)
 
-Tutte le risorse chiave di Adobe per l&#39;utilizzo di Adobe CX Enterprise Agentic Tools, in un&#39;unica posizione.
+Tutte le risorse chiave di Adobe per l’utilizzo di Adobe CX Enterprise Agent Tools sono disponibili in un’unica posizione.
 
 ## Registri e cataloghi
 
@@ -30,6 +28,7 @@ Tutte le risorse chiave di Adobe per l&#39;utilizzo di Adobe CX Enterprise Agent
 
 | Risorsa | Cosa troverai |
 |---|---|
+| [Adobe CX Enterprise Coworker per piattaforme AI](https://experienceleague.adobe.com/it/docs/coworker/content/ai-platforms#set-up-coworker) | Prerequisiti e configurazione per l’utilizzo di Coworker da Claude, ChatGPT, Microsoft 365 Copilot, Gemini Enterprise e altre piattaforme AI |
 | [Documentazione MCP di Analytics](https://developer.adobe.com/analytics-mcp/docs/) | Guida alla configurazione del server CJA MCP e riferimento per gli strumenti |
 | [Guide MCP di Analytics](https://developer.adobe.com/analytics-mcp/docs/guides/) | Guide d&#39;uso dettagliate per il server MCP di CJA |
 | [Documentazione di Real-Time CDP MCP](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/rtcdp-mcp) | Guida alla configurazione del server RTCDP MCP |
@@ -62,7 +61,7 @@ Tutte le risorse chiave di Adobe per l&#39;utilizzo di Adobe CX Enterprise Agent
 | [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/) | Configurazione del progetto API, autenticazione e gestione delle credenziali |
 | [Guida introduttiva per sviluppatori](https://developer.adobe.com/dep/) | Introduzione alla creazione con le API di Adobe |
 
-## Configurazione client di IA
+## Configurazione della piattaforma AI
 
 | Risorsa | Cosa troverai |
 |---|---|
