@@ -1,29 +1,27 @@
 ---
 title: Implementare in AEM as a Cloud Service con sicurezza
-description: Controlla lo stato dell’ambiente, controlla la cronologia delle pipeline e attiva o gestisci le distribuzioni senza uscire dal client di intelligenza artificiale.
-last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
+description: Controlla lo stato dell’ambiente, controlla la cronologia delle pipeline e attiva o gestisci le distribuzioni senza uscire dalla piattaforma di intelligenza artificiale.
+last-substantial-update: 2026-06-10
+source-git-commit: 9a2fe3165e49fd57c9a76741a77956850b0c0e3b
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 2%
-
+source-wordcount: '951'
+ht-degree: 3%
 ---
-
 
 # Implementare in AEM as a Cloud Service con sicurezza
 
 <!-- last-modified: 2026-05-21 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3480350/?captions=ita&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3480340/?learn=on&enablevpops)
 
-L’affidabilità dell’implementazione deriva dalla consapevolezza che l’ambiente è sano prima di inviare messaggi push. In questa procedura dettagliata viene illustrato come verificare lo stato dell’ambiente AEM, esaminare la cronologia delle pipeline e attivare le distribuzioni da un client di intelligenza artificiale utilizzando il server MCP di AEM Cloud Manager, in modo che i team possano spostarsi rapidamente senza perdere visibilità.
+L’affidabilità dell’implementazione deriva dalla consapevolezza che l’ambiente è sano prima di inviare messaggi push. In questa procedura dettagliata viene illustrato come verificare lo stato dell’ambiente AEM, esaminare la cronologia delle pipeline e attivare le distribuzioni da una piattaforma di intelligenza artificiale utilizzando il server MCP di AEM Cloud Manager, in modo che i team possano spostarsi rapidamente senza perdere visibilità.
 
 | Dettagli scenario | |
 | --- | --- |
-| Applicazioni aziendali CX | [Adobe Experience Manager Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/introduction-to-cloud-manager) |
-| Strumenti agenti | [Server MCP AEM Cloud Manager](https://experienceleague.adobe.com/it/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) |
+| Applicazioni CX Enterprise | [Adobe Experience Manager Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/introduction-to-cloud-manager) |
+| Strumenti agentici | [Server MCP AEM Cloud Manager](https://experienceleague.adobe.com/it/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) |
 | Pubblico | Sviluppatori, DevOps, team operativi |
-| Prerequisito | Client di intelligenza artificiale compatibile con MCP, accesso AEM Cloud Manager |
+| Prerequisito | Piattaforma di intelligenza artificiale compatibile con MCP, accesso AEM Cloud Manager |
 
 Ogni passaggio mostra un prompt rappresentativo e un esempio di risposta di IA. Segue una sezione **Ulteriori richieste per provare** per ulteriori informazioni nella stessa sessione.
 
@@ -96,7 +94,7 @@ Apri il pannello **GitHub Copilot Chat**, passa alla **modalità agente** e sele
 
 Configurazione completa: [documentazione dei server MCP di codice VS](https://code.visualstudio.com/docs/copilot/customization/mcp-servers)
 
->[!TAB Altri client di IA]
+>[!TAB Altre piattaforme AI]
 
 Utilizzare un altro ambiente compatibile con MCP? Connettersi al server Cloud Manager MCP utilizzando questo endpoint:
 
@@ -104,15 +102,15 @@ Utilizzare un altro ambiente compatibile con MCP? Connettersi al server Cloud Ma
 https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager
 ```
 
-Istruzioni di installazione complete per tutti i client supportati: [Connetti al client di intelligenza artificiale](../tools/mcp-servers.md)
+Istruzioni di installazione complete per tutte le piattaforme AI supportate: [Connetti alla piattaforma AI](../tools/mcp-servers.md)
 
 >[!ENDTABS]
 
 >[!NOTE]
 >
->Quando richiesto, accedi con il tuo Adobe ID e seleziona l’organizzazione IMS collegata al tuo programma AEM as a Cloud Service. Le autorizzazioni vengono applicate a livello di Cloud Manager. Il client di intelligenza artificiale può eseguire solo operazioni per le quali il tuo account è autorizzato.
+>Quando richiesto, accedi con il tuo Adobe ID e seleziona l’organizzazione IMS collegata al tuo programma AEM as a Cloud Service. Le autorizzazioni vengono applicate a livello di Cloud Manager. La piattaforma di intelligenza artificiale può eseguire solo operazioni per le quali l’account è autorizzato.
 >
->Alla prima connessione, il client di intelligenza artificiale potrebbe chiederti di confermare l’organizzazione o il programma AEM. Una volta impostato tale contesto, il server MCP lo utilizza per il resto della sessione.
+>Alla prima connessione, la piattaforma di intelligenza artificiale potrebbe richiedere la conferma dell’organizzazione o del programma AEM. Una volta impostato tale contesto, il server MCP lo utilizza per il resto della sessione.
 >
 >Alcuni strumenti richiedono la tua approvazione prima di essere eseguiti. Esamina l’azione proposta e approva o rifiuta. Non viene intrapresa alcuna azione senza la tua conferma.
 
@@ -126,7 +124,7 @@ What is the status of the production environment?
 
 +++Vedi una risposta di esempio
 
-![Client IA che mostra lo stato dell&#39;ambiente di produzione da Cloud Manager](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step1-01-ai.png){zoomable="yes"}
+![Piattaforma IA che mostra lo stato dell&#39;ambiente di produzione da Cloud Manager](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step1-01-ai.png){zoomable="yes"}
 
 *Selezionare per ingrandire.*
 
@@ -143,7 +141,7 @@ Show me the last five pipeline runs for the production pipeline.
 
 +++Vedi una risposta di esempio
 
-![Il client di IA visualizza le ultime cinque esecuzioni della pipeline per la pipeline di produzione](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step2-01-ai.png){zoomable="yes"}
+![Piattaforma IA con le ultime cinque esecuzioni della pipeline di produzione](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step2-01-ai.png){zoomable="yes"}
 
 *Selezionare per ingrandire.*
 
@@ -152,7 +150,7 @@ Show me the last five pipeline runs for the production pipeline.
 
 ## Passaggio 3: attivare una pipeline
 
-Avvia l’esecuzione di una pipeline direttamente dal client di intelligenza artificiale. Il server conferma l&#39;ambiente di destinazione e richiede l&#39;approvazione prima di iniziare.
+Avvia l’esecuzione di una pipeline direttamente dalla piattaforma di intelligenza artificiale. Il server conferma l&#39;ambiente di destinazione e richiede l&#39;approvazione prima di iniziare.
 
 ```
 Run the Fullstack pipeline against dev environment of WKND sandbox program.
@@ -160,7 +158,7 @@ Run the Fullstack pipeline against dev environment of WKND sandbox program.
 
 +++Vedi una risposta di esempio
 
-![Il client AI mostra la conferma del trigger della pipeline e l&#39;interfaccia utente di Cloud Manager che riflette la pipeline in esecuzione](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step3.gif){zoomable="yes"}
+![La piattaforma IA mostra la conferma del trigger della pipeline e l&#39;interfaccia utente di Cloud Manager riflette la pipeline in esecuzione](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step3.gif){zoomable="yes"}
 
 *Selezionare per ingrandire.*
 
@@ -169,11 +167,11 @@ Run the Fullstack pipeline against dev environment of WKND sandbox program.
 
 >[!CAUTION]
 >
->Il client di intelligenza artificiale ti chiederà di confermare il nome della pipeline prima di attivare un’esecuzione. Immetti il nome esatto della pipeline per continuare. Rivedi attentamente l’ambiente di destinazione prima della conferma, in particolare per le pipeline che vengono distribuite in produzione.
+>La piattaforma AI ti chiederà di confermare il nome della pipeline prima di attivare un’esecuzione. Immetti il nome esatto della pipeline per continuare. Rivedi attentamente l’ambiente di destinazione prima della conferma, in particolare per le pipeline che vengono distribuite in produzione.
 
 ## Passaggio 4: verificare lo stato della pipeline
 
-Dopo aver attivato un’esecuzione, chiedi al client di intelligenza artificiale un aggiornamento dello stato senza passare all’interfaccia di Cloud Manager.
+Dopo aver attivato un’esecuzione, chiedi alla piattaforma AI un aggiornamento di stato senza passare all’interfaccia di Cloud Manager.
 
 ```
 What is the status of the triggered pipeline?
@@ -181,7 +179,7 @@ What is the status of the triggered pipeline?
 
 +++Vedi una risposta di esempio
 
-![Il client AI mostra lo stato dell&#39;esecuzione della pipeline attivata](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png){zoomable="yes"}
+![Piattaforma di IA che mostra lo stato dell&#39;esecuzione della pipeline attivata](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png){zoomable="yes"}
 
 *Selezionare per ingrandire.*
 
