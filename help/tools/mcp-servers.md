@@ -88,7 +88,7 @@ Documentazione completa: [Documentazione del collaboratore](https://experiencele
 
 Coworker per le piattaforme AI è un server MCP che collega la piattaforma AI a Coworker. Tutto ciò che è disponibile in Coworker è disponibile tramite di esso. Utilizza la tua piattaforma di intelligenza artificiale, come Claude, ChatGPT, Microsoft 365 Copilot o Gemini Enterprise, come interfaccia di chat e Coworker esegue il lavoro in background, come quando utilizzi direttamente Coworker.
 
->[!VIDEO](https://video.tv.adobe.com/v/3508455/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3508461/?captions=ita&learn=on&enablevpops)
 
 Accedi con le tue credenziali Adobe e Collaboratore utilizza l’accesso associato alla tua identità Adobe. Il collega è sicuro e governato dal design. Ciò che puoi leggere o modificare dipende da come è configurato l’utente, dall’accesso concesso in Collaboratore e dall’accesso concesso nelle applicazioni che Collaboratore utilizza per tuo conto. Vedere [Controllo dell&#39;accesso per Collaboratore](https://experienceleague.adobe.com/it/docs/coworker/content/administration/access-control).
 
